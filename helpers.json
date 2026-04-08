@@ -1,0 +1,627 @@
+[
+  {
+    "helper_id": "H001",
+    "name": "Margaret Chen",
+    "age": 52,
+    "hourly_rate": 32,
+    "profile_completeness": "complete",
+    "bio": "I have been working in elder care for over 18 years, with the last 8 years focused specifically on dementia and Alzheimer's care. I believe in meeting people where they are — some days are harder than others, and my job is to make those days feel a little lighter. I am calm by nature, a good listener, and I never rush the people I care for. I have worked with several families where the care recipient was very private and I always respect personal boundaries. I am a non-smoker and I love animals — I currently have a dog at home.",
+    "years_of_experience": 18,
+    "skills": [
+      "Meal preparation",
+      "Light housekeeping",
+      "Medication reminders",
+      "Dementia-aware communication",
+      "Mobility assistance",
+      "Pet care",
+      "Companionship and cognitive engagement activities",
+      "Safety monitoring"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "7:00am - 1:00pm"
+    },
+    "languages": ["English", "Mandarin"],
+    "advanced_care_support": [
+      "Early to mid-stage dementia",
+      "Alzheimer's care",
+      "Fall prevention",
+      "Wandering risk management"
+    ],
+    "prior_experience": [
+      "8 years at Sunrise Senior Living as a dementia care specialist",
+      "5 years private home care for two separate Alzheimer's families",
+      "3 years companion care for post-stroke elderly clients",
+      "2 years care coordination support at a memory care unit"
+    ],
+    "certifications": [
+      "Certified Dementia Practitioner (CDP)",
+      "CPR and First Aid certified",
+      "Alzheimer's Association — Essentials of Dementia Care",
+      "Home Health Aide (HHA) certified"
+    ]
+  },
+  {
+    "helper_id": "H002",
+    "name": "Patricia Williams",
+    "age": 48,
+    "hourly_rate": 26,
+    "profile_completeness": "complete",
+    "bio": "I have 14 years of experience caring for elderly individuals in their homes. I am warm and patient, and I genuinely enjoy the relationships I build with the families I work for. I am comfortable with both active and quiet seniors — I follow the lead of the person I am caring for. I am bilingual in English and Spanish which has been helpful with several of my families. I am a non-smoker, very punctual, and I have a clean driving record if transportation is ever needed.",
+    "years_of_experience": 14,
+    "skills": [
+      "Meal preparation",
+      "Light housekeeping",
+      "Medication reminders",
+      "Grocery shopping and errands",
+      "Transportation assistance",
+      "Companionship",
+      "Bathing and personal hygiene assistance"
+    ],
+    "schedule": {
+      "days": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "hours": "8:00am - 2:00pm"
+    },
+    "languages": ["English", "Spanish"],
+    "advanced_care_support": [
+      "Early-stage dementia",
+      "Post-surgical recovery",
+      "Diabetes management support",
+      "Mobility limitations"
+    ],
+    "prior_experience": [
+      "6 years private home care for elderly couple (one with early dementia)",
+      "5 years at Home Instead Senior Care",
+      "3 years caring for post-surgical recovery clients"
+    ],
+    "certifications": [
+      "CPR and First Aid certified",
+      "Home Health Aide (HHA) certified",
+      "Dementia Friends — Alzheimer's Society training"
+    ]
+  },
+  {
+    "helper_id": "H003",
+    "name": "James Okonkwo",
+    "age": 45,
+    "hourly_rate": 38,
+    "profile_completeness": "complete",
+    "bio": "I spent 12 years working as a certified nursing assistant in hospital and rehabilitation settings before transitioning to private home care 6 years ago. I bring a clinical eye and a warm heart — I know how to identify when something is medically concerning and when to escalate. I work well with families who want a helper who can be a calm, steady presence. I am a non-smoker. I do not have pets but I am comfortable around animals.",
+    "years_of_experience": 18,
+    "skills": [
+      "Vital signs monitoring",
+      "Wound care support",
+      "Medication management",
+      "Mobility assistance and transfers",
+      "Meal preparation",
+      "Light housekeeping",
+      "Post-operative care"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "hours": "6:00am - 12:00pm"
+    },
+    "languages": ["English", "Yoruba", "Igbo"],
+    "advanced_care_support": [
+      "Post-surgical and rehabilitation care",
+      "Parkinson's disease",
+      "Stroke recovery",
+      "Dementia — early to moderate stage",
+      "Wound care"
+    ],
+    "prior_experience": [
+      "12 years as CNA at St. Mary's Hospital rehabilitation unit",
+      "4 years private care for Parkinson's client",
+      "2 years home care for stroke recovery client"
+    ],
+    "certifications": [
+      "Certified Nursing Assistant (CNA)",
+      "CPR and First Aid certified",
+      "Dementia Care Specialist training — Teepa Snow's Positive Approach",
+      "Medication Aide certified"
+    ]
+  },
+  {
+    "helper_id": "H004",
+    "name": "Rosa Mendez",
+    "age": 55,
+    "hourly_rate": 30,
+    "profile_completeness": "complete",
+    "bio": "I have dedicated 22 years of my life to caring for elderly people in their homes. For me this is not a job — it is a calling. I have seen families go through the hardest moments of their lives and I have learned that what they need more than anything is someone they can trust. I am very calm, very private myself, and I do not believe in chatting all day. I believe in being present. I love animals and I have cared for several clients who had dogs and cats. I am a non-smoker.",
+    "years_of_experience": 22,
+    "skills": [
+      "Meal preparation — including special diets",
+      "Light and deep housekeeping",
+      "Medication reminders",
+      "Companionship",
+      "Pet care",
+      "Grocery shopping",
+      "Cognitive engagement activities for dementia clients",
+      "Personal hygiene assistance"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "7:30am - 12:30pm"
+    },
+    "languages": ["English", "Spanish", "Portuguese"],
+    "advanced_care_support": [
+      "Moderate to advanced dementia",
+      "Alzheimer's care",
+      "Parkinson's disease",
+      "End-of-life companion care",
+      "Sundowning management"
+    ],
+    "prior_experience": [
+      "10 years as primary caregiver for two separate dementia clients (private)",
+      "7 years at Comfort Keepers senior care agency",
+      "5 years live-in care for Alzheimer's client — advanced stage"
+    ],
+    "certifications": [
+      "Certified Dementia Practitioner (CDP)",
+      "Certified Alzheimer's Disease and Dementia Care Trainer (CADDCT)",
+      "CPR and First Aid certified",
+      "Home Health Aide (HHA) certified"
+    ]
+  },
+  {
+    "helper_id": "H005",
+    "name": "Linda Kowalski",
+    "age": 50,
+    "hourly_rate": 34,
+    "profile_completeness": "complete",
+    "bio": "My background is in palliative and end-of-life care, which has shaped how I approach every care situation — with deep respect for the dignity and comfort of the person I am caring for. I have worked in both hospice settings and private homes. I am trained to recognise and respond to pain signals, changes in cognition, and emotional distress. I am a non-smoker. I am fine with pets.",
+    "years_of_experience": 16,
+    "skills": [
+      "Pain and comfort management support",
+      "Medication reminders",
+      "Meal preparation — including modified texture diets",
+      "Personal care and hygiene",
+      "Emotional support and companionship",
+      "Light housekeeping",
+      "Family communication support"
+    ],
+    "schedule": {
+      "days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "9:00am - 3:00pm"
+    },
+    "languages": ["English", "Polish"],
+    "advanced_care_support": [
+      "End-of-life and palliative care",
+      "Advanced dementia",
+      "Cancer — late stage",
+      "Congestive heart failure management support",
+      "Hospice companion care"
+    ],
+    "prior_experience": [
+      "8 years at VITAS Hospice as a care aide",
+      "5 years private palliative care for cancer clients",
+      "3 years companion care for advanced dementia client at home"
+    ],
+    "certifications": [
+      "Certified Hospice and Palliative Nursing Assistant (CHPNA)",
+      "CPR and First Aid certified",
+      "Dementia Care — advanced level certification",
+      "Home Health Aide (HHA) certified"
+    ]
+  },
+  {
+    "helper_id": "H006",
+    "name": "Samuel Park",
+    "age": 29,
+    "hourly_rate": 20,
+    "profile_completeness": "complete",
+    "bio": "I have 5 years of experience working with adults with developmental disabilities and special needs, and I recently began expanding into elderly care. I am energetic, very communicative, and I love making care fun and engaging. I bring lots of activity ideas and I love to talk and connect with the people I work with. I am a non-smoker. I am allergic to dogs.",
+    "years_of_experience": 5,
+    "skills": [
+      "Behavioural support",
+      "Activity planning and engagement",
+      "Meal preparation",
+      "Transportation",
+      "Light housekeeping",
+      "Communication support"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "hours": "8:00am - 4:00pm"
+    },
+    "languages": ["English", "Korean"],
+    "advanced_care_support": [
+      "Developmental disabilities",
+      "Autism spectrum",
+      "Early-stage dementia (limited experience)"
+    ],
+    "prior_experience": [
+      "5 years at Community Living BC supporting adults with developmental disabilities",
+      "6 months elderly companion care (recent transition)"
+    ],
+    "certifications": [
+      "CPR and First Aid certified",
+      "Behaviour Intervention training",
+      "Dementia Friends awareness training (introductory only)"
+    ]
+  },
+  {
+    "helper_id": "H007",
+    "name": "Donna Mitchell",
+    "age": 58,
+    "hourly_rate": 24,
+    "profile_completeness": "complete",
+    "bio": "I have been a companion care helper for 15 years and I genuinely love my work. I am quiet, calm, and I take my cues from the person I am with. I have worked with many clients who value their privacy and independence and I always respect that. I am great with routines — I know how important consistency is especially for clients with memory changes. I am a non-smoker and I have a dog of my own so I am very comfortable around animals.",
+    "years_of_experience": 15,
+    "skills": [
+      "Companionship and emotional support",
+      "Meal preparation",
+      "Light housekeeping",
+      "Medication reminders",
+      "Pet care",
+      "Routine establishment and maintenance",
+      "Grocery shopping"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "8:00am - 1:00pm"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [
+      "Early to mid-stage dementia",
+      "Anxiety and depression in elderly",
+      "Social isolation"
+    ],
+    "prior_experience": [
+      "15 years private companion care across 6 long-term client families",
+      "3 years supporting clients with early dementia specifically"
+    ],
+    "certifications": [
+      "CPR and First Aid certified",
+      "Dementia Friends — Alzheimer's Association",
+      "Home Health Aide (HHA) certified"
+    ]
+  },
+  {
+    "helper_id": "H008",
+    "name": "Grace Thompson",
+    "age": 44,
+    "hourly_rate": 20,
+    "profile_completeness": "partial — missing certifications",
+    "bio": "I have been doing home care for about 10 years now, mostly with elderly clients. I am comfortable with dementia care and I have supported a few clients with memory issues over the years. I am a non-smoker and I am good with animals. I am a calm and steady person.",
+    "years_of_experience": 10,
+    "skills": [
+      "Meal preparation",
+      "Light housekeeping",
+      "Companionship",
+      "Medication reminders",
+      "Personal care"
+    ],
+    "schedule": {
+      "days": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "hours": "8:30am - 1:30pm"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [
+      "Early-stage dementia",
+      "Mobility limitations"
+    ],
+    "prior_experience": [
+      "10 years private home care — multiple clients",
+      "Supported two clients with memory issues"
+    ],
+    "certifications": []
+  },
+  {
+    "helper_id": "H009",
+    "name": "Michael Torres",
+    "age": 35,
+    "hourly_rate": 22,
+    "profile_completeness": "partial — vague schedule",
+    "bio": "I am a certified home health aide with 7 years of experience. I have worked with elderly clients in home settings and I am comfortable with a wide range of care needs including cognitive decline. I am a non-smoker and I enjoy working with families.",
+    "years_of_experience": 7,
+    "skills": [
+      "Personal care",
+      "Medication management",
+      "Meal preparation",
+      "Light housekeeping",
+      "Mobility assistance"
+    ],
+    "schedule": {
+      "days": ["Flexible — depends on the week"],
+      "hours": "Mornings preferred but flexible"
+    },
+    "languages": ["English", "Spanish"],
+    "advanced_care_support": [
+      "Early-stage dementia",
+      "Diabetes care support",
+      "Post-surgical recovery"
+    ],
+    "prior_experience": [
+      "7 years home health aide — various clients through agency",
+      "Some dementia care experience"
+    ],
+    "certifications": [
+      "Home Health Aide (HHA) certified",
+      "CPR and First Aid certified"
+    ]
+  },
+  {
+    "helper_id": "H010",
+    "name": "Amara Osei",
+    "age": 41,
+    "hourly_rate": 26,
+    "profile_completeness": "partial — missing languages",
+    "bio": "I have 9 years of experience in home-based elderly care. I am known among my clients' families for being reliable, warm, and proactive. I notice things before they become problems. I have significant experience supporting clients with dementia and I understand the importance of routine and calm in those situations. I am a non-smoker.",
+    "years_of_experience": 9,
+    "skills": [
+      "Dementia-aware companionship",
+      "Meal preparation",
+      "Light housekeeping",
+      "Medication reminders",
+      "Safety monitoring",
+      "Pet care"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "7:00am - 12:00pm"
+    },
+    "languages": [],
+    "advanced_care_support": [
+      "Mid-stage dementia",
+      "Sundowning",
+      "Fall prevention"
+    ],
+    "prior_experience": [
+      "9 years private home care",
+      "Primary caregiver for two dementia clients over 4 years combined"
+    ],
+    "certifications": [
+      "Dementia Care certification — Teepa Snow methodology",
+      "CPR and First Aid certified"
+    ]
+  },
+  {
+    "helper_id": "H011",
+    "name": "Catherine Lee",
+    "age": 39,
+    "hourly_rate": 28,
+    "profile_completeness": "partial — missing prior experience detail",
+    "bio": "I am a certified home health aide and dementia care specialist. I have been working in elder care for several years and I hold multiple certifications. I am passionate about providing dignified, compassionate care. I am a non-smoker and comfortable with pets.",
+    "years_of_experience": null,
+    "skills": [
+      "Personal care",
+      "Meal preparation",
+      "Medication reminders",
+      "Dementia care",
+      "Light housekeeping"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "8:00am - 2:00pm"
+    },
+    "languages": ["English", "Cantonese"],
+    "advanced_care_support": [
+      "Dementia care",
+      "Alzheimer's support"
+    ],
+    "prior_experience": [],
+    "certifications": [
+      "Certified Dementia Practitioner (CDP)",
+      "Home Health Aide (HHA) certified",
+      "CPR and First Aid certified"
+    ]
+  },
+  {
+    "helper_id": "H012",
+    "name": "Robert Jensen",
+    "age": 62,
+    "hourly_rate": 40,
+    "profile_completeness": "partial — missing schedule and certifications",
+    "bio": "I am a retired registered nurse with 30 years of clinical experience across hospital, rehabilitation, and home health settings. I have recently returned to hands-on care work because I missed the connection with patients. I have extensive experience with dementia, Parkinson's, and post-stroke care. I am a non-smoker and I am comfortable with animals.",
+    "years_of_experience": 30,
+    "skills": [
+      "Clinical assessment",
+      "Medication management",
+      "Wound care",
+      "Vital signs monitoring",
+      "Dementia care",
+      "Mobility and transfer assistance",
+      "Meal preparation"
+    ],
+    "schedule": {
+      "days": [],
+      "hours": "Not specified — currently determining availability"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [
+      "Advanced dementia",
+      "Parkinson's disease",
+      "Post-stroke care",
+      "Congestive heart failure",
+      "Palliative care"
+    ],
+    "prior_experience": [
+      "15 years ICU and rehabilitation nursing at Regional Medical Center",
+      "10 years home health nursing",
+      "5 years care coordination for complex elderly cases"
+    ],
+    "certifications": []
+  },
+  {
+    "helper_id": "H013",
+    "name": "Fatima Hassan",
+    "age": 33,
+    "hourly_rate": 21,
+    "profile_completeness": "partial — missing advanced care detail",
+    "bio": "I have 6 years of experience in home-based elder care. I am gentle, patient, and I take great pride in the quality of care I provide. I am particularly good at building trust with clients who are initially hesitant or private. I am a non-smoker and I love animals — I volunteer at an animal shelter on weekends.",
+    "years_of_experience": 6,
+    "skills": [
+      "Companionship",
+      "Meal preparation",
+      "Light housekeeping",
+      "Medication reminders",
+      "Pet care",
+      "Grocery shopping"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "8:00am - 1:00pm"
+    },
+    "languages": ["English", "Arabic", "French"],
+    "advanced_care_support": [],
+    "prior_experience": [
+      "6 years private home care across 4 client families",
+      "One client had mild cognitive impairment"
+    ],
+    "certifications": [
+      "CPR and First Aid certified",
+      "Home Health Aide (HHA) certified"
+    ]
+  },
+  {
+    "helper_id": "H014",
+    "name": "Diana Patel",
+    "age": 46,
+    "hourly_rate": 19,
+    "profile_completeness": "partial — missing skills list and certifications",
+    "bio": "I have spent most of my adult life caring for family members with serious health conditions, including my late mother who had Alzheimer's for 9 years. That experience gave me a depth of understanding that no training program can fully teach. I understand dementia from the inside. I am now offering my experience professionally. I am calm, patient, and deeply committed. Non-smoker. Very comfortable with dogs — I have two.",
+    "years_of_experience": 9,
+    "skills": [],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "7:30am - 12:30pm"
+    },
+    "languages": ["English", "Gujarati", "Hindi"],
+    "advanced_care_support": [
+      "Alzheimer's — all stages based on personal caregiving experience"
+    ],
+    "prior_experience": [
+      "9 years primary family caregiver for mother with Alzheimer's",
+      "Currently transitioning to professional caregiving"
+    ],
+    "certifications": []
+  },
+  {
+    "helper_id": "H015",
+    "name": "Susan Baker",
+    "age": 50,
+    "hourly_rate": 16,
+    "profile_completeness": "vague",
+    "bio": "I love helping people and I have always been a caring person. I have worked with elderly people in the past and I am comfortable in home settings. I am reliable and hard working.",
+    "years_of_experience": null,
+    "skills": [],
+    "schedule": {
+      "days": ["Flexible"],
+      "hours": "Flexible"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [],
+    "prior_experience": [
+      "Some experience with elderly people"
+    ],
+    "certifications": []
+  },
+  {
+    "helper_id": "H016",
+    "name": "Tom Wilson",
+    "age": 40,
+    "hourly_rate": 17,
+    "profile_completeness": "vague",
+    "bio": "I have several years of experience in caregiving and I am looking for morning shifts. I am good with elderly clients and I am a non-smoker.",
+    "years_of_experience": null,
+    "skills": [
+      "General caregiving"
+    ],
+    "schedule": {
+      "days": ["Weekdays"],
+      "hours": "Mornings"
+    },
+    "languages": [],
+    "advanced_care_support": [],
+    "prior_experience": [
+      "Several years of caregiving experience"
+    ],
+    "certifications": []
+  },
+  {
+    "helper_id": "H017",
+    "name": "Maria Garcia",
+    "age": 37,
+    "hourly_rate": 16,
+    "profile_completeness": "vague",
+    "bio": "I have some experience working with elderly people and I enjoy helping seniors stay comfortable at home. I am patient and caring. I can do light cleaning and cooking.",
+    "years_of_experience": null,
+    "skills": [
+      "Light cleaning",
+      "Cooking"
+    ],
+    "schedule": {
+      "days": ["Monday to Friday"],
+      "hours": "Morning or afternoon"
+    },
+    "languages": ["English", "Spanish"],
+    "advanced_care_support": [],
+    "prior_experience": [
+      "Helped care for a neighbour who was elderly"
+    ],
+    "certifications": []
+  },
+  {
+    "helper_id": "H018",
+    "name": "Kevin Brown",
+    "age": 55,
+    "hourly_rate": 15,
+    "profile_completeness": "vague",
+    "bio": "I am recently retired and I want to give back. I have always enjoyed spending time with older people and I feel I have a lot to offer. I am patient, a good listener, and I am looking to help a family that needs support. I am a non-smoker.",
+    "years_of_experience": 0,
+    "skills": [],
+    "schedule": {
+      "days": ["Flexible"],
+      "hours": "Flexible — I have no other commitments"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [],
+    "prior_experience": [],
+    "certifications": []
+  },
+  {
+    "helper_id": "H019",
+    "name": "Ashley Johnson",
+    "age": 24,
+    "hourly_rate": 15,
+    "profile_completeness": "vague",
+    "bio": "I am passionate about helping others and I am eager to get into elder care. I am a quick learner and I am very energetic and friendly. I love meeting new people and I enjoy keeping busy.",
+    "years_of_experience": 0,
+    "skills": [
+      "Cooking",
+      "Cleaning"
+    ],
+    "schedule": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hours": "8:00am - 4:00pm"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [],
+    "prior_experience": [],
+    "certifications": []
+  },
+  {
+    "helper_id": "H020",
+    "name": "Frank Miller",
+    "age": 65,
+    "hourly_rate": 17,
+    "profile_completeness": "vague",
+    "bio": "I have some experience with caregiving from looking after my own parents in their later years. I am mature, calm, and I understand what elderly people go through. I am looking for part-time morning work. I am a non-smoker.",
+    "years_of_experience": null,
+    "skills": [
+      "Cooking",
+      "Companionship"
+    ],
+    "schedule": {
+      "days": ["A few days a week"],
+      "hours": "Mornings"
+    },
+    "languages": ["English"],
+    "advanced_care_support": [],
+    "prior_experience": [
+      "Cared for own parents informally"
+    ],
+    "certifications": []
+  }
+]
