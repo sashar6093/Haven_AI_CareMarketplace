@@ -1,0 +1,1673 @@
+[
+  {
+    "family_id": "F001",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Rosa's '22 years caring for elderly people in their homes,' her direct quote about not chatting all day, her 'Certified Dementia Practitioner credential,' '10 years of direct experience as a primary caregiver for dementia clients,' her status as a 'non-smoker,' her experience with 'multiple clients with dogs and cats,' and her 'weekday availability runs 7:30am\u201312:30pm.' These are all concrete, verifiable facts from her profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: calm, patient demeanor (her quote about being present and not chatty), respect for privacy (describes herself as 'very private'), non-chatty (explicitly quoted), mature (age 55, 22 years experience), non-smoker, and comfort with dogs (experience with clients with dogs and cats, mentions Biscuit by name). It also addresses required skills (dementia care credential and experience, morning availability for breakfast and companionship). The explanation mirrors the family's language and concerns closely.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Rosa has spent 22 years caring for elderly people in their homes.' \u2014 Traceable to '22 years of my life to caring for elderly people in their homes.'",
+          "Claim: 'I do not believe in chatting all day \u2014 I believe in being present.' \u2014 Direct quote from Rosa's bio.",
+          "Claim: 'She holds a Certified Dementia Practitioner credential.' \u2014 Listed in certifications.",
+          "Claim: '10 years of direct experience as a primary caregiver for dementia clients.' \u2014 Listed in prior experience.",
+          "Claim: 'She is a non-smoker.' \u2014 Stated in bio.",
+          "Claim: 'Has cared for multiple clients with dogs and cats.' \u2014 Stated in bio.",
+          "Claim: 'Her weekday availability runs 7:30am\u201312:30pm.' \u2014 Matches schedule in profile.",
+          "Claim: 'Biscuit will be in good hands.' \u2014 Inference based on pet care experience; not an invented fact."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'she describes her approach in a way that felt written for your family,' 'so Biscuit will be in good hands,' and 'a consistent, unhurried morning presence.' It acknowledges the emotional weight of the decision without being dramatic or clinical, and reads like a thoughtful person wrote it.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at specificity and relevance, directly addressing the family's needs and mirroring their language with concrete facts from Rosa's profile. The tone is warm and reassuring, making it easy for the family to imagine Rosa in their home. The single most important thing to improve would be to briefly mention Rosa's dementia-specific communication skills, as this is a required skill for the family.",
+    "rank": 1
+  },
+  {
+    "family_id": "F001",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Margaret's 18 years in elder care, 8 years focused on dementia and Alzheimer's, her Certified Dementia Practitioner credential, her self-description as calm and a good listener, her experience with private clients, her non-smoking status, her dog ownership, and her weekday morning availability (7:00am\u20131:00pm). All of these are concrete, verifiable facts from her profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: dementia experience and certification, calm and privacy-respecting demeanor, non-smoker, comfort with dogs, and availability for weekday mornings. It mirrors the family's language ('calm by nature', 'value their privacy', 'non-smoker', 'dog of her own') and ties Margaret's background to the family's explicit needs and deal-breakers.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Margaret has focused specifically on dementia and Alzheimer's care for the last 8 of her 18 years in elder care' \u2014 Traceable to bio and prior experience.",
+          "Claim: 'Certified Dementia Practitioner' \u2014 Traceable to certifications.",
+          "Claim: 'She describes herself as calm by nature, a good listener, and someone who has worked with clients who value their privacy' \u2014 Traceable to bio.",
+          "Claim: 'She is a non-smoker with a dog of her own at home' \u2014 Traceable to bio.",
+          "Claim: 'She is available weekday mornings from 7:00am\u20131:00pm.' \u2014 Traceable to schedule."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language ('brings both the credentials and the lived experience your mother's situation calls for', 'speaks directly to what matters most to your family', 'companionship with Biscuit will come naturally'). It acknowledges the emotional weight of the decision without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at tying Margaret's specific experience and qualities directly to the family's stated needs, using warm and empathetic language. It is both factually grounded and highly relevant. The only possible improvement would be to briefly mention her skills in meal preparation and light housekeeping, which are also required by the family.",
+    "rank": 2
+  },
+  {
+    "family_id": "F001",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Donna's '15 years of companion care experience,' her experience with 'early-stage dementia,' her approach of 'taking cues from the person she is with,' her 'long track record of respecting privacy and independence,' her status as a 'non-smoker with a dog of her own,' and her 'availability weekday mornings from 8:00am\u20131:00pm.' These are all concrete, verifiable facts from Donna's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: calm, patient demeanor ('calm, consistent presence'), respect for privacy ('long track record of respecting privacy and independence'), non-smoker, comfort with dogs, and experience with early-stage dementia. It also references her availability for weekday mornings, which matches the family's stated schedule. The explanation mirrors the family's language and priorities, such as privacy, calmness, and pet comfort.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: '15 years of companion care experience' \u2014 Traceable to '15 years private companion care across 6 long-term client families' and 'years_of_experience: 15'.",
+          "Claim: 'specifically supported clients with early-stage dementia' \u2014 Traceable to '3 years supporting clients with early dementia specifically' and 'advanced_care_support: Early to mid-stage dementia'.",
+          "Claim: 'calm, consistent presence' \u2014 'quiet, calm' and 'great with routines' in bio.",
+          "Claim: 'takes her cues from the person she is with' \u2014 Direct quote from bio.",
+          "Claim: 'long track record of respecting the privacy and independence' \u2014 'worked with many clients who value their privacy and independence and I always respect that' in bio.",
+          "Claim: 'non-smoker with a dog of her own' \u2014 Both facts in bio.",
+          "Claim: 'routine is something she speaks about with genuine understanding' \u2014 'great with routines' and 'know how important consistency is especially for clients with memory changes' in bio.",
+          "Claim: 'available weekday mornings from 8:00am\u20131:00pm' \u2014 Matches schedule in profile."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'makes a real difference at this stage,' 'something your family was clear matters deeply,' and 'genuine understanding.' It acknowledges the emotional weight of the family's concerns without being overdramatic or clinical. The tone is thoughtful and supportive.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at specificity and relevance, directly addressing the family's unique needs and mirroring their language and concerns. It is factually grounded and delivered in a warm, empathetic tone. The single most important thing to improve would be to briefly mention Donna's dementia-specific certification, as the family inferred this as a qualification of interest.",
+    "rank": 3
+  },
+  {
+    "family_id": "F002",
+    "helper_id": "H003",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites James's '12 years as a CNA in a hospital rehabilitation unit,' his transition to private home care, and his certifications in 'CNA and Medication Aide practice.' It also quotes his self-description about knowing 'when something is medically concerning and when to escalate.' The explanation lists specific skills: 'safe transfers and wound care observation to medication management and physical therapy support.' These are all concrete, verifiable facts from James's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs: post-surgical care, calm and detail-oriented demeanor, proactive communication, and specific skills like transfers, wound care, medication management, and physical therapy support. It mirrors the family's language ('calm, detail-oriented presence,' 'proactively alert your family') and acknowledges the emotional weight of trusting someone with recovery. No significant needs or concerns are missed.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'James spent 12 years as a CNA in a hospital rehabilitation unit' \u2014 Traceable to '12 years as CNA at St. Mary's Hospital rehabilitation unit' in helper profile.",
+          "Claim: 'before moving into private home care' \u2014 Traceable to 'transitioning to private home care 6 years ago.'",
+          "Claim: 'certifications in both CNA and Medication Aide practice' \u2014 Traceable to 'Certified Nursing Assistant (CNA)' and 'Medication Aide certified' in certifications.",
+          "Claim: 'knows when something is medically concerning and when to escalate' \u2014 Direct quote from helper's bio.",
+          "Claim: 'calm, detail-oriented presence who will proactively alert your family' \u2014 Paraphrase of helper's bio: 'calm, steady presence' and 'I know how to identify when something is medically concerning and when to escalate.'",
+          "Claim: 'skills cover every element...from safe transfers and wound care observation to medication management and physical therapy support' \u2014 All these skills are listed in helper's skills and advanced care support.",
+          "Claim: 'clinical grounding and steady temperament' \u2014 Supported by helper's bio and experience."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'We know you're trusting someone with your father's recovery,' and 'James brings the clinical grounding and steady temperament to take that seriously.' It acknowledges the family's emotional stakes without being overdramatic or clinical. The tone is thoughtful and human.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at specificity and relevance, grounding every claim in James's profile and directly addressing the family's needs and concerns. The tone is warm and empathetic, making it easy for the family to trust the recommendation. The explanation is a strong example of a high-quality care match summary; no significant improvements are needed.",
+    "rank": 1
+  },
+  {
+    "family_id": "F002",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Patricia's exact schedule ('Monday, Wednesday, Thursday, and Friday, 8:00 AM to 2:00 PM'), her '14 years of in-home elder care,' and 'three years specifically supporting post-surgical recovery clients.' It also references her 'Home Health Aide certified, CPR and First Aid certified' credentials, and her self-description as 'warm, patient, and punctual.' The note about her experience with 'mobility limitations support' and the distinction between HHA and CNA backgrounds are also specific. There is minimal generic language.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: it highlights Patricia's calm and reliable demeanor, her punctuality, and her experience with post-surgical recovery and mobility limitations. It also notes the need to confirm her comfort with 'specific transfer and PT-spotting tasks,' which mirrors the family's concern about safe patient transfers and physical therapy assistance. The explanation acknowledges her certifications relevant to the family's inferred requirements. However, it does not explicitly mention her non-smoking status, which is a deal-breaker for the family, nor does it address wound care observation or proactive communication.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Patricia's schedule is a precise match \u2014 Monday, Wednesday, Thursday, and Friday, 8:00 AM to 2:00 PM' \u2014 Traceable to helper's schedule.",
+          "'14 years of in-home elder care' \u2014 Traceable to years_of_experience.",
+          "'three years specifically supporting post-surgical recovery clients' \u2014 Traceable to prior_experience.",
+          "'Home Health Aide certified, CPR and First Aid certified' \u2014 Traceable to certifications.",
+          "'describes herself as warm, patient, and punctual' \u2014 Traceable to bio.",
+          "'mobility limitations support as an area of experience' \u2014 Traceable to advanced_care_support.",
+          "'comes from a home health aide background rather than a clinical CNA one' \u2014 Traceable to certifications (HHA, not CNA).",
+          "'schedule fit and genuine post-surgical experience' \u2014 Traceable to schedule and prior_experience."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm and respectful language, such as 'aligns closely with the calm and reliable presence your family is looking for' and 'her schedule fit and genuine post-surgical experience make her a strong candidate worth a conversation.' It acknowledges the family's concerns without being clinical or overdramatic, and the suggestion to confirm specific skills is phrased thoughtfully.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in specific facts from Patricia's profile and addresses most of the family's key needs with a warm, empathetic tone. The most important improvement would be to explicitly mention Patricia's non-smoking status and address proactive communication and wound care observation, as these are important to the family's decision.",
+    "rank": 2
+  },
+  {
+    "family_id": "F002",
+    "helper_id": "H009",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation states: 'Michael is a certified Home Health Aide with 7 years of experience and does list post-surgical recovery among his areas of care support, along with mobility assistance and medication management.' These are all specific, verifiable facts from Michael's profile. It also notes his profile is 'partially incomplete' and that his availability is 'flexible week-to-week rather than a fixed schedule,' which are specific observations. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's need for structure and consistency: 'his availability is listed as flexible week-to-week rather than a fixed schedule \u2014 which may be a concern given how important structure and consistency are during your father's recovery right now.' It also highlights his experience with post-surgical recovery, mobility assistance, and medication management, which are core to the family's required skills. The suggestion to clarify his hands-on experience with post-operative mobility care mirrors the family's must-haves and deal-breakers. The explanation is tailored to the family's situation and concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Michael is a certified Home Health Aide' \u2014 traceable to 'Home Health Aide (HHA) certified' in helper profile.",
+          "'7 years of experience' \u2014 traceable to '7 years home health aide' and 'years_of_experience: 7'.",
+          "'lists post-surgical recovery among his areas of care support' \u2014 traceable to 'Post-surgical recovery' in advanced_care_support.",
+          "'mobility assistance and medication management' \u2014 traceable to skills list.",
+          "'profile is partially incomplete' \u2014 traceable to 'profile_completeness: partial'.",
+          "'availability is listed as flexible week-to-week rather than a fixed schedule' \u2014 traceable to schedule section.",
+          "'may be worth a conversation to clarify his availability and his specific hands-on experience with post-operative mobility care' \u2014 this is a suggestion, not a factual claim."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is direct but considerate: 'We want to be straightforward with you...' and 'may be a concern given how important structure and consistency are during your father's recovery right now.' It acknowledges the family's priorities and the emotional weight of the decision without being dramatic or cold. The suggestion to clarify further is gentle and supportive.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, relevant, and factually grounded, with a warm and honest tone that respects the family's situation. It does an excellent job of highlighting both the helper's strengths and the potential scheduling concern. The single most important improvement would be to briefly mention that Michael is a non-smoker, as this is a stated deal-breaker for the family.",
+    "rank": 3
+  },
+  {
+    "family_id": "F003",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Rosa's '22 years of in-home elder care experience,' her specific mention of 'Parkinson's disease among her areas of advanced care support,' her self-description as 'calm and present rather than chatty,' her fluency in Spanish, her 'Home Health Aide certification,' and 'CPR and First Aid certified.' It also references her skills in 'personal hygiene assistance and meal preparation.' All of these are concrete, verifiable facts from Rosa's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: it highlights Rosa's calm and patient demeanor, her fluency in Spanish, and her experience with Parkinson's disease. It also references her certifications and skills relevant to mobility, safety, and daily living support. The explanation mirrors the family's language about the importance of an 'unhurried pace' and a 'respectful demeanor.' All major needs and deal-breakers are addressed.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Rosa has 22 years of in-home elder care experience' \u2014 Traceable to 'years_of_experience: 22' and her bio.",
+          "Claim: 'Specifically lists Parkinson's disease among her areas of advanced care support' \u2014 Traceable to 'advanced_care_support: Parkinson's disease.'",
+          "Claim: 'She describes herself as calm and present rather than chatty' \u2014 Traceable to her bio: 'I am very calm, very private myself, and I do not believe in chatting all day. I believe in being present.'",
+          "Claim: 'Her bio reflects exactly the patient, respectful demeanor your family identified as essential' \u2014 Traceable to her bio.",
+          "Claim: 'She is fluent in Spanish' \u2014 Traceable to 'languages: Spanish.'",
+          "Claim: 'Holds her Home Health Aide certification' \u2014 Traceable to 'certifications: Home Health Aide (HHA) certified.'",
+          "Claim: 'CPR and First Aid certified' \u2014 Traceable to 'certifications: CPR and First Aid certified.'",
+          "Claim: 'Her skills include personal hygiene assistance and meal preparation' \u2014 Traceable to 'skills: personal hygiene assistance, meal preparation.'"
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with, 'We know that inviting someone into Eduardo's daily life \u2014 someone he'll depend on for something as personal as moving safely through his own home \u2014 is not a small thing.' This acknowledges the emotional weight of the decision and is warm and human. The rest of the explanation maintains a thoughtful, respectful tone without being clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at grounding every claim in specific, verifiable facts from Rosa's profile and directly addresses the family's stated needs and concerns. The tone is warm and empathetic, making it well-suited for a family making a high-stakes care decision. The explanation is strong across all dimensions; no major improvements are needed.",
+    "rank": 1
+  },
+  {
+    "family_id": "F003",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Patricia's '14 years of in-home care experience,' her self-description as 'warm, patient, and someone who follows the lead of the person she's caring for,' her bilingual ability in English and Spanish, her HHA certification, and specific skills like 'bathing and personal hygiene assistance, meal preparation, and light housekeeping.' It also references her experience with 'clients with mobility limitations' and notes her exact availability. These are all concrete, verifiable facts from her profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: it highlights Patricia's patient and unhurried demeanor, her Spanish fluency, and her respectful presence. It also connects her experience with mobility limitations to Eduardo's fall risk and mobility needs. The explanation mentions her skills in ADLs and light housekeeping, which are required. It even flags the slight mismatch in schedule, which is a practical concern for the family. All major needs and concerns are addressed.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: '14 years of in-home care experience' \u2014 Traceable to 'years_of_experience: 14' and bio.",
+          "Claim: 'describes herself as warm, patient, and someone who follows the lead of the person she's caring for' \u2014 Traceable to bio.",
+          "Claim: 'bilingual in English and Spanish' \u2014 Traceable to 'languages' and bio.",
+          "Claim: 'HHA certified' \u2014 Traceable to 'certifications'.",
+          "Claim: 'skills include bathing and personal hygiene assistance, meal preparation, and light housekeeping' \u2014 Traceable to 'skills' list.",
+          "Claim: 'background includes caring for clients with mobility limitations' \u2014 Traceable to 'advanced_care_support' and prior experience.",
+          "Claim: 'availability runs Tuesday through Friday, 8:00 AM to 2:00 PM' \u2014 Traceable to 'schedule'."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm and reassuring language, such as 'which speaks directly to the unhurried, respectful presence your family is looking for.' It acknowledges the family's needs and gently points out the schedule mismatch as 'worth a quick conversation,' which is considerate and non-alarmist. The tone is human and supportive throughout.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded, with a warm and empathetic tone. It does an excellent job of connecting Patricia's qualifications to the family's requirements. The single most important thing to improve would be to mention explicitly whether Patricia has experience with Parkinson's disease, as this is an inferred qualification for the family.",
+    "rank": 2
+  },
+  {
+    "family_id": "F003",
+    "helper_id": "H009",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites that Michael is a 'certified Home Health Aide with 7 years of experience,' 'speaks Spanish,' 'lists mobility assistance among his skills,' and is 'CPR and First Aid certified.' It also notes his 'rate falls comfortably within your budget' and that his schedule is 'flexible and somewhat undefined.' These are all concrete, verifiable facts from Michael's profile. The only slightly generic phrase is 'the core of what Eduardo needs day to day is within his scope,' but it is immediately grounded by the specific skills listed.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: Spanish language skills, mobility assistance, CPR/First Aid certification, and budget. It also flags the potential scheduling issue, which is relevant given the family's need for routine. The explanation references the importance of 'reliability and routine' for someone managing Parkinson's, mirroring the family's concern for a calm, consistent presence. However, it does not explicitly mention the need for a patient, unhurried demeanor or emotional comfort, which are important to the family.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Michael is a certified Home Health Aide' \u2014 traceable to certifications.",
+          "'7 years of experience' \u2014 matches years_of_experience and prior_experience.",
+          "'Speaks Spanish' \u2014 matches languages.",
+          "'Lists mobility assistance among his skills' \u2014 matches skills.",
+          "'CPR and First Aid certified' \u2014 matches certifications.",
+          "'Rate falls comfortably within your budget' \u2014 helper's rate is $22/hr, family's budget is $25\u2013$30/hr.",
+          "'Profile notes a flexible and somewhat undefined schedule' \u2014 matches schedule field."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and respectful, noting that 'reliability and routine matter a great deal when someone is managing Parkinson's.' It encourages the family to confirm scheduling, acknowledging the emotional importance of consistency. The phrase 'He's worth a conversation, particularly if scheduling works out' is supportive and human, not clinical or transactional.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from Michael's profile and addresses most of the family's key needs, especially around skills, language, and budget. The tone is warm and appropriately empathetic. The main area for improvement is to more explicitly address the family's desire for a patient, unhurried, and emotionally supportive demeanor.",
+    "rank": 3
+  },
+  {
+    "family_id": "F004",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '14 years of in-home care experience,' 'diabetes management support as part of her advanced care background,' 'CPR and First Aid certified,' and 'long-term care for an elderly couple.' It also references her bio's description of being 'warm, patient, and genuinely invested.' These are all concrete, verifiable facts from Patricia's profile. There is no generic language; every claim is grounded in a specific detail.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs: diabetes management (monitoring blood sugar, dietary guidelines), CPR/First Aid for heart disease, trust and long-term care experience, and the importance of warmth and patience. It also confirms her schedule matches the family's requested days and times. The explanation mirrors the family's language and priorities, such as 'warm, patient,' and 'trust.'",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'14 years of in-home care experience' \u2014 matches 'years_of_experience: 14' in profile.",
+          "'diabetes management support as part of her advanced care background' \u2014 matches 'advanced_care_support: Diabetes management support.'",
+          "'monitoring blood sugar, following dietary guidelines, and staying alert to health changes' \u2014 implied by 'diabetes management support' and 'meal preparation' in skills.",
+          "'CPR and First Aid certified' \u2014 matches certifications.",
+          "'long-term care for an elderly couple' \u2014 matches '6 years private home care for elderly couple.'",
+          "'warm, patient, and genuinely invested in the families she works with' \u2014 matches language in her bio.",
+          "'availability covers your Monday, Wednesday, and Friday mornings' \u2014 matches her schedule."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'not new territory for her,' 'exactly the kind of presence you've said matters,' and references the emotional aspects of trust and investment. It is neither clinical nor overdramatic, and it acknowledges the family's concerns in a thoughtful way.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded in Patricia's profile. The tone is warm and empathetic, making it easy for the family to see how Patricia could be a good fit. The explanation could only be improved by briefly mentioning her Home Health Aide certification, which further reinforces her qualifications.",
+    "rank": 1
+  },
+  {
+    "family_id": "F004",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Donna's '15 years in companion care across six long-term client families,' her self-description as 'calm and routine-oriented,' and her certifications: 'CPR and First Aid certified' and 'Home Health Aide certification.' It also notes her schedule matches the family's needs. These are all concrete, verifiable facts from her profile. The statement 'Where Donna shines most is in the companionship and emotional presence side of care' is somewhat interpretive but still grounded in her listed skills and bio. There is minimal generic language.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for 'consistency and reliability' in medication reminders and routines, which is a must-have. It references her calm, routine-oriented approach, aligning with the family's desire for a patient, compassionate listener and someone attentive to health management. Her CPR and First Aid certification is relevant given the family's inferred qualification for heart disease support. The match to the family's requested schedule is explicitly mentioned. However, the explanation does not directly address dietary restrictions, diabetes-specific meal prep, or explicit experience with blood glucose monitoring, which are significant needs for this family.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'15 years in companion care across six long-term client families' \u2014 traceable to prior_experience and years_of_experience.",
+          "'Consistency and reliability' \u2014 inferred from long-term client relationships.",
+          "'Calm and routine-oriented' \u2014 traceable to her self-description in the bio.",
+          "'CPR and First Aid certified' \u2014 matches certifications.",
+          "'Home Health Aide certification' \u2014 matches certifications.",
+          "'Schedule fits your Monday, Wednesday, and Friday mornings exactly' \u2014 traceable to her available days and hours.",
+          "'Shines most in companionship and emotional presence' \u2014 supported by her skills and bio."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'speaks to the kind of consistency and reliability you need when trusting someone,' and 'Where Donna shines most is in the companionship and emotional presence side of care.' It acknowledges the emotional weight of the decision and avoids being clinical or transactional.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in Donna's profile and uses a warm, empathetic tone. It is highly specific and relevant to the family's needs for reliability, routine, and emotional support. The main area for improvement is to address Donna's experience (or lack thereof) with diabetes-specific meal prep and blood glucose monitoring, as these are critical for this family's situation.",
+    "rank": 2
+  },
+  {
+    "family_id": "F004",
+    "helper_id": "H009",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation states: 'Michael is a certified Home Health Aide with 7 years of experience,' 'his skills include medication management and diabetes care support,' and 'He is CPR and First Aid certified.' It also notes his rate is 'the most affordable of the three options' and that his schedule is 'flexible week-to-week.' These are all specific, verifiable facts from Michael's profile. The only slightly generic phrase is 'consistency matters enormously for the kind of care you're describing,' but this is contextually grounded in the family's stated needs.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: medication management, diabetes care support, and CPR/First Aid certification for heart disease. It also highlights the potential issue with Michael's flexible schedule, which is highly relevant given the family's need for set days. The explanation mirrors the family's concern for reliability and consistency, and references the importance of these qualities for their situation.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Michael is a certified Home Health Aide' \u2014 traceable to certifications.",
+          "'7 years of experience' \u2014 matches years_of_experience and prior_experience.",
+          "'skills include medication management and diabetes care support' \u2014 both listed in skills and advanced_care_support.",
+          "'He is CPR and First Aid certified' \u2014 matches certifications.",
+          "'his rate is the most affordable of the three options' \u2014 $22/hr matches his profile (though comparison to other options is not verifiable here, the statement about his own rate is factual).",
+          "'his schedule is listed as flexible week-to-week rather than set days' \u2014 matches schedule in profile."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'which is reassuring given your husband's heart condition,' and 'consistency matters enormously for the kind of care you're describing.' It acknowledges the emotional weight of the family's needs and encourages direct communication in a supportive way.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded. The tone is warm and empathetic, making it well-suited for a family making an important care decision. The single most important thing to improve would be to avoid referencing comparison to other options unless all options are presented, but this does not detract from the overall quality.",
+    "rank": 3
+  },
+  {
+    "family_id": "F005",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Rosa's '22 years of in-home elder care experience,' '10 years as the primary caregiver for two separate dementia clients,' and '5 years of live-in care for someone in advanced-stage Alzheimer's.' It also references her 'Certified Dementia Practitioner (CDP)' and 'Certified Alzheimer's Disease and Dementia Care Trainer' credentials, as well as her experience with 'sundowning management and structured dementia routines.' The mention of her self-described approach as 'calm, present, and steady' is directly quoted from her bio. There is no generic language; every claim is grounded in a specific fact from her profile.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: substantial dementia experience, calm demeanor, understanding of wandering and behavioral symptoms, and ability to follow routines. It mirrors the family's language ('calm, present, and steady,' 'structured dementia routines,' 'sundowning management') and speaks to the emotional weight of trusting someone with Harold. It also references her certifications and experience with advanced Alzheimer's, which aligns with the family's explicit and inferred qualifications.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Rosa brings 22 years of in-home elder care experience' \u2014 Traceable to 'years_of_experience: 22' and bio.",
+          "Claim: '10 years as the primary caregiver for two separate dementia clients' \u2014 Traceable to 'prior_experience'.",
+          "Claim: '5 years of live-in care for someone in advanced-stage Alzheimer's' \u2014 Traceable to 'prior_experience'.",
+          "Claim: 'Certified Dementia Practitioner (CDP)' \u2014 Traceable to 'certifications'.",
+          "Claim: 'Certified Alzheimer's Disease and Dementia Care Trainer' \u2014 Traceable to 'certifications'.",
+          "Claim: 'background includes sundowning management and structured dementia routines' \u2014 Traceable to 'advanced_care_support' and 'skills'.",
+          "Claim: 'Her own words describe her approach as being calm, present, and steady' \u2014 Traceable to bio: 'I am very calm...I believe in being present.'"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with, 'We know this is not a routine decision \u2014 you are trusting someone with Harold, and that trust has to be earned.' This acknowledges the emotional weight of the family's decision. The language is warm and human, emphasizing trust, experience, and the importance of demeanor without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at grounding every claim in specific, verifiable facts from Rosa's profile and directly addresses the family's needs and concerns with warmth and empathy. The tone is reassuring and personal, making it highly effective. The explanation could only be improved by briefly noting Rosa's weekday schedule hours to clarify any potential fit issues.",
+    "rank": 1
+  },
+  {
+    "family_id": "F005",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years in elder care, with the last 8 focused specifically on Alzheimer's and dementia,' and references her role as a 'dementia care specialist at Sunrise Senior Living' and 'private home care for two separate Alzheimer's families.' It also mentions her 'Certified Dementia Practitioner' and 'Alzheimer's Association's Essentials of Dementia Care credential,' and directly notes 'wandering risk management' as an area of advanced care support. The description of her approach \u2014 'never rushing the people she cares for \u2014 meeting them where they are on hard days' \u2014 is paraphrased from her bio. The only slightly generic phrase is 'her calm, patient presence and experience with dementia-aware communication,' but this is still grounded in her profile. Overall, nearly every claim is specific and verifiable.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: substantial Alzheimer's/dementia experience, calm demeanor, wandering risk management, and relevant certifications. It mirrors the family's language ('wandering risk management,' 'never rushing,' 'meeting them where they are on hard days') and ties Margaret's credentials and experience to Harold's safety and behavioral needs. It also references her experience with private home care, which is relevant to the in-home setting. The explanation is tightly focused on the family's stated needs and concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Margaret has spent 18 years in elder care, with the last 8 focused specifically on Alzheimer's and dementia' \u2014 traceable to years_of_experience and bio.",
+          "'including time as a dementia care specialist at Sunrise Senior Living and private home care for two separate Alzheimer's families' \u2014 traceable to prior_experience.",
+          "'She lists wandering risk management directly among her areas of advanced care support' \u2014 traceable to advanced_care_support.",
+          "'Certified Dementia Practitioner and holds the Alzheimer's Association's Essentials of Dementia Care credential' \u2014 traceable to certifications.",
+          "'She describes her approach as never rushing the people she cares for \u2014 meeting them where they are on hard days' \u2014 traceable to bio.",
+          "'Her calm, patient presence and experience with dementia-aware communication' \u2014 'calm by nature' and 'dementia-aware communication' in bio and skills."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'meeting them where they are on hard days,' 'never rushing the people she cares for,' and 'her calm, patient presence.' It acknowledges the emotional weight of the family's needs and avoids clinical or transactional phrasing. The tone is thoughtful and human.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at tying Margaret's specific experience and credentials directly to the family's needs, using both concrete facts and empathetic language. It is highly specific, relevant, and factually grounded, with a warm and reassuring tone. The single most important thing to improve would be to briefly mention any potential scheduling mismatch, as Margaret's current hours (7:00am\u20131:00pm) do not fully cover the family's requested 8:00am\u20134:00pm schedule.",
+    "rank": 2
+  },
+  {
+    "family_id": "F005",
+    "helper_id": "H003",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years of total care experience,' '12 years as a Certified Nursing Assistant in a hospital rehabilitation setting,' and completion of 'Teepa Snow's Positive Approach to Dementia Care training.' It also references private care for Parkinson's and stroke recovery, and describes James as a 'calm, steady presence.' These are all specific, verifiable details from James's profile. The only slightly generic phrase is 'knows how to stay composed under pressure,' but it is directly tied to his hospital experience.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's must-haves: it highlights James's experience with dementia care (Teepa Snow training), his calm demeanor ('calm, steady presence'), and his clinical background for reliability and maturity. It also notes his ability to manage 'complex, unpredictable care days,' which relates to behavioral symptoms and safety. However, it does not explicitly mention wandering risk or structured routines, and it notes his dementia-specific background is less extensive than other candidates, which is relevant to the family's emphasis on substantial dementia experience.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'18 years of total care experience' \u2014 matches years_of_experience: 18",
+          "'12 years as a Certified Nursing Assistant in a hospital rehabilitation setting' \u2014 matches prior_experience and certifications",
+          "'Teepa Snow's Positive Approach to Dementia Care training' \u2014 matches certifications",
+          "'private care for clients with Parkinson's and stroke recovery' \u2014 matches prior_experience",
+          "'calm, steady presence for families' \u2014 paraphrases 'I work well with families who want a helper who can be a calm, steady presence' from bio",
+          "'clinical grounding and ability to manage complex, unpredictable care days' \u2014 supported by CNA experience and bio"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'calm, steady presence,' 'knows how to stay composed under pressure,' and acknowledges the family's need for consistency. It also transparently notes where James's background may be less extensive, which is honest without being negative or dramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from James's profile and maintains a warm, honest tone. It addresses most of the family's key needs, especially around experience, demeanor, and reliability. The main area for improvement is to more directly address the family's concerns about wandering risk and structured routines.",
+    "rank": 3
+  },
+  {
+    "family_id": "F006",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Donna's own words ('quiet and calm, someone who takes her cues from the person she's with'), her 15 years of experience, her work with six long-term client families, and her experience supporting elderly clients through social isolation and depression. It also mentions her ability to help with meal preparation. These are all concrete, verifiable facts from Donna's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's desire for a companion who feels like a friend, not a caregiver, and mirrors their language ('feels like a friend rather than a caregiver'). It highlights Donna's respect for privacy and independence, her gentle approach, and her experience with social isolation and depression\u2014all central to the family's needs and must-haves. It also references meal preparation, which matches the family's required skills. The explanation is tightly focused on the family's stated concerns and preferences.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: Donna describes herself as quiet and calm, someone who takes her cues from the person she's with \u2014 Traceable to bio: 'I am quiet, calm, and I take my cues from the person I am with.'",
+          "Claim: 15 years of experience with six long-term client families \u2014 Traceable to '15 years private companion care across 6 long-term client families.'",
+          "Claim: Experience supporting elderly clients through social isolation and depression \u2014 Traceable to 'Advanced care support: Anxiety and depression in elderly, Social isolation.'",
+          "Claim: Can help with meal preparation \u2014 Traceable to skills: 'Meal preparation.'",
+          "Claim: Long track record of sustained, respectful relationships \u2014 Traceable to 'six long-term client families' and 'I always respect that' (regarding privacy and independence)."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language ('feels like a friend rather than a caregiver', 'Trusting someone new with your mother's mornings is not a small thing'), and acknowledges the emotional weight of the decision. It avoids being clinical or overdramatic, and reads like a thoughtful, empathetic recommendation.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at specificity and relevance, grounding every claim in Donna's profile and directly addressing the family's unique needs and concerns. The tone is warm and empathetic, making it well-suited for a family facing a sensitive decision. The explanation could only be improved by briefly mentioning Donna's availability to confirm it aligns with the family's preferred schedule.",
+    "rank": 1
+  },
+  {
+    "family_id": "F006",
+    "helper_id": "H013",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Fatima's self-description as 'particularly good at building trust with clients who are initially hesitant or private,' her 'six years of experience in home-based elder care across four client families,' and her 'gentle and patient' approach. It also references her ability to help with meal preparation and notes the profile's missing detail. These are all specific, verifiable facts from her profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs: it highlights Fatima's skill in building trust with hesitant or private clients (mirroring the family's concern about social isolation and the need for a gentle, non-pushy approach), her gentle and patient manner (addressing the must-have for a non-clinical, friend-like demeanor), and her ability to help with meal preparation (matching the required skill for kitchen activities). It also flags the missing detail about emotional support for bereavement, which is highly relevant to the family's situation.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Fatima describes herself as someone who is particularly good at building trust with clients who are initially hesitant or private' \u2014 Traceable to her bio.",
+          "Claim: 'She brings six years of experience in home-based elder care across four client families' \u2014 Traceable to years_of_experience and prior_experience.",
+          "Claim: 'Her approach is gentle and patient rather than clinical or directive' \u2014 Traceable to her bio ('gentle, patient', and pride in quality of care).",
+          "Claim: 'She can help with meal preparation' \u2014 Traceable to skills list.",
+          "Claim: 'Her profile is missing some detail in one area' \u2014 Traceable to profile_completeness: partial \u2014 missing advanced care detail.",
+          "Suggestion to ask about experience with grief and emotional support \u2014 This is a recommendation, not a factual claim about Fatima."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'which feels directly relevant to where your mother is right now,' and 'a natural, low-pressure way for the two of them to spend time together.' It acknowledges the emotional context and avoids clinical or transactional phrasing. The suggestion to ask about grief support is gentle and respectful.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded. Its tone is warm and empathetic, making it well-suited for a family navigating a sensitive care decision. The single most important improvement would be to explicitly mention Fatima's language skills or pet-friendly nature if those are relevant to the family's context, but as written, it is an excellent match explanation.",
+    "rank": 2
+  },
+  {
+    "family_id": "F006",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Patricia's '14 years of experience caring for elderly individuals in their homes,' her stated approach of 'following the lead of the person she's with,' and her 'long tenures with previous families.' It also references her 'availability on Monday, Wednesday, Thursday, and Friday mornings' and 'meal preparation experience.' These are all concrete, verifiable facts from her profile. There is minimal generic language; nearly every claim is grounded in specifics.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs for a gentle, rapport-building companion by highlighting Patricia's patient, relationship-focused approach and her comfort with both quiet and active seniors. It notes her flexibility with mornings, which matches the family's schedule needs. The mention of meal preparation ties into the family's desire for kitchen activity engagement. The explanation also mirrors the family's language about emotional state and the need for a non-pushy, natural connection.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Patricia has 14 years of experience caring for elderly individuals in their homes.' \u2014 Traceable to 'years_of_experience: 14' and bio.",
+          "Claim: 'She follows the lead of the person she's with \u2014 comfortable with quiet time just as much as active engagement.' \u2014 Traceable to bio: 'I am comfortable with both active and quiet seniors \u2014 I follow the lead of the person I am caring for.'",
+          "Claim: 'She describes genuinely enjoying the relationships she builds.' \u2014 Traceable to bio: 'I genuinely enjoy the relationships I build with the families I work for.'",
+          "Claim: 'Her long tenures with previous families speak to that.' \u2014 Traceable to prior experience: '6 years private home care for elderly couple,' '5 years at Home Instead Senior Care,' '3 years caring for post-surgical recovery clients.'",
+          "Claim: 'She's also available on Monday, Wednesday, Thursday, and Friday mornings.' \u2014 Traceable to schedule: 'days: Monday, Wednesday, Thursday, Friday; hours: 8:00am - 2:00pm.'",
+          "Claim: 'She brings meal preparation experience as well.' \u2014 Traceable to skills: 'Meal preparation.'",
+          "Claim: 'Natural, unhurried way for connection to grow at your mother's own pace.' \u2014 This is an interpretive statement but is grounded in Patricia's described approach and experience."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'feels right given where your mother is emotionally,' 'genuinely enjoying the relationships,' and 'a natural, unhurried way for connection to grow at your mother's own pace.' It avoids clinical or transactional phrasing and acknowledges the emotional context of bereavement and social isolation.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded, with a warm and empathetic tone. It does an excellent job of connecting Patricia's background to the family's situation. The single most important area for improvement would be to briefly mention Patricia's non-clinical, non-pushy demeanor even more explicitly, as this is a key deal-breaker for the family.",
+    "rank": 3
+  },
+  {
+    "family_id": "F007",
+    "helper_id": "H003",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years of experience \u2014 including 12 as a CNA in hospital and rehabilitation settings,' and 'Medication Aide certified.' It also references his 'background in rehabilitation care' and his self-description as 'a calm, steady presence.' The mention of his availability ('Monday, Tuesday, Thursday, Friday, and Saturday mornings through noon') is specific. The only slightly generic phrase is 'families turn to when they want a helper who won't make a fuss,' but this is paraphrased from his bio. Overall, the claims are concrete and traceable.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's must-haves: calm, non-fussy demeanor ('genuinely calm, steady presence rather than an anxious or hovering one'), medication support ('Medication Aide certified...understands medication organization and reminders'), and respect for autonomy ('knows how to respect what someone can do for themselves while being quietly ready when support is needed'). It also addresses the schedule ('three mornings a week is well within reach'). The only minor gap is that it doesn't explicitly mention COPD or oxygen equipment, but it does reference rehabilitation and medical experience, which is somewhat relevant.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'18 years of experience \u2014 including 12 as a CNA in hospital and rehabilitation settings' \u2014 traceable to years_of_experience and prior_experience fields.",
+          "'Medication Aide certified' \u2014 traceable to certifications.",
+          "'background in rehabilitation care' \u2014 traceable to prior_experience and advanced_care_support.",
+          "'calm, steady presence rather than an anxious or hovering one' \u2014 paraphrased from bio: 'I work well with families who want a helper who can be a calm, steady presence.'",
+          "'families turn to when they want a helper who won't make a fuss' \u2014 paraphrased from bio.",
+          "'availability runs Monday, Tuesday, Thursday, Friday, and Saturday mornings through noon' \u2014 traceable to schedule."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with 'Trusting someone with your mother's daily wellbeing is not a small thing,' which acknowledges the emotional weight of the decision. The language is warm and reassuring ('genuinely calm, steady presence,' 'quietly ready when support is needed'), and avoids being clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from James's profile and addresses nearly all of the family's stated needs with warmth and empathy. The single most important improvement would be to explicitly mention James's familiarity with COPD or oxygen equipment safety, as this is a key concern for the family.",
+    "rank": 1
+  },
+  {
+    "family_id": "F007",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Donna's '15 years in companion care across six long-term client families,' her approach of 'taking cues from the person she is with,' and her experience with 'clients who value their independence and privacy.' It also references her 'specific experience supporting people with memory changes around routines and medication reminders,' and her 'availability covers weekday mornings through 1:00 PM.' These are all concrete, verifiable facts from Donna's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: Donna's 'not someone who takes over a room' and 'takes her cues from the person she is with' speaks to the need for a low-key, non-fussy demeanor and respect for autonomy. Her experience with 'memory changes around routines and medication reminders' is directly relevant to the mother's mild confusion with medications. The mention of her 'calm, consistent approach' addresses the family's desire for a patient and calm helper. Her morning availability is also matched to the family's requested schedule. The only minor gap is that COPD and oxygen safety are not explicitly mentioned, but the explanation otherwise closely mirrors the family's needs.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'15 years in companion care across six long-term client families' \u2014 traceable to '15 years private companion care across 6 long-term client families' in the helper's profile.",
+          "'takes her cues from the person she is with' \u2014 traceable to 'I take my cues from the person I am with' in the bio.",
+          "'not someone who takes over a room' \u2014 paraphrase of 'quiet, calm...respect that [privacy and independence]' in the bio.",
+          "'working with clients who value their independence and privacy' \u2014 directly from the bio.",
+          "'specific experience supporting people with memory changes around routines and medication reminders' \u2014 traceable to 'great with routines...especially for clients with memory changes' and 'medication reminders' in skills.",
+          "'availability covers weekday mornings through 1:00 PM' \u2014 matches schedule in profile.",
+          "'calm, consistent approach' \u2014 traceable to 'quiet, calm' and 'great with routines' in bio."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'she is not someone who takes over a room,' 'your mother is likely to feel comfortable with her presence rather than managed by it.' It acknowledges the family's concerns about autonomy and comfort, and avoids clinical or transactional phrasing. The tone is thoughtful and human.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding every claim in Donna's profile and directly addressing the family's stated needs and concerns, especially around demeanor and medication support. The tone is warm and reassuring. The single most important improvement would be to explicitly mention Donna's familiarity with COPD or oxygen safety, as this is a key concern for the family.",
+    "rank": 2
+  },
+  {
+    "family_id": "F007",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years in elder care,' 'never rushes the people she cares for,' 'worked with families where the care recipient was very private,' and lists specific skills: 'medication reminders, meal preparation, and light housekeeping.' It also mentions her weekday morning availability. All of these are concrete facts from Margaret's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: a gentle, patient approach to medication support ('never rushes'), respect for privacy and autonomy ('worked with families where the care recipient was very private,' 'respecting personal boundaries'), and the required skills (medication reminders, meal prep, housekeeping). It also notes her schedule matches the family's needs. However, it does not mention COPD or oxygen safety, which are important to the family, nor does it address the deal-breaker about hovering or oxygen protocol. This is a minor but notable gap.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Margaret has 18 years in elder care' \u2014 traceable to profile (years_of_experience: 18)",
+          "'never rushes the people she cares for' \u2014 traceable to bio ('I never rush the people I care for')",
+          "'worked with families where the care recipient was very private' \u2014 traceable to bio ('I have worked with several families where the care recipient was very private')",
+          "'respecting personal boundaries is part of how she works' \u2014 traceable to bio ('I always respect personal boundaries')",
+          "'skills include medication reminders, meal preparation, and light housekeeping' \u2014 traceable to skills list",
+          "'available weekday mornings' \u2014 traceable to schedule (Monday\u2013Friday, 7am\u20131pm)",
+          "'making three mornings a week straightforward to arrange' \u2014 traceable to schedule and family need"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'never rushes the people she cares for \u2014 a quality that matters deeply when your mother needs gentle, patient support,' and 'respecting personal boundaries is part of how she works, not an afterthought.' It acknowledges the emotional importance of autonomy and gentle support, without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in Margaret's profile and speaks directly to the family's desire for a calm, respectful, and non-intrusive helper. The tone is warm and reassuring. The main area for improvement is to address the family's concern about COPD and oxygen safety, which is not mentioned and is a key part of their care context.",
+    "rank": 3
+  },
+  {
+    "family_id": "F008",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '22 years of experience caring for elderly people in their homes,' '10 years as a primary caregiver for dementia clients,' '5 years of live-in care for someone in the advanced stages of Alzheimer's,' and that Rosa is a 'Certified Dementia Practitioner.' It also references her self-description as 'calm and private,' her ability to 'cook to special dietary requirements,' and her language skills (English, Spanish, Portuguese). These are all concrete, verifiable facts from Rosa's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs: it highlights Rosa's dementia and Alzheimer's experience for memory support, her calm and private nature for non-intrusiveness, her ability to cook to special dietary requirements, and her language skills (which may support cultural sensitivity). It also mirrors the family's language ('non-intrusive,' 'work around your grandfather's preferences'). The only minor gap is that it doesn't explicitly mention cultural sensitivity or continuity/reliability, but it covers the most critical must-haves and deal-breakers.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'22 years of experience caring for elderly people in their homes' \u2014 traceable to years_of_experience and bio.",
+          "'10 years as a primary caregiver for dementia clients' \u2014 traceable to prior_experience.",
+          "'5 years of live-in care for someone in the advanced stages of Alzheimer's' \u2014 traceable to prior_experience.",
+          "'Certified Dementia Practitioner' \u2014 traceable to certifications.",
+          "'can cook to special dietary requirements' \u2014 traceable to skills.",
+          "'speaks English, Spanish, and Portuguese' \u2014 traceable to languages.",
+          "'calm and private by nature, someone who believes in being present rather than filling the room' \u2014 traceable to bio."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with, 'We know that inviting someone into your grandfather's home \u2014 and into his daily rhythms \u2014 is not a decision you take lightly,' which acknowledges the emotional weight of the decision. The language is warm, respectful, and human throughout, without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in specific facts from Rosa's profile and addresses the family's most important needs with warmth and empathy. The single most important improvement would be to explicitly mention Rosa's reliability and cultural sensitivity, as these are key must-haves for the family.",
+    "rank": 1
+  },
+  {
+    "family_id": "F008",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years in elder care,' 'last 8 focused specifically on dementia and Alzheimer's,' 'dementia care specialist at Sunrise Senior Living,' 'private care for two separate Alzheimer's families,' and 'Certified Dementia Practitioner.' It also references her self-description as someone who 'never rushes' and 'respects personal boundaries,' and notes that she 'speaks Mandarin.' These are all concrete, verifiable facts from Margaret's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs: experience with dementia and memory loss, patience and respect for routines ('never rushes,' 'respects personal boundaries'), cultural sensitivity ('speaks Mandarin'), and the ability to build rapport over time. It also references her expertise in dementia-aware communication, which is relevant to the family's need for someone who can work with early memory loss and withdrawn individuals. The explanation mirrors the family's language and concerns closely.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Margaret has spent 18 years in elder care' \u2014 traceable to 'years_of_experience: 18' in profile.",
+          "'last 8 focused specifically on dementia and Alzheimer's' \u2014 traceable to 'last 8 years focused specifically on dementia and Alzheimer's care' in bio.",
+          "'dementia care specialist at Sunrise Senior Living' \u2014 traceable to '8 years at Sunrise Senior Living as a dementia care specialist' in prior_experience.",
+          "'private care for two separate Alzheimer's families' \u2014 traceable to '5 years private home care for two separate Alzheimer's families' in prior_experience.",
+          "'supporting someone with early memory loss is genuinely her area of expertise' \u2014 supported by above experience and advanced_care_support.",
+          "'never rushes the people she cares for' \u2014 direct quote from bio.",
+          "'worked with clients who are very private, always respecting personal boundaries' \u2014 direct quote from bio.",
+          "'Certified Dementia Practitioner' \u2014 listed in certifications.",
+          "'speaks Mandarin' \u2014 listed in languages.",
+          "'trained in dementia-aware communication' \u2014 listed in skills.",
+          "'understands how to have a conversation in a way that meets your grandfather where he is on any given day' \u2014 supported by 'dementia-aware communication' skill and bio statement about meeting people where they are."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'supporting someone with early memory loss is genuinely her area of expertise,' 'never rushes the people she cares for,' 'meets your grandfather where he is on any given day.' It acknowledges the emotional weight of the decision and avoids being clinical or overdramatic. The tone is thoughtful and reassuring.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at grounding every claim in specific, verifiable facts from Margaret's profile and directly addresses the family's unique needs and concerns. The tone is warm and empathetic, making it easy for the family to imagine Margaret as a good fit. The only possible improvement would be to briefly mention her availability to clarify potential scheduling fit, but otherwise this is an exemplary match explanation.",
+    "rank": 2
+  },
+  {
+    "family_id": "F008",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Donna's '15 years in companion care across six long-term client families,' her 'three years of focused experience supporting clients specifically in early-stage dementia,' and her qualities as 'quiet and calm by nature' who 'takes her cues from the person she is with.' It also references her experience with clients who 'value their privacy and independence.' These are all concrete, verifiable facts from Donna's profile. The only slightly generic phrase is 'a warm and dependable presence worth considering,' but this is a summary rather than a claim. Overall, the explanation is highly specific.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: Donna's respect for routines, her ability to build trust gradually, her calm and non-intrusive demeanor, and her experience with early-stage dementia. It mirrors the family's language about routine, privacy, and independence, and explicitly connects Donna's qualities to the grandfather's needs. The only minor gap is that it does not mention cultural sensitivity or dietary restrictions, but it covers the most critical needs described.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: '15 years in companion care across six long-term client families' \u2014 Traceable to '15 years private companion care across 6 long-term client families' in the helper's profile.",
+          "Claim: 'build trust gradually and consistently' \u2014 Implied by 'long-term client families' and 'I always respect that' in her bio.",
+          "Claim: 'She speaks directly to the importance of routine in her own words' \u2014 Traceable to 'I am great with routines \u2014 I know how important consistency is especially for clients with memory changes.'",
+          "Claim: 'three years of focused experience supporting clients specifically in early-stage dementia' \u2014 Traceable to '3 years supporting clients with early dementia specifically.'",
+          "Claim: 'quiet and calm by nature, takes her cues from the person she is with' \u2014 Directly from her bio: 'I am quiet, calm, and I take my cues from the person I am with.'",
+          "Claim: 'strong track record with clients who value their privacy and independence' \u2014 Traceable to 'I have worked with many clients who value their privacy and independence and I always respect that.'",
+          "Claim: 'certifications are less specialized than the others' \u2014 This is a comparative statement, but does not invent any credential; her certifications are listed and not highly specialized.",
+          "Claim: '15 years of hands-on, relationship-centered care' \u2014 Supported by her experience and bio.",
+          "Claim: 'warm and dependable presence' \u2014 This is a summary of her described qualities, not an invented fact."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'tells you something important,' 'she clearly knows how to build trust gradually and consistently,' and 'a warm and dependable presence worth considering.' It acknowledges the emotional weight of the family's decision and connects Donna's qualities to the grandfather's needs without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at grounding its claims in specific, verifiable facts from Donna's profile and connects those facts directly to the family's stated needs, using warm and empathetic language. The single most important improvement would be to address the family's concerns about cultural sensitivity and dietary restrictions, which are not mentioned.",
+    "rank": 3
+  },
+  {
+    "family_id": "F009",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years in elder care \u2014 including 8 years focused specifically on dementia and Alzheimer's,' 'trained in safety monitoring and dementia-aware communication,' and 'CPR and First Aid certified and holds a Certified Dementia Practitioner credential.' It also quotes Margaret's own words about never rushing and making hard days lighter. These are all concrete, verifiable facts from Margaret's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's concerns about cognitive issues ('navigating exactly the kind of cognitive concerns you're describing'), safety monitoring, and the need for attentiveness and patience. It references the must-haves of being observant, empathetic, and a good communicator, and ties Margaret's experience and certifications to these needs. The explanation also mirrors the family's language about trust and emotional weight. There are no significant gaps.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'18 years in elder care \u2014 including 8 years focused specifically on dementia and Alzheimer's' \u2014 traceable to years_of_experience and prior_experience fields.",
+          "'trained in safety monitoring and dementia-aware communication' \u2014 both are listed in skills.",
+          "'never rushes the people she cares for, and she believes her job is to make the harder days feel a little lighter' \u2014 direct paraphrase from Margaret's bio.",
+          "'CPR and First Aid certified and holds a Certified Dementia Practitioner credential' \u2014 both listed in certifications.",
+          "'attentiveness and patience...comes backed by real expertise' \u2014 supported by her certifications and experience."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with 'Trusting someone with your mom's daily wellbeing is not a small thing,' acknowledging the emotional weight of the decision. It uses warm, human language throughout, such as 'walked alongside many families' and 'make the harder days feel a little lighter.' The tone is thoughtful and never clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at grounding every claim in Margaret's actual experience and credentials, while speaking directly to the family's stated needs and emotional concerns. The tone is warm and reassuring, making it easy for the family to imagine trusting Margaret. The explanation could only be improved by briefly mentioning Margaret's weekday morning availability to prompt a conversation about scheduling fit.",
+    "rank": 1
+  },
+  {
+    "family_id": "F009",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Rosa's 22 years of experience, her view of care as a calling, her hands-on dementia experience (including 5 years of live-in Alzheimer's care), and her specific certifications (Certified Dementia Practitioner and Certified Alzheimer's Disease and Dementia Care Trainer). It also lists concrete skills: meal preparation, medication reminders, light housekeeping, and companionship. There is no generic language; every claim is grounded in a fact from Rosa's profile.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's needs for cognitive support, companionship, and day-to-day help (meal prep, medication reminders, light housekeeping). It highlights Rosa's trustworthiness and experience with dementia, which aligns with the family's concerns about cognitive changes and safety. However, it does not explicitly mention the family's must-haves around communication style, patience, or reliability, nor does it mirror the family's language about being 'observant and attentive to changes in wellbeing.'",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Rosa has spent 22 years caring for elderly people in their homes' \u2014 Traceable (years_of_experience: 22, bio).",
+          "Claim: 'she describes this work not as a job but as a calling' \u2014 Traceable (bio: 'For me this is not a job \u2014 it is a calling').",
+          "Claim: 'someone they can trust' \u2014 Traceable (bio: 'what they need more than anything is someone they can trust').",
+          "Claim: 'hands-on experience with dementia clients at every stage, including 5 years of live-in care for an advanced Alzheimer's client' \u2014 Traceable (prior_experience: '5 years live-in care for Alzheimer's client \u2014 advanced stage').",
+          "Claim: 'Certified Dementia Practitioner and Certified Alzheimer's Disease and Dementia Care Trainer credential' \u2014 Traceable (certifications).",
+          "Claim: 'meal preparation, medication reminders, light housekeeping, and genuine companionship' \u2014 Traceable (skills).",
+          "Claim: 'having someone this steady and experienced checking in regularly can make an enormous difference' \u2014 Traceable (years_of_experience, prior_experience, certifications; 'steady' is a reasonable inference from 22 years and advanced certifications, not an invented fact)."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'not as a job but as a calling,' 'comes through clearly in how she talks about what families actually need,' and 'having someone this steady and experienced checking in regularly can make an enormous difference.' It acknowledges the emotional weight of the decision without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding every claim in Rosa's profile and uses a warm, empathetic tone that respects the family's situation. It is highly specific and relevant to the family's needs, though it could be improved by more directly addressing the family's must-haves around communication style, patience, and attentiveness to changes in wellbeing.",
+    "rank": 2
+  },
+  {
+    "family_id": "F009",
+    "helper_id": "H010",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Amara's '9 years of home-based elderly care,' her reputation for being 'reliable, warm, and proactive,' and her ability to 'notice things before they become problems.' It references her 'direct experience supporting dementia clients,' her 'Dementia Care certification \u2014 Teepa Snow methodology,' and her skills in 'meals, medication reminders, light housekeeping, and companionship,' as well as being 'CPR and First Aid certified.' All these are concrete, verifiable facts from her profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: reliability, warmth, proactivity, and attentiveness ('notices things before they become problems'). It highlights Amara's dementia experience and certification, which aligns with the family's cognitive concerns. It also lists the practical skills required (meals, medication reminders, light housekeeping, companionship). The language mirrors the family's own concerns about safety, routine, and emotional qualities. There are no significant gaps.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'9 years of home-based elderly care' \u2014 traceable to '9 years private home care' and 'years_of_experience: 9'",
+          "'notices things before they become problems' \u2014 directly quoted from helper's bio",
+          "'reliable, warm, and proactive' \u2014 directly quoted from helper's bio",
+          "'direct experience supporting dementia clients' \u2014 supported by 'Primary caregiver for two dementia clients over 4 years combined' and 'Dementia-aware companionship'",
+          "'Dementia Care certification \u2014 Teepa Snow methodology' \u2014 matches certification listed",
+          "'meals, medication reminders, light housekeeping, and companionship' \u2014 all listed in skills",
+          "'CPR and First Aid certified' \u2014 matches certifications listed"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'exactly the kind of person you want keeping an eye on your mom,' and emphasizes qualities like reliability and warmth. It acknowledges the emotional weight of the decision and avoids being clinical or overdramatic. The tone is thoughtful and human.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is exemplary: it is specific, directly relevant to the family's needs, factually grounded, and written in a warm, empathetic tone. The single most important thing to improve would be to briefly acknowledge the need for clarification on the family's preferred schedule, as this was noted in their profile.",
+    "rank": 3
+  },
+  {
+    "family_id": "F010",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Patricia's '14 years of experience supporting elderly clients in their homes,' her 'clean driving record,' and her experience with 'post-surgical recovery.' It also references her skills in 'transportation, grocery shopping, meal preparation, and medication reminders.' Additionally, it quotes her self-description as 'comfortable with both active and quiet seniors' and as someone who 'follows the lead of the person she's caring for.' These are all specific, verifiable facts from Patricia's profile. The only slightly generic phrase is 'building real relationships with the families she works for,' but this is supported by her bio. Overall, the explanation is highly specific.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: warmth, being easy to be around, and respecting independence ('takes her cues from the person she's with rather than arriving with an agenda'). It also addresses the need for companionship over a clinical approach ('feel like she has a companion, not a caregiver'). The required skills are all mentioned: transportation, grocery shopping, meal preparation, and medication reminders. The explanation avoids any clinical or overprotective language, aligning with the family's deal-breakers. It does not mention stroke recovery specifically, but it does reference post-surgical recovery, which is somewhat related. Overall, it is highly relevant to the family's needs.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'14 years of experience supporting elderly clients in their homes' \u2014 Traceable (years_of_experience: 14, prior roles listed)",
+          "'including post-surgical recovery' \u2014 Traceable (prior_experience: 3 years caring for post-surgical recovery clients)",
+          "'skills cover everything your mother needs: transportation (she has a clean driving record), grocery shopping, meal preparation, and medication reminders' \u2014 Traceable (skills list and clean driving record in bio)",
+          "'comfortable with both active and quiet seniors' \u2014 Traceable (bio)",
+          "'follows the lead of the person she's caring for' \u2014 Traceable (bio)",
+          "'building real relationships with the families she works for' \u2014 Traceable (bio: 'I genuinely enjoy the relationships I build with the families I work for.')"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'Patricia stood out to us because of how well she matches what you described,' and 'Trusting someone new with your mother is not a small thing.' It acknowledges the emotional weight of the decision and avoids being clinical or transactional. The tone is thoughtful and supportive throughout.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in specific facts from Patricia's profile and directly addressing the family's stated needs and concerns. The tone is warm and empathetic, making it appropriate for a high-stakes care decision. The only minor area for improvement would be to mention Patricia's awareness of post-stroke needs if relevant, but overall, this is a strong, family-centered match explanation.",
+    "rank": 1
+  },
+  {
+    "family_id": "F010",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Donna's '15 years doing exactly this kind of work \u2014 companion care,' her 'six long-term client families,' and that she 'takes her cues from the person she is with' and 'has always respected the privacy and independence of clients.' It also lists her skills: 'meal preparation, grocery shopping, and medication reminders,' and notes her 'availability Monday through Friday.' The explanation even points out a gap: 'profile lists grocery shopping, it does not specifically mention driving or transportation.' These are all concrete, verifiable facts from Donna's profile, with only minor generic phrasing ('the kind of presence she brings').",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: respect for independence ('takes her cues,' 'respected privacy and independence'), companionship (15 years of companion care), and specific skills (meal prep, grocery shopping, medication reminders). It also mirrors the family's concern about not being overprotective or clinical by highlighting Donna's approach. Importantly, it flags the lack of explicit mention of driving/transportation, which is a deal-breaker for the family. This shows close engagement with the family's stated needs and concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Donna has spent 15 years doing exactly this kind of work \u2014 companion care' \u2014 Traceable (15 years companion care in profile).",
+          "Claim: 'She has stayed with six long-term client families' \u2014 Traceable (profile: 'across 6 long-term client families').",
+          "Claim: 'She describes herself as someone who takes her cues from the person she is with and who has always respected the privacy and independence of clients who value those things' \u2014 Traceable (bio: 'I take my cues from the person I am with... always respect that').",
+          "Claim: 'Her skills include meal preparation, grocery shopping, and medication reminders' \u2014 Traceable (skills list).",
+          "Claim: 'Her availability Monday through Friday' \u2014 Traceable (schedule: Monday\u2013Friday, 8am\u20131pm).",
+          "Claim: 'profile lists grocery shopping, it does not specifically mention driving or transportation' \u2014 Traceable (grocery shopping listed, driving/transportation not mentioned)."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'which tells you something about the kind of presence she brings,' and 'maps closely to what matters most to your family.' It acknowledges the family's priorities and concerns in a thoughtful, non-clinical way. The note about confirming transportation is gentle and respectful, not abrupt or transactional.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded. It also maintains a warm, empathetic tone throughout. The single most important thing to improve would be to clarify whether Donna can provide transportation, as this is a deal-breaker for the family.",
+    "rank": 2
+  },
+  {
+    "family_id": "F010",
+    "helper_id": "H013",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites 'six years of home-based elder care experience,' and that Fatima is 'particularly good at building trust with clients who are initially hesitant or private,' both of which are specific facts from her profile. It also lists the specific support she offers: 'companionship, meal preparation, grocery shopping, and medication reminders.' However, the statement 'she could be a genuinely good match' and 'if the fit feels right after you speak with her' are generic. The mention of affordability is specific to her rate compared to others. Overall, most claims are specific, with a couple of generic phrases.",
+        "score": 4
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for companionship, meal prep, grocery shopping, and medication reminders, which are all required skills. It also notes Fatima's ability to build trust with hesitant or private clients, which aligns with the family's must-have for someone personable and respectful of independence. However, it does not address the family's strong preference for a non-clinical, non-condescending manner, nor does it mention driving ability beyond flagging it as missing information. It also does not directly mirror the family's language about normalizing the relationship or avoiding a 'caregiver' dynamic.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Fatima brings six years of home-based elder care experience' \u2014 Traceable: her profile states 6 years of experience.",
+          "'Particularly good at building trust with clients who are initially hesitant or private' \u2014 Traceable: her bio says this.",
+          "'She covers the day-to-day support your mother needs, including companionship, meal preparation, grocery shopping, and medication reminders.' \u2014 Traceable: all these are listed in her skills.",
+          "'Her profile is not yet complete on a few details, including whether she drives' \u2014 Traceable: her profile does not mention driving.",
+          "'She is the most affordable of the three options we are sharing' \u2014 Not traceable to the helper's profile, but this is a comparative statement about the options being presented, not a claim about the helper herself.",
+          "'If the fit feels right after you speak with her, she could be a genuinely good match.' \u2014 This is a subjective statement, not a factual claim."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm and considerate language, such as 'particularly good at building trust with clients who are initially hesitant or private,' and 'if the fit feels right after you speak with her, she could be a genuinely good match.' It acknowledges the emotional aspect of letting someone new into the mother's life and is transparent about missing information without being clinical or cold.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does a strong job of grounding its claims in specific facts from Fatima's profile and maintains a warm, empathetic tone. It is relevant to most of the family's needs, especially around trust and companionship, but could be improved by more directly addressing the family's concerns about non-clinical demeanor and the importance of driving. The most important improvement would be to explicitly address the family's deal-breakers and must-haves in their own language.",
+    "rank": 3
+  },
+  {
+    "family_id": "F011",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Rosa's Certified Dementia Practitioner credential, her specific training in sundowning management, and her 5 years of live-in care for an advanced-stage Alzheimer's client. It also references her 22 years of experience and her self-described approach of 'being present' and calm. These are all concrete, verifiable facts from her profile, with no generic language.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's need for overnight, on-call care for advanced dementia with behavioral symptoms, referencing Rosa's live-in experience and sundowning management training. It mirrors the family's concern for calmness and reliability ('calm, steady, and not easily rattled'), and highlights her credentials and experience with advanced dementia. The explanation is tightly focused on the family's must-haves and concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: Rosa holds a Certified Dementia Practitioner credential \u2014 Traceable (listed in certifications).",
+          "Claim: Specific training in sundowning management \u2014 Traceable (listed under advanced_care_support: 'Sundowning management').",
+          "Claim: 5 years of live-in care for advanced-stage Alzheimer's client \u2014 Traceable (listed in prior_experience).",
+          "Claim: 22 years of experience \u2014 Traceable (years_of_experience).",
+          "Claim: Describes her approach as 'being present', calm, steady, not easily rattled \u2014 Traceable (bio: 'I am very calm, very private myself...I believe in being present')."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with, 'Trusting someone with your father \u2014 especially overnight, when the house is quiet and he may become distressed \u2014 is not a small thing,' which acknowledges the emotional weight of the family's decision. The language is warm, human, and respectful, without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at connecting Rosa's specific experience and credentials to the family's unique needs, using warm and empathetic language that respects the gravity of the decision. The most important thing to improve would be to briefly mention Rosa's non-smoking status, as this is a stated deal-breaker for the family.",
+    "rank": 1
+  },
+  {
+    "family_id": "F011",
+    "helper_id": "H005",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Linda's 'advanced-level dementia care certification,' 'three years of companion care for an advanced dementia client at home,' and her 'hospice background.' It also references her ability to 'recognize changes in cognition' and 'respond with steadiness.' These are all specific, verifiable facts from her profile. The only slightly generic phrase is 'deep instinct for dignity and comfort,' but it is grounded in her hospice background.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's need for someone who can handle agitation and behavioral symptoms at night ('responding with steadiness rather than alarm'), and highlights Linda's experience with advanced dementia in a home setting. It also notes her clinical depth and references her approach to dignity and comfort, which aligns with the family's must-haves for patience and trustworthiness. The only minor gap is that it doesn't explicitly mention her non-smoker status or overnight availability, but it covers the most critical needs.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Linda's entire career has been built around recognizing when someone is struggling \u2014 reading changes in cognition, spotting emotional distress, and responding with steadiness rather than alarm' \u2014 Supported by her bio and skills list.",
+          "'Her advanced-level dementia care certification' \u2014 Directly listed in certifications.",
+          "'Three years of companion care for an advanced dementia client at home' \u2014 Listed in prior experience.",
+          "'Her hospice background has also given her a deep instinct for dignity and comfort' \u2014 Supported by 8 years at VITAS Hospice and 5 years private palliative care.",
+          "'Her hourly rate sits just above your stated range' \u2014 Her rate is $34/hr, family's range is $25\u2013$30/hr.",
+          "'Her clinical depth in advanced dementia is difficult to overlook' \u2014 Supported by certifications and experience."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'responding with steadiness rather than alarm,' 'deep instinct for dignity and comfort,' and 'comes through clearly in how she talks about her work.' It acknowledges the emotional weight of the decision and is not clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in Linda's specific experience and certifications, and it speaks directly to the family's needs for calm, skilled dementia care. The tone is warm and reassuring. The main area for improvement is to explicitly address Linda's non-smoker status and clarify her overnight availability, as these are important deal-breakers for the family.",
+    "rank": 2
+  },
+  {
+    "family_id": "F011",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Patricia's '14 years of home care experience,' her self-description as 'warm, patient, and someone who follows the lead of the person she is caring for,' her 'documented experience...with early-stage dementia,' her status as a 'non-smoker,' her rate fitting 'comfortably within your budget,' and her 'foundational dementia awareness training.' These are all specific, verifiable facts from her profile. The explanation avoids generic language and even calls out the limits of her experience with advanced dementia, which is a nuanced and specific observation.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves and deal-breakers: it highlights Patricia's calm and patient demeanor, her non-smoking status, her dementia training, and her rate. Importantly, it also flags the gap in her experience with advanced dementia and behavioral symptoms like wandering and nighttime agitation, which are central to the family's needs. The explanation mirrors the family's concerns and is transparent about potential limitations.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: '14 years of home care experience' \u2014 Traceable to 'years_of_experience: 14' and bio.",
+          "Claim: 'Describes herself as warm, patient, and someone who follows the lead...' \u2014 Traceable to bio.",
+          "Claim: 'Documented experience is with early-stage dementia' \u2014 Traceable to 'advanced_care_support: Early-stage dementia' and prior experience.",
+          "Claim: 'Non-smoker' \u2014 Traceable to bio.",
+          "Claim: 'Rate fits comfortably within your budget' \u2014 Traceable to 'hourly_rate: 26' and family's stated budget.",
+          "Claim: 'Foundational dementia awareness training is in place' \u2014 Traceable to 'Dementia Friends \u2014 Alzheimer's Society training'.",
+          "Claim: 'Her fit here depends on how much hands-on experience she has had with wandering and nighttime agitation specifically' \u2014 This is a reasoned statement based on the absence of advanced dementia/behavioral symptom experience in her profile, not an invented fact."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and honest, acknowledging both Patricia's strengths and the family's high-stakes concerns: 'qualities that matter when supporting someone whose behavior can shift quickly' and 'we want to be honest with you that her fit here depends...' The tone is supportive, transparent, and respectful of the family's situation without being clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is exemplary: it is specific, transparent, and directly addresses the family's unique needs and concerns, including the critical gap in advanced dementia experience. The tone is warm and honest. The single most important thing to improve would be to clarify whether Patricia is open to overnight shifts, as her current schedule only lists daytime hours.",
+    "rank": 3
+  },
+  {
+    "family_id": "F012",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation states Margaret is a 'fluent Mandarin speaker with 18 years of elder care experience,' and references her self-description as 'calm by nature, never rushing the people she cares for.' It also lists her skills: 'meal preparation, light housekeeping, mobility assistance, and companionship.' These are all specific, verifiable facts from her profile. The only slightly generic phrase is 'brings exactly that,' but it is supported by the specifics that follow.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: Mandarin fluency, patience, compassion, and the required skills. It mirrors the family's language ('patient and compassionate approach,' 'everything on your list') and even flags the potential deal-breaker about weekend availability, encouraging the family to clarify. It centers the importance of meaningful communication, which is the family's core concern.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Margaret is a fluent Mandarin speaker' \u2014 traceable to 'languages: English, Mandarin' in her profile.",
+          "'18 years of elder care experience' \u2014 matches 'years_of_experience: 18.'",
+          "'Calm by nature, never rushing the people she cares for' \u2014 directly quoted from her bio.",
+          "'Skills include meal preparation, light housekeeping, mobility assistance, and companionship' \u2014 all listed in her skills section.",
+          "'Current posted availability is weekdays' \u2014 matches her schedule (Monday\u2013Friday)."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with, 'Finding someone your grandmother can truly talk with \u2014 not just be cared for by \u2014 is at the heart of what you're looking for,' which is warm and acknowledges the emotional importance of the match. The tone remains thoughtful and supportive throughout, especially in the transparent note about schedule.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded, with a warm and empathetic tone. The only area for improvement is to clarify up front that Margaret's current schedule does not match the family's requested hours, to avoid any potential disappointment.",
+    "rank": 1
+  },
+  {
+    "family_id": "F012",
+    "helper_id": "H003",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites James's '18 years in elder care,' his work 'first as a certified nursing assistant in hospital settings, then in private home care,' and his ability to 'handle meal preparation and light housekeeping,' as well as 'strong experience with mobility assistance.' It also specifically notes his availability on Saturdays and directly addresses his language skills. These are all concrete, verifiable facts from his profile. There is one slightly generic phrase \u2014 'steadiness and warmth' \u2014 but it is grounded in his bio ('a calm, steady presence').",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves and deal-breakers: it highlights James's experience, relevant skills (meal prep, housekeeping, mobility), and Saturday availability. Most importantly, it explicitly acknowledges that James does not speak Mandarin, which the family listed as essential, and frames this as a significant limitation for their situation. The explanation mirrors the family's language ('meaningful communication') and addresses their core concern.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'18 years in elder care' \u2014 traceable: 12 years as CNA + 6 years private home care.",
+          "'first as a certified nursing assistant in hospital settings, then in private home care' \u2014 traceable: matches bio and prior experience.",
+          "'steadiness and warmth' \u2014 traceable: 'calm, steady presence' and 'warm heart' in bio.",
+          "'available Saturdays' \u2014 traceable: schedule lists Saturday.",
+          "'can handle meal preparation and light housekeeping' \u2014 traceable: both skills listed.",
+          "'strong experience with mobility assistance' \u2014 traceable: 'mobility assistance and transfers' in skills.",
+          "'does not speak Mandarin' \u2014 traceable: languages listed are English, Yoruba, Igbo."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language ('thoughtful, experienced caregiver,' 'steadiness and warmth') and is honest and gentle in addressing the language barrier ('The honest note here is that James does not speak Mandarin...'). It acknowledges the family's priorities and offers a respectful suggestion about James's fit, without being clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded. It is also empathetic and transparent about the language barrier, which is a deal-breaker for the family. The single most important thing to improve would be to avoid suggesting James as a backup unless the family has indicated openness to that \u2014 but overall, the explanation is clear and respectful.",
+    "rank": 2
+  },
+  {
+    "family_id": "F012",
+    "helper_id": "H012",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation states, 'Robert is a retired registered nurse with 30 years of clinical experience who has returned to hands-on care because, in his own words, he missed the connection with the people he works with.' This is specific, citing his nursing background, years of experience, and his motivation. It also specifically notes the lack of Mandarin language skills and unconfirmed weekend availability, both of which are verifiable from the profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves and deal-breakers: 'no confirmed weekend availability listed and no Mandarin language skills, both of which are central to what your grandmother needs right now.' It also references the importance of meaningful connection, which aligns with the family's emphasis on companionship and communication. The recommendation to prioritize another candidate shows understanding of the family's priorities.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Robert is a retired registered nurse with 30 years of clinical experience' \u2014 Traceable to helper's profile.",
+          "Claim: 'has returned to hands-on care because... he missed the connection with the people he works with' \u2014 Paraphrase of helper's bio.",
+          "Claim: 'no confirmed weekend availability listed' \u2014 Helper's schedule is not specified.",
+          "Claim: 'no Mandarin language skills' \u2014 Only English is listed under languages.",
+          "Claim: 'we'd recommend prioritizing Margaret first and checking back on Robert's availability as his profile is updated' \u2014 This is a recommendation, not a factual claim about Robert."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and considerate: 'in his own words, he missed the connection with the people he works with \u2014 and that says something meaningful.' It is also honest and transparent about the gaps, stating, 'we want to be upfront with you.' The tone is supportive and respectful of the family's needs, without being clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is transparent, specific, and empathetic, clearly outlining both Robert's strengths and the reasons he may not be the best fit for this family's needs right now. The most important thing to improve would be to include a brief mention of Robert's relevant skills (like meal preparation or mobility support) to further demonstrate his potential fit if the language and schedule barriers were resolved.",
+    "rank": 3
+  },
+  {
+    "family_id": "F014",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '3 years of direct experience supporting post-stroke elderly clients,' '18 years in elder care,' and lists specific skills: 'mobility assistance, medication reminders, and meal preparation.' It also notes 'non-smoker,' 'CPR and First Aid certification,' and her exact schedule. The closing sentence references her 'track record with families who value calm, unhurried care,' which is grounded in her bio. There is no generic language; every claim is tied to a concrete fact.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: experience with stroke recovery, reliability (implied by years of experience and track record), non-smoker status, and the required skills (mobility assistance, medication management, meal preparation). It also matches the schedule and acknowledges the emotional weight of inviting someone into the home, which the family implicitly cares about. All key needs are addressed.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'3 years of direct experience supporting post-stroke elderly clients' \u2014 traceable to prior_experience.",
+          "'18 years in elder care' \u2014 matches years_of_experience.",
+          "'mobility assistance, medication reminders, and meal preparation' \u2014 all listed in skills.",
+          "'non-smoker' \u2014 stated in bio.",
+          "'CPR and First Aid certification' \u2014 listed in certifications.",
+          "'schedule runs Monday through Friday from 7:00 AM to 1:00 PM' \u2014 matches schedule.",
+          "'track record with families who value calm, unhurried care' \u2014 supported by bio: 'calm by nature, a good listener, and I never rush the people I care for.'"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with 'Margaret stood out to us most clearly for your father's situation,' and closes with 'We know inviting someone into your father's home is not a small thing... feels worth your attention.' This language is warm, acknowledges the emotional stakes, and avoids being clinical or overdramatic. It reads like a thoughtful, human recommendation.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded throughout. The tone is warm and empathetic, making it well-suited for a family making a sensitive care decision. The explanation could not be improved in any meaningful way \u2014 it is a model match summary.",
+    "rank": 1
+  },
+  {
+    "family_id": "F014",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '14 years of in-home elder care experience,' 'mobility limitations and post-surgical recovery among her areas of advanced support,' and lists specific skills: 'meal preparation, medication reminders, and personal care including bathing and hygiene assistance.' It also mentions her being a 'non-smoker,' 'very punctual,' and gives her exact schedule and rate. These are all concrete, verifiable facts from Patricia's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: experience with stroke recovery (by referencing post-surgical recovery and mobility limitations), non-smoker status, reliability (punctuality), and the required skills (meal prep, medication reminders, personal care). It also notes the schedule alignment and budget fit, both of which are key to this family's needs. The explanation is tailored to the family's situation and priorities.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: '14 years of in-home elder care experience' \u2014 Traceable to 'years_of_experience: 14' and bio.",
+          "Claim: 'mobility limitations and post-surgical recovery among her areas of advanced support' \u2014 Traceable to 'advanced_care_support' list.",
+          "Claim: 'meal preparation, medication reminders, and personal care including bathing and hygiene assistance' \u2014 Traceable to 'skills' list.",
+          "Claim: 'non-smoker' \u2014 Traceable to bio.",
+          "Claim: 'very punctual' \u2014 Traceable to bio.",
+          "Claim: 'schedule \u2014 Monday, Wednesday, Thursday, and Friday, 8:00 AM to 2:00 PM' \u2014 Traceable to 'schedule' field.",
+          "Claim: '$26/hr' \u2014 Traceable to 'hourly_rate'."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language: 'translates well to the kind of physical and daily living help your father needs right now.' It acknowledges the family's needs and concerns without being clinical or overdramatic. The tone is thoughtful and supportive.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded in Patricia's profile. The tone is warm and empathetic, making it well-suited for a family making an important care decision. The explanation could only be improved by explicitly mentioning Patricia's certifications, which may further reassure the family.",
+    "rank": 2
+  },
+  {
+    "family_id": "F014",
+    "helper_id": "H009",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation states: 'Michael is a certified Home Health Aide with 7 years of experience and has the core skills your father's care requires \u2014 mobility assistance, medication management, and meal preparation.' It also notes he is a non-smoker and holds CPR and First Aid certification. These are all specific, verifiable facts from Michael's profile. The only generic phrase is 'he could be a solid and affordable option for your family,' but this does not mislead.",
+        "score": 4
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: reliability (by flagging the schedule issue), experience (7 years, HHA certified), non-smoker status, and the required skills (mobility assistance, medication management, meal preparation). It also mirrors the family's concern about consistent weekday morning coverage by recommending they confirm his availability. However, it does not mention stroke recovery experience or training, which is a significant need for this family.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Michael is a certified Home Health Aide' \u2014 traceable to certifications.",
+          "'7 years of experience' \u2014 traceable to years_of_experience and prior_experience.",
+          "'core skills...mobility assistance, medication management, and meal preparation' \u2014 traceable to skills list.",
+          "'He is a non-smoker' \u2014 traceable to bio.",
+          "'holds his CPR and First Aid certification' \u2014 traceable to certifications.",
+          "'profile notes a flexible, week-dependent schedule' \u2014 traceable to schedule.",
+          "'affordable option' \u2014 implied by hourly rate being below budget."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and considerate, e.g., 'We do want to be straightforward with you,' and 'he could be a solid and affordable option for your family.' It acknowledges the family's needs and is honest about the scheduling uncertainty without being cold or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from Michael's profile and addresses most of the family's must-haves and concerns, especially around skills, certifications, and scheduling. The tone is warm and honest. The most important improvement would be to explicitly address the family's need for stroke recovery experience, which is not mentioned in the explanation or clearly present in the helper's profile.",
+    "rank": 3
+  },
+  {
+    "family_id": "F015",
+    "helper_id": "H019",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Ashley's availability ('Monday through Friday from 8am to 4pm'), her listed skills ('cooking and cleaning'), and her self-description as 'friendly and energetic.' It also notes that she is 'new to elder care.' These are all specific, verifiable facts from her profile. There is a slight generalization in 'can make a genuine difference for a loved one,' but it is grounded in her described traits.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for flexible morning coverage, references the required skills of meal preparation and light housekeeping, and acknowledges the importance of companionship by highlighting Ashley's friendly and energetic nature. It also directly addresses the family's concern about patience and memory loss by noting Ashley's lack of elder care experience and suggesting a conversation about gentle redirection. This covers all major needs and concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Ashley is available Monday through Friday from 8am to 4pm' \u2014 traceable to helper's schedule.",
+          "'She lists cooking and cleaning among her skills' \u2014 traceable to skills section.",
+          "'She describes herself as friendly and energetic' \u2014 traceable to bio.",
+          "'Ashley is new to elder care' \u2014 traceable to 0 years of experience and no prior experience listed.",
+          "'It would be worth having an open conversation about your mother's memory loss and what patient, gentle redirection looks like' \u2014 this is a suggestion, not a factual claim about Ashley."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, reassuring language ('can make a genuine difference for a loved one who benefits from warm, steady company') and gently addresses Ashley's lack of experience without judgment. It encourages open communication, which is supportive and empathetic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in Ashley's actual profile, directly addressing the family's needs and concerns, and maintaining a warm, empathetic tone. The single most important thing to improve would be to acknowledge the lack of explicit memory care experience even more clearly, perhaps by suggesting specific questions the family might ask Ashley about handling memory loss.",
+    "rank": 1
+  },
+  {
+    "family_id": "F015",
+    "helper_id": "H020",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites that Frank cared for his own parents in their later years, references his self-description as calm and mature, and notes his preference for part-time morning work. It also specifically mentions his hourly rate of $17/hr. These are all concrete facts from Frank's profile. There is no generic language; each claim is tied to something verifiable.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for patience and compassion by highlighting Frank's calm and mature demeanor and his lived experience with elderly care. It connects his morning availability to the family's schedule needs. It also directly addresses the budget concern by noting his rate is above their range. However, it does not mention light housekeeping, meal preparation, or comfort with memory loss explicitly, nor does it address the family's desire for reminders and gentle redirection.",
+        "score": 3
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Frank cared personally for his own parents in their later years' \u2014 Traceable to 'Cared for own parents informally' in helper profile.",
+          "Claim: 'He brings a lived understanding of what older people go through' \u2014 Supported by his informal caregiving experience.",
+          "Claim: 'He describes himself as calm and mature' \u2014 Traceable to 'I am mature, calm' in his bio.",
+          "Claim: 'Looking for part-time morning work' \u2014 Traceable to 'looking for part-time morning work' and schedule info.",
+          "Claim: 'Frank's rate is $17/hr' \u2014 Traceable to 'hourly_rate: 17' in profile."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'lived understanding,' 'matters deeply when someone you love is navigating memory loss,' and 'an honest conversation to have early on.' It acknowledges the emotional weight of the family's situation without being overdramatic or clinical.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "The explanation does an excellent job grounding its claims in Frank's actual profile and uses a warm, empathetic tone that respects the family's situation. However, it misses some key specifics about the family's needs, such as light housekeeping, meal prep, and explicit comfort with memory loss. The most important improvement would be to directly address all of the family's required skills and must-haves.",
+    "rank": 2
+  },
+  {
+    "family_id": "F015",
+    "helper_id": "H018",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites that Kevin is 'recently retired,' 'describes himself as patient and a good listener,' and has 'a genuinely open schedule with no other commitments.' It also notes his rate is within budget and that he 'doesn't have formal caregiving experience.' These are all specific, verifiable facts from Kevin's profile. The phrase 'desire to spend meaningful time with older people comes through clearly in how he talks about himself' is a paraphrase of his bio. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: patience, compassion, reliability, and comfort with memory loss. It mirrors the family's language ('patient,' 'good listener,' 'compassionate, unhurried support') and addresses the flexible schedule and budget. It also flags the lack of formal experience, which is relevant given the family's inferred preference for memory care training. The suggestion to have a candid conversation about memory loss is directly relevant to their concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Kevin is recently retired' \u2014 stated in his bio.",
+          "'Describes himself as patient and a good listener' \u2014 stated in his bio.",
+          "'Genuinely open schedule with no other commitments' \u2014 matches his schedule and bio.",
+          "'His rate is within your budget' \u2014 his rate is $15/hr, matching the family's range.",
+          "'Desire to spend meaningful time with older people comes through clearly in how he talks about himself' \u2014 paraphrase of his bio.",
+          "'He doesn't have formal caregiving experience' \u2014 matches his profile (0 years experience, no certifications, no prior experience)."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and human, acknowledging the emotional weight of the decision ('qualities that sit at the heart of what you've said matters most for your mother's care,' 'desire to spend meaningful time with older people'). It avoids being clinical or overdramatic, and the suggestion for a candid conversation is gentle and supportive.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding every claim in Kevin's profile, directly addressing the family's needs and concerns, and maintaining a warm, empathetic tone. The most important thing to improve would be to clarify that Kevin has no formal memory care training, as the family inferred this as a recommended qualification.",
+    "rank": 3
+  },
+  {
+    "family_id": "F016",
+    "helper_id": "H007",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '15 years doing exactly this kind of work,' references Donna's experience with 'clients who value their independence and privacy,' and notes she 'takes her cues from the person she's with.' It mentions her focus on 'consistency and routine,' her 'availability lines up perfectly with your Monday\u2013Friday morning schedule,' and that she is 'at the lower end of your budget.' It also references her 'track record across six long-term client families.' All of these are specific, verifiable facts from Donna's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: Donna is female (implied by name and pronouns), has a calm demeanor ('takes her cues,' 'steady, respectful presence'), values privacy and independence, and is reliable and consistent ('built her career around consistency and routine'). It also addresses the schedule and budget requirements. The explanation mirrors the family's concerns about trust and respect for independence. All key needs and deal-breakers are addressed.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'15 years doing exactly this kind of work' \u2014 Donna's profile states 15 years of companion care.",
+          "'companion care for clients who value their independence and privacy' \u2014 Donna's bio says she has worked with many clients who value privacy and independence.",
+          "'takes her cues from the person she's with' \u2014 direct quote from Donna's bio.",
+          "'built her career around consistency and routine' \u2014 Donna's bio and skills list routine establishment and maintenance.",
+          "'availability lines up perfectly with your Monday\u2013Friday morning schedule' \u2014 Donna's schedule matches the family's needs.",
+          "'lower end of your budget' \u2014 Donna's rate is $24/hr, matching the family's lower budget limit.",
+          "'track record across six long-term client families' \u2014 Donna's prior experience lists six long-term client families.",
+          "'steady, respectful presence' \u2014 supported by Donna's bio and experience with privacy, independence, and long-term clients."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation acknowledges the emotional weight of the decision: 'Trusting someone with your mother's daily life is not a small thing.' It uses warm, human language ('steady, respectful presence that trust is built on') and avoids being clinical or overdramatic. The tone is thoughtful and appropriate for a family making a high-stakes care decision.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation is highly specific, directly relevant to the family's needs, and factually grounded in Donna's profile. The tone is warm and empathetic, making it well-suited for a family considering care for a loved one. The explanation could only be improved by explicitly confirming Donna's gender to fully reassure the family about their firm must-have.",
+    "rank": 1
+  },
+  {
+    "family_id": "F016",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '22 years of in-home elder care experience,' which is a concrete fact from Rosa's profile. It references her self-description as 'calm, private by nature, and focused on being present,' which is paraphrased from her bio. It also mentions her respect for boundaries and not hovering, which is inferred from 'I am very calm, very private myself, and I do not believe in chatting all day. I believe in being present.' The explanation notes her schedule fits the family's mornings, which matches her stated availability. It also specifically mentions 'meal preparation and light housekeeping' as skills. The final sentence about families wishing they'd found someone like Rosa sooner is generic and not traceable to her profile.",
+        "score": 4
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's must-haves: it highlights Rosa's calm and private demeanor, her respect for boundaries, and her experience with elderly care. It notes her schedule matches the family's needs and that she can provide meal preparation and light housekeeping. However, it does not explicitly confirm that Rosa is female (though her name implies it), nor does it directly address the deal-breakers or the requirement for reliability and consistency, though it is somewhat implied by her long experience.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Rosa has 22 years of in-home elder care experience' \u2014 traceable to 'years_of_experience: 22' and her bio.",
+          "'the way she describes her work \u2014 as a calling, not a job' \u2014 traceable to her bio: 'For me this is not a job \u2014 it is a calling.'",
+          "'calm, private by nature, and focused on being present rather than filling the room' \u2014 traceable to her bio: 'I am very calm, very private myself, and I do not believe in chatting all day. I believe in being present.'",
+          "'She specifically notes that she respects boundaries and doesn't believe in hovering' \u2014 partially traceable: she says she is private and doesn't chat all day, but does not use the word 'boundaries' or 'hovering.' This is a reasonable paraphrase, not an embellishment.",
+          "'Her schedule fits your mornings' \u2014 traceable: her schedule is 7:30am\u201312:30pm, matching the family's 8am\u201312pm need.",
+          "'her skills cover everything you've asked for, including meal preparation and light housekeeping' \u2014 traceable to her skills list.",
+          "'Families who have gone through the experience of finding the right helper often say they wished they'd found someone like Rosa sooner.' \u2014 not traceable to her profile; this is a generic, unsubstantiated claim."
+        ],
+        "result": "fail",
+        "failed_claims": [
+          "Families who have gone through the experience of finding the right helper often say they wished they'd found someone like Rosa sooner."
+        ]
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with a warm and human touch, referencing Rosa's sense of calling and her calm, present demeanor. The language is gentle and reassuring, especially in phrases like 'sounds like it would suit your mother well.' The final sentence, while generic, is meant to be comforting and encouraging. Overall, the tone is appropriate and empathetic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "The explanation does a strong job of highlighting Rosa's relevant experience, demeanor, and schedule fit, and it uses warm, empathetic language. However, it includes a generic, unsubstantiated claim about other families' experiences, which undermines factual grounding. The most important improvement would be to remove or replace this claim with something directly traceable to Rosa's profile.",
+    "rank": 2
+  },
+  {
+    "family_id": "F016",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years of elder care experience,' references Margaret's self-description as a 'good listener who never rushes the people she cares for,' and notes her 'track record of working with families where the care recipient was very private.' It also lists her skills: 'meal preparation, light housekeeping, companionship, and safety monitoring.' These are all concrete, verifiable facts from Margaret's profile. The only slightly generic phrase is 'her experience and approach make her well worth considering,' but this does not mislead.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for someone who respects privacy ('track record of working with families where the care recipient was very private'), values independence ('never rushes the people she cares for'), and covers the required skills ('meal preparation, light housekeeping, companionship, and safety monitoring'). It also notes the rate is above budget, which is relevant to the family's stated range. However, it does not explicitly mention the must-have of a female helper or directly address reliability/consistency, though these are implied by the experience and tone.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Margaret brings 18 years of elder care experience' \u2014 traceable to 'years_of_experience: 18' in profile.",
+          "'describes herself as a good listener who never rushes the people she cares for' \u2014 traceable to bio: 'I am calm by nature, a good listener, and I never rush the people I care for.'",
+          "'track record of working with families where the care recipient was very private' \u2014 traceable to bio: 'I have worked with several families where the care recipient was very private and I always respect personal boundaries.'",
+          "'skills include meal preparation, light housekeeping, companionship, and safety monitoring' \u2014 all listed in skills section.",
+          "'her rate sits just above your stated range' \u2014 helper's rate is $32/hr, family's range is $24\u2013$30/hr."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'a quality that matters a great deal when someone's daily rhythm and sense of independence are at stake,' and 'her experience and approach make her well worth considering.' It acknowledges the emotional weight of the decision and is neither clinical nor overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from Margaret's profile and uses a warm, empathetic tone. It addresses nearly all of the family's needs, though it could be improved by explicitly confirming Margaret is female and directly referencing her reliability or consistency, which are firm requirements for the family.",
+    "rank": 3
+  },
+  {
+    "family_id": "F017",
+    "helper_id": "H001",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites 'Margaret's 18 years of elder care experience \u2014 with the last 8 focused specifically on dementia and Alzheimer's,' mentions her 'Certified Dementia Practitioner credential,' and references her 'availability runs Monday through Friday, 7am\u20131pm.' It also quotes her bio: 'she never rushes the people she cares for.' These are all concrete, verifiable facts from Margaret's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for dementia and memory support ('last 8 focused specifically on dementia and Alzheimer's'), their must-have for patience ('never rushes the people she cares for'), and the importance of trust and emotional connection ('speaks directly to what your family needs,' 'knows how to meet your grandmother where she is'). It also matches the weekday morning schedule. The explanation does not explicitly mention meal prep or medication reminders, but it covers the most critical needs and must-haves the family listed.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'Margaret's 18 years of elder care experience \u2014 with the last 8 focused specifically on dementia and Alzheimer's' \u2014 traceable to years_of_experience and bio.",
+          "'She holds a Certified Dementia Practitioner credential' \u2014 traceable to certifications.",
+          "'has worked with multiple families navigating memory challenges' \u2014 traceable to prior_experience and bio.",
+          "'Her availability runs Monday through Friday, 7am\u20131pm' \u2014 traceable to schedule.",
+          "'she never rushes the people she cares for' \u2014 direct quote from bio.",
+          "'patience and steadiness' \u2014 supported by bio and demeanor described."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation opens with 'Trusting someone with your grandmother's daily life is not a small thing,' which acknowledges the emotional weight of the decision. It uses warm, reassuring language ('patience and steadiness is exactly what makes the difference') and avoids being clinical or overdramatic. The tone is thoughtful and human.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from Margaret's profile and speaks directly to the family's core needs with warmth and empathy. The single most important improvement would be to explicitly mention Margaret's experience with meal preparation and medication reminders, as these are required skills for the family.",
+    "rank": 1
+  },
+  {
+    "family_id": "F017",
+    "helper_id": "H004",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '22 years of dedicated elder care experience,' '10 years as a primary caregiver for two separate dementia clients,' '5 years of live-in care for someone in the advanced stages of Alzheimer's,' and specific certifications: 'Certified Dementia Practitioner' and 'Certified Alzheimer's Disease and Dementia Care Trainer.' It also references her stated approach of 'being fully present rather than filling time with noise,' her exact availability ('Monday through Friday, 7:30am\u201312:30pm'), and her rate ($30/hr). These are all concrete, verifiable facts from Rosa's profile. There is no generic language present.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation addresses the family's need for memory support by highlighting Rosa's dementia experience and certifications. It notes her weekday morning availability, which matches the family's stated schedule. The mention of her approach to presence and trust aligns with the family's must-haves around emotional connection and patience. The rate is explicitly mentioned, confirming budget fit. However, while it touches on trust and comfort, it does not explicitly mention skills like meal prep, light housekeeping, or medication reminders, nor does it directly echo the family's language about patience or comfort with repetition.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'22 years of dedicated elder care experience' \u2014 traceable to years_of_experience: 22",
+          "'not as a job but as a calling' \u2014 paraphrase of Rosa's bio",
+          "'10 years as a primary caregiver for two separate dementia clients' \u2014 matches prior_experience",
+          "'5 years of live-in care for someone in the advanced stages of Alzheimer's' \u2014 matches prior_experience",
+          "'Certified Dementia Practitioner' \u2014 matches certifications",
+          "'Certified Alzheimer's Disease and Dementia Care Trainer' \u2014 matches certifications",
+          "'available Monday through Friday, 7:30am\u201312:30pm' \u2014 matches schedule",
+          "'her approach of being fully present rather than filling time with noise' \u2014 matches bio",
+          "'$30/hr' \u2014 matches hourly_rate"
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'not as a job but as a calling,' 'her background backs that up,' and 'her approach of being fully present rather than filling time with noise may be a natural fit for your grandmother's comfort and trust.' It acknowledges the emotional weight of the decision and avoids being clinical or transactional.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at specificity and factual grounding, drawing directly from Rosa's extensive experience and certifications. It is warm and reassuring in tone, and addresses most of the family's key needs, especially around memory support and trust. The main area for improvement is to more explicitly connect Rosa's skills (meal prep, housekeeping, medication reminders) to the family's required daily living supports, and to echo the family's language about patience and comfort with repetition.",
+    "rank": 2
+  },
+  {
+    "family_id": "F017",
+    "helper_id": "H002",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '14 years of home care experience,' '6 years caring privately for an elderly couple \u2014 one of whom had early-stage dementia,' and notes Patricia's self-description as 'warm and patient' and 'very punctual.' It references her schedule (Monday, Wednesday, Thursday, and Friday mornings, 8am\u20132pm), her rate ($26/hr), and her 'Dementia Friends training.' These are all concrete, verifiable facts from Patricia's profile. The only slightly generic phrase is 'a grounded option worth considering,' but this does not mislead.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: patience, warmth, punctuality, and reliability ('warm and patient,' 'very punctual'). It connects Patricia's dementia experience to the grandmother's mild cognitive impairment. It also addresses the family's need for weekday morning coverage and budget. The explanation mirrors the family's language around reliability and cognitive support, and acknowledges that her dementia-specific credentials are less extensive, which is relevant to their inferred qualification preferences.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'14 years of home care experience' \u2014 traceable to 'years_of_experience: 14' in profile.",
+          "'6 years caring privately for an elderly couple \u2014 one of whom had early-stage dementia' \u2014 matches prior_experience.",
+          "'warm and patient' \u2014 matches self-description in bio.",
+          "'follows the lead of the person she's caring for' \u2014 matches bio.",
+          "'very punctual' \u2014 matches bio.",
+          "'schedule covers Monday, Wednesday, Thursday, and Friday mornings (8am\u20132pm)' \u2014 matches schedule in profile.",
+          "'$26/hr' \u2014 matches hourly_rate.",
+          "'Dementia Friends training' \u2014 matches certifications.",
+          "'hands-on experience with early-stage cognitive challenges' \u2014 supported by prior experience."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'maps closely to your grandmother's current needs,' 'which matters when consistency and reliability are non-negotiable for your family,' and 'a grounded option worth considering.' It acknowledges the emotional stakes without being dramatic or clinical, and the tone is supportive and thoughtful.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation excels at grounding every claim in Patricia's profile and directly addresses the family's specific needs and concerns, using warm and empathetic language. The most important area for improvement would be to briefly mention Patricia's skills in meal preparation, light housekeeping, and medication reminders, as these are explicitly required by the family.",
+    "rank": 3
+  },
+  {
+    "family_id": "F013",
+    "helper_id": "H003",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites '18 years of hands-on experience,' '12 years as a certified nursing assistant in a hospital rehabilitation unit,' and specific experience with 'progressive neurological conditions like Parkinson's and stroke recovery.' It references skills in 'mobility assistance and transfers,' and quotes the bio's 'calm, steady presence.' These are all concrete, verifiable facts from James's profile. There is minimal generic language, with most claims grounded in specifics.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's needs: it highlights experience with progressive neurological conditions (relevant to MS), emphasizes mobility assistance and transfers, and discusses fall-risk awareness and safety \u2014 all matching the family's must-haves. It also references demeanor ('calm, steady presence') and seriousness, which aligns with the family's request for a respectful, peer-like approach. The explanation does not explicitly mention the need for non-patronizing communication or peer-like engagement, but it does imply respect and seriousness.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "'18 years of hands-on experience' \u2014 Traceable: 12 years CNA + 6 years private home care in profile.",
+          "'12 years as a certified nursing assistant in a hospital rehabilitation unit' \u2014 Traceable: matches prior experience.",
+          "'worked closely with progressive neurological conditions like Parkinson's and stroke recovery' \u2014 Traceable: 4 years private care for Parkinson's, 2 years home care for stroke recovery.",
+          "'skilled in mobility assistance and transfers' \u2014 Traceable: listed in skills.",
+          "'clinical background means he knows how to stay attentive to safety and recognize when something needs closer attention' \u2014 Traceable: bio mentions clinical eye and escalation, plus CNA background.",
+          "'fall-risk awareness your brother's daily care calls for' \u2014 Traceable: implied by clinical background and mobility skills.",
+          "'bio describes him as a calm, steady presence' \u2014 Traceable: direct quote from bio.",
+          "'work history reflects someone who treats the people he supports with seriousness and consistency' \u2014 Traceable: implied by long tenure and bio.",
+          "'depth of experience in exactly this kind of hands-on, mobility-focused support' \u2014 Traceable: matches skills and prior roles."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation uses warm, human language: 'Trusting someone with your brother's daily physical care is not a small thing,' and 'calm, steady presence.' It acknowledges the emotional weight of the decision and avoids being clinical or overdramatic. The tone is thoughtful and supportive.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job grounding its claims in specific facts from James's profile and addresses nearly all of the family's stated needs, especially around mobility, safety, and demeanor. The tone is warm and empathetic. The single most important improvement would be to more explicitly address the family's request for a peer-like, non-patronizing approach to communication with younger adults with disabilities.",
+    "rank": 1
+  },
+  {
+    "family_id": "F013",
+    "helper_id": "H006",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites Samuel's 'five years at Community Living BC supporting adults with developmental disabilities,' his self-description as 'communicative and genuinely engaged,' and notes the absence of 'specific MS or mobility transfer experience.' It also references his schedule alignment. These are all concrete, verifiable facts from his profile. The only slightly generic phrase is 'his background reflects someone who understands that dignity and real human connection are part of the job,' but this is grounded in his described approach and experience.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's must-haves: respectful, non-patronizing demeanor ('work that requires the same respectful, non-patronizing approach'), ability to engage as a peer ('genuinely engaged... treat your brother as a peer, not a patient'), and comfort with physical assistance and fall prevention (explicitly noting the lack of MS/mobility experience and advising the family to ask about it). It also references schedule alignment, which is relevant to their needs. The explanation mirrors the family's language and concerns.",
+        "score": 5
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: 'Samuel has spent five years at Community Living BC supporting adults with developmental disabilities' \u2014 Traceable to '5 years at Community Living BC supporting adults with developmental disabilities' in helper profile.",
+          "Claim: 'work that requires the same respectful, non-patronizing approach' \u2014 Implied by the nature of his prior role, reasonable inference.",
+          "Claim: 'He describes himself as communicative and genuinely engaged with the people he works with' \u2014 Traceable to 'I am energetic, very communicative, and I love making care fun and engaging... I love to talk and connect with the people I work with.'",
+          "Claim: 'His profile does not list specific MS or mobility transfer experience' \u2014 Accurate; no such experience is listed.",
+          "Claim: 'his schedule aligns well with your weekday mornings' \u2014 His availability is Monday\u2013Friday, 8am\u20134pm, matching the family's requested hours.",
+          "Claim: 'his background reflects someone who understands that dignity and real human connection are part of the job' \u2014 Supported by his self-description and experience."
+        ],
+        "result": "Pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and human, acknowledging the family's concerns and the emotional weight of finding someone who will treat their brother with dignity. Phrases like 'treat your brother as a peer, not a patient' and 'dignity and real human connection are part of the job' show empathy without being overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in Samuel's actual experience and self-description, while directly addressing the family's unique needs and concerns. The tone is warm and respectful, and it transparently notes where further clarification is needed. The single most important thing to improve would be to explicitly mention the helper's lack of MS-specific or advanced mobility training as a potential gap, so the family is fully informed.",
+    "rank": 2
+  },
+  {
+    "family_id": "F013",
+    "helper_id": "H011",
+    "evaluation": {
+      "specificity": {
+        "reasoning": "The explanation cites that Catherine is a certified Home Health Aide, specifies her weekday 8am\u20132pm availability, and notes her rate is at the lower end of the family's budget. It also lists her skills: personal care, meal preparation, and medication reminders. The explanation specifically points out the lack of detail on prior work history and experience with mobility assistance and transfers. These are all concrete, verifiable facts from her profile, with no generic language.",
+        "score": 5
+      },
+      "relevance": {
+        "reasoning": "The explanation directly addresses the family's schedule and budget requirements, and matches Catherine's skills to the family's daily needs (personal care, meal prep). It also highlights the absence of information about mobility assistance and transfers, which is central to the family's needs for MS care. The explanation does not explicitly mention the family's must-haves around respectful demeanor or peer-like communication, but it does focus on the most critical care skills and safety concerns.",
+        "score": 4
+      },
+      "factual_grounding": {
+        "reasoning": [
+          "Claim: Catherine is a certified Home Health Aide \u2014 traceable to 'Home Health Aide (HHA) certified' in her profile.",
+          "Claim: Availability is weekdays 8am\u20132pm \u2014 matches her listed schedule.",
+          "Claim: Rate is at the lower end of the family's budget \u2014 her rate is $28/hr, family's range is $28\u2013$33/hr.",
+          "Claim: Skills include personal care, meal preparation, and medication reminders \u2014 all listed in her skills.",
+          "Claim: Profile does not include detail on prior work history or specific experience with mobility assistance and transfers \u2014 accurate, as prior experience is missing and mobility assistance is not listed.",
+          "Claim: Encourages a conversation about hands-on physical care experience \u2014 this is a recommendation, not a factual claim."
+        ],
+        "result": "pass",
+        "failed_claims": []
+      },
+      "empathy_tone": {
+        "reasoning": "The explanation is warm and respectful, acknowledging both the strengths and the gaps in Catherine's profile. Phrases like 'she may be a solid fit, but we'd encourage a careful conversation' and 'important questions to raise with her directly' are supportive and considerate, without being clinical or overdramatic.",
+        "score": 5
+      }
+    },
+    "overall_assessment": "This explanation does an excellent job of grounding its claims in specific facts from Catherine's profile and directly addresses the family's most critical needs, especially around schedule, budget, and care skills. The tone is warm and appropriately cautious. The main area for improvement would be to more explicitly address the family's interpersonal must-haves, such as respectful, peer-like communication and attitudes toward younger adults with disabilities.",
+    "rank": 3
+  }
+]

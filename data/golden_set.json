@@ -1,0 +1,804 @@
+[
+  {
+    "family_id": "F001",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.7,
+      "max": 0.9
+    },
+    "eval_notes": "This is an easy matching case where the family has stated very clear personality trait preferences that they would want in their mother's helper. A successful output will have helpers who are friendly with dogs, okay with light housekeeping tasks, mature, and professional. It is very important that the helpers are recommended because these qualities can be derived from the helper profiles and are not made up. Somebody who is very chatty, not comfortable with pets, too young, a smoker or someone who is overly friendly would be a clear deal breaker in this case. The agent 3's explanation should mirror the family's language on looking for a mature helper, not somebody very young. Since the family has not mentioned a budget, budget should not be treated as a constraint. Note: H001 and H004 are both acceptable as rank 1 \u2014 H001 starts at 7am vs H004 at 7:30am, but the family did not specify a start time. The annotator noted the difference \"may or may not be an issue.\". Either is a valid rank-1 match.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "This helper checks all the requirements of the family:\n - She has experience with dementia patients, \n - Certifications covering dementia,\n - She is a dog lover and have a dog at home\n - Can help with light housekeeping tasks and meal prep\n- She is not very chatty and is mature\nShe has the perfect personality traits that the family needs. She is available across all weekdays from 7a.m. to 1p.m., which covers the morning hours perfectly."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": "Rosa meets all criteria for family one requirements almost perfectly, has dementia experience and certifications, is an animal lover, is mature, calm and private and is a non-smoker. Her availaability is slightly restricted as in the morning she is available only after 7:30am till 12:30pm, which may or may not be an issue with the family. That is why she is rank 2, else she would be a perfect match. "
+      },
+      {
+        "rank": 3,
+        "helper_id": "H007",
+        "name": "Donna Mitchell",
+        "reason_for_rank": "Donna would also be a great fit for the family as her personality traits match family's requirements. She has a dog of her own, she is quiet and calm, she has been a companion care helper for more than 15 years so she is mature enough to be with the family's mother. The minor shortcomings in her profile are that she has relatively a lesser experience with dementia patients (3 years) and her morning availability only starts after 8 am. Since the family's mother needs help with breakfast, they may need the helper to start early "
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Experience with eldercare and dementia cited specifically",
+        "Personality traits that match what the family is looking for: being a good listener and respecting personal boundaries.",
+        "Margaret not only loves animals but also has a dog at home."
+      ],
+      "rank_2": [
+        "Highlight extensive experience in at-home elderly care",
+        " Experience of working with clients who had dogs and cats should be cited"
+      ],
+      "rank_3": [
+        "Highlight companion care work for 15 years",
+        "cite specifically that she understands the importance of consistency for clients with memory challenges",
+        "has a dog of her own."
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture the requirement for the morning schedule and comfort with Biscuit as a priority",
+      "Agent 2 recommends helpers who have not highlighted that they are non-smokers in their profiles, or Agent 2 shares helpers who are a great fit but are not available during the selected schedule",
+      "Agent 2 ignores some important personality traits that the family is looking for like mature and calm personality",
+      "Agent 2 takes budget into consideration while recommending helpers and recommends lower budget options only.",
+      "Agent 3 does not have an explanation addressing family's concerns and requirements."
+    ],
+    "acceptable_rank_1": [
+      "H001",
+      "H004"
+    ]
+  },
+  {
+    "family_id": "F002",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.95,
+      "max": 1
+    },
+    "eval_notes": "This case specifies whether the system can accurately filter down helpers based on experience and qualifications match that the family desires - post-surgery care, help with mobility, meal prep, assistance with physiotherapy). Agent 2 must recommend helpers that are able to meet the family's criteria, based on what is directly stated or be can be inferred from the helper's profiles. No experience or qualification to handle post-surgery care is a deal breaker. Judge should reward explanations that address family's requirements, explaining how the helper's profile matches those. The judge should penalize explanations that seem to be extended conclusions which cannot strongly be backed from the helper's profile.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H002",
+        "name": "Patricia Williams",
+        "reason_for_rank": "Has direct experience in at home post-surgical care, can help with transportation assistance, meal prep and light housekeeping. She is a non-smoker and available for the family's required schedule with the exception of Tuesday"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H003",
+        "name": "James Okonwo",
+        "reason_for_rank": "Has extensive experience working as a CNA, so is perfectly suited for post surgical care. Has mentioned wound care support, medication management, mobility assistance and transfers, meal preparation in his skills, which is exactly what the family needs. The only challenge is that he is slightly above budget and is available between 6am to 12pm."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H012",
+        "name": "Robert Jensen",
+        "reason_for_rank": "retired nurse with 30 years of experience. Has mentioned clinical assessment, vital signs monitoring in his skills."
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Include that she has direct experience in post surgical care and is available for the family's schedule except on Tuesday. She is well within the family's budget."
+      ],
+      "rank_2": [
+        "Registered nurse who has extensive experience, he will be able to help with all the family needs but slightly over budget and is available between 6am to 12 pm"
+      ],
+      "rank_3": [
+        "registered nurse with experience both in at-clinic and at-home care. The only challenge is that the schedule is not updated and the budget is slightly above the family's budget range."
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture post-surgical care as an explicit requirement by the family",
+      "Agent 2 recommends helpers with generic experience",
+      "Agent 3 fails to explain to the family in a rational way how the aspects of family requirements that do not match with the helpers can be negotiated"
+    ]
+  },
+  {
+    "family_id": "F003",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.9,
+      "max": 1
+    },
+    "eval_notes": "This is a very clear matching case, that evaluates if the Agent 2 can infer personality traits, lingual and cultural preferences of the family that can outweigh experience related requirements and reccommend them ideal helpers. If a helper has all the matching experience but cannot comfort the care seeker in a language of their preference, it completely alters the perception of the helper by the family. The family clearly specifies that though Eduardo needs help with Parkinson's disease, having a helper who can speak Spanish makes a huge difference to them. This is something that the Agent 2 must keep in mind before reccommending helpers to the family",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": "Rosa has everything that the family needs, she can help with meal prep and housekeeping, personal hygiene assistance and has mentioned Parkinson's disease in advanced_care_support. Most importantly, she speaks Spanish and fits within the family specified budget. The only thing that needs to be confirmed is her availability. She has not mentioned availability beyond 12:30pm on weekdays"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H002",
+        "name": "Patricia Williams",
+        "reason_for_rank": "She knows spanish and has worked with dementia patients. She can provide bathing and personal hygiene assistance and transportation assistance and help with housekeeping tasks. She fits well within the family budget range but there is a gap in her availability on Tues and beyond 2pm on the rest of the weekdays."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H017",
+        "name": "Maria Garcia",
+        "reason_for_rank": "Though she does not have a complete profile but we do know that she has worked with elderly poeple before and knows Spanish, her hourly rate is quite low and her schedule is pretty flexible. She has also mentioned light cleaning and cooking as her skills."
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Rosa perfectly matches all of family's requirements and she speaks Spanish"
+      ],
+      "rank_2": [
+        "Speaks Spanish and has worked with dementia patients, can also provide personal hygiene assistance"
+      ],
+      "rank_3": [
+        " Has a flexible schedule, knows Spanish, can help with cleaning and cooking"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture Spanish requirement as an implicit need of the family",
+      "Agent 2 recommends helpers who have neither care experience for patients with Parkinson's disease not speak Spanish",
+      "Agent 3 fails to explain to family how their explicit and implicit needs are met by the recommended helpers"
+    ]
+  },
+  {
+    "family_id": "F004",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.9,
+      "max": 1
+    },
+    "eval_notes": "This case though clear evaluates the ability of the agent to capture the 3 most important requirements of the family - the first being diabetes care support - it is mentioned that the wife needs help with special meals prep and blood sugar monitoring, both of which require some diabetes knowledge or experience from the helper. The second thing is the wife would love someone to talk to and be a companion to her, this is an important personality trait that is required in the helper. Third is budget, they have a very strict budget range. This example will perfectly evalue the system's capability to infer the hard constraints from the family's job description and recommend suitable helpers to the family.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H009",
+        "name": "Michael Torres",
+        "reason_for_rank": "Has mentioned diabetes care support in advanced care, schedule is flexible and hourly rate is low"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H002",
+        "name": "Patricia Williams",
+        "reason_for_rank": "Only helper with diabetes management support explicitly listed, warm and patient, enjoys relationships she builds with families that she cares for, helps with meal prep, companionship and medication reminders. Slightly over budget but not too high, available as per family's schedule."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H007",
+        "name": "Donna Mitchell",
+        "reason_for_rank": "Has listed Companionship and emotional support as a skill which is important for family, overall seems reliable and is available for the family's required schedule"
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        " provides Diabetes management support"
+      ],
+      "rank_2": [
+        "Has listed diabetes care support in advanced care, is flexible with her schedule"
+      ],
+      "rank_3": [
+        "Her skill is to provide companionship amd emotional support"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to recognize the important parametes of diabetes management, companionship and budget mentioned by the family",
+      "Agent 2 does not recommend helpers meeting the important criteria to the family",
+      "Agent 3 fails to mirror the family's language and fails to address their vulnerability and fears while recommending helpers"
+    ],
+    "acceptable_rank_1": [
+      "H002",
+      "H009"
+    ]
+  },
+  {
+    "family_id": "F005",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.9,
+      "max": 1
+    },
+    "eval_notes": "This case is a clear matching Case that evaluates the AI system on suggesting matches for an a mid-stage Alzheimer's patient who also has wandering risk. It is important that the AI system understands that this is a serious care situation and recommends helpers with extensive Alzheimer's/dementia experience. The system should not recommend helpers that are just starting out or do not have experience in this domain.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "Extensive Alzheimer's experience and certifications, support includes cognitive engagement activities and wandering risk management. The only challenge is no availability after 1 pm whereas family needs till 4pm "
+      },
+      {
+        "rank": 2,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": " Has 5 years of live in care experience for advanced Alzheimer's patient, CADDCT certified, provides personal hygiene assistance and help with Cognitive Engagement Activities for dementia clients, has not mentioned availability beyond 12:30 pm "
+      },
+      {
+        "rank": 3,
+        "helper_id": "H010",
+        "name": "Amara Osei",
+        "reason_for_rank": "Mid-stage dementia and sundowning specialist, has mentioned she understands the importance of routine for dementia patients. Has Teepa Snow methodology, 4 yrs direct dementia experience \u2014 covers mornings well, misses 12pm-4pm."
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [],
+      "rank_2": [],
+      "rank_3": []
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture family's requirements about Alzheimer's experience, wandering risk management, and engagement activities to support cognitive decline",
+      "Agent 2 recommends helpers without extensive Alzheimer's or dementia experience",
+      "Agent 2 fails to recommend helpers with dementia experience and missed to understand that dementia and Alzheimer's are related",
+      "Agent 3 fails to explain to the families in their language and addressing their concerns that the suggested helpers are the best match."
+    ]
+  },
+  {
+    "family_id": "F006",
+    "difficulty": "medium",
+    "expected_agent1_confidence": {
+      "min": 0.6,
+      "max": 0.7
+    },
+    "eval_notes": "This is a medium-level difficulty case, most importantly because the family has neither clearly stated the requirements nor the budget. They are not looking for any specific experience or certifications but the right personality traits to help their mother, who is dealing with the loss of their father. The helper needs to provide companionship and be warm and patient with the mother. They do not need very highly skilled helpers.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H007",
+        "name": "Donna Mitchell",
+        "reason_for_rank": "provides companionship and emotional support, helps with anxiety and depression in elderly and social isolation, available in mornings"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H013",
+        "name": "Fatima Hassan",
+        "reason_for_rank": "Her bio states that she is good at building trust for hesitant clients, provides companionship, help with light housekeeping and meal preparation. Is available in the mornings after 8am"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H017",
+        "name": "Maria Garcia",
+        "reason_for_rank": "enjoys working with seniors, patient and caring, can do light cooking and cleaning, flexible availability"
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "helps with anxiety and depression in elderly, which is exactly what the mother needs"
+      ],
+      "rank_2": [
+        "Her bio states that she is good with building trust with hesitant clients "
+      ],
+      "rank_3": [
+        "Enjoys working with seniors, is patient and caring and flexible availability"
+      ]
+    },
+    "failure_flags": [
+      "Agent 2 recommends highly qualified helpers with very high hourly rates. Rather than the skills or experience, the personality traits matter the most.",
+      "Agent 3 fails to back each recommendation with a supporting personality trait that the family needs"
+    ]
+  },
+  {
+    "family_id": "F007",
+    "difficulty": "medium",
+    "expected_agent1_confidence": {
+      "min": 0.4,
+      "max": 0.6
+    },
+    "eval_notes": "This is a medium difficulty case because the requirements are vague, not clearly stated. From the job description, the AI system must take the cue that the mother does not need a highly skilled helper for this job.The family is looking for a patient helper, mother does not like a fuss, cooking, cleaning and meal prep with some mobility assiatnce.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": "Can help with light and deep housekeeping, provide companionship, medication reminders, meal prep. She is available all weekdays, 7:30am to 12:30pm"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H002",
+        "name": "Patricia Williams",
+        "reason_for_rank": "Patricia describes herself as warm and patient and that she enjoys relationships that she builds with families. She can also help with medication reminders, meal prep, housekeeping, transportation assistance and provide companionship"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H007",
+        "name": "Donna Mitchell",
+        "reason_for_rank": "Donna says she is quiet and calm , can provide companionship and emotional suppport,  help with medication reminders, meal prep and light housekeeping. She is available all weekdays, 8:00am to 1:00pm"
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Rosa can help with light and deep housekeeping, important since the mother needs help with cleaning"
+      ],
+      "rank_2": [
+        "Warm and patient and enjoys relationships that she builds with families she cares for"
+      ],
+      "rank_3": [
+        "Can help provide companionship and emotional support, available on all weekdays from 8:00am to 1:00pm"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture crucial keywords for families needs like COPD, help with cleaning and cooking and medication reminders",
+      "Agent 2 generates reccommendations where helpers are highly qualified and may create a fuss",
+      "Agent 3 misses addressing family's pain points that is they need the helper to be like a companion to the mother and help with mobility and medication reminders"
+    ]
+  },
+  {
+    "family_id": "F008",
+    "difficulty": "medium",
+    "expected_agent1_confidence": {
+      "min": 0.5,
+      "max": 0.7
+    },
+    "eval_notes": "This case evaluates how well can the system understand the background of a careseeker and reccommend relevant helpers to them. Both the time preference and budget are not mentioned in the requirement, so that is an additional challenge. The grandfather is from a  cultural background, has memory loss, needs a helper who values his routine and does not rush him, understands his dietary requirements, helps with medication reminders, provides companionship and builds trust. From the description, it can be inferred that they require help in the morning hours.",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": "She is someone families can trust, is calm and private, can help with meal prep including special diets,light and deep housekeeping and medication reminders "
+      },
+      {
+        "rank": 2,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "She has called out in the bio that she does not rush, and she has extensive experience in caring for somebody with memory loss"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H013",
+        "name": "Fatima Hassan",
+        "reason_for_rank": "Come from a cultural background, has mentioned in her bio that she is even able to build trust with initially hesitant people, gentle and patient and can help with medication reminders, meal prep and housekeeping"
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Someone families can trust",
+        "can help with meal prep for special diets"
+      ],
+      "rank_2": [
+        "Does not rush",
+        "experience with memory loss"
+      ],
+      "rank_3": [
+        "Builds trust"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 does not capture cultural related, routine related preferences of the family",
+      "Agent 2 fails to recommend any helpers",
+      "Agent 2 recommends overly qualified helpers for this relatively basic job",
+      "Agent 3 fails to highlight personality traits of the helpers that the grandfather would like"
+    ]
+  },
+  {
+    "family_id": "F009",
+    "difficulty": "hard",
+    "expected_agent1_confidence": {
+      "min": 0.4,
+      "max": 0.6
+    },
+    "eval_notes": "This is a hard matching scenario because there is no budget , no clear requirements, no schedule, a very vague description of what the helper needs to do, which anyone can do including few times a week checking in on mom who sometimes forgets things, escalate to family if anything seems wrong and provide companionship",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H007",
+        "name": "Donna Mitchell",
+        "reason_for_rank": "She has been in companion care for 15 years, is calm and quiet and takes her cues from who she works with. She values the privacy and independence of clients like the family's mom in this case. She can also help with companionship and emotional support."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H002",
+        "name": "Patricia Williams",
+        "reason_for_rank": "She has 14 years of experience working with elderly in their homes, is warm and patient, can help with all chores including grocery and running errands. She also has experience working with patients that have early stage dementia"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H010",
+        "name": "Amara Osei",
+        "reason_for_rank": "She mentions that she notices things before they become a problem and has 9 years of experience in home-based elderly care. She can provide dementia-aware companionship and help with household chores."
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Transportation support",
+        "14 years of experience working with elderly in their homes"
+      ],
+      "rank_2": [
+        "15 years of companion care experience",
+        "values privacy and independence of clients"
+      ],
+      "rank_3": [
+        "notice things before they become a problem",
+        "dementia-aware companionship"
+      ]
+    },
+    "failure_flags": [
+      "Agent 3 fails to mirror family's language or fails to address concerns around their mother's well being",
+      "Agent 2 fails to recommend any helpers"
+    ]
+  },
+  {
+    "family_id": "F010",
+    "difficulty": "medium",
+    "expected_agent1_confidence": {
+      "min": 0.8,
+      "max": 0.9
+    },
+    "eval_notes": "This family needs a warm and easy to be around helper for their mother who is recovering from a mild stroke. Requirements include stroke monitoring and care, medication reminders, transportation support twice weekly. The biggest challenge that the system must understand which makes this a hard matching case is that the mother is funny and social, a very independent personality who does not like being rushed or made to feel like she is sick. So the helper must not be overly clinical, she does not want to have a medical professional in disguise. The helper  MUST NOT MAKE HER FEEL LIKE A PATIENT. Budget is 22-28 dollar",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H002",
+        "name": "Patricia Williams",
+        "reason_for_rank": "warm and patient and enjoys relationship build with families, can assist with transportation which is one of the most important requirement of the family. She can also help with medication reminders, meal prep and grocery shopping and errands."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H006",
+        "name": "Samuel Park",
+        "reason_for_rank": "Key personality match as Samuel describes himself as energetic, communicative and makes care fun and engaging which matches what the family is looking for. He does not have post-stroke care experience but can provide help with transportation"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "Margaret has 3 years of experience working with post-stroke clients. She is calm by nature and a good listener, she can provide medication reminders and mobility assistance though transportation is not directly mentioned."
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "transportation assistance",
+        "grocery shopping & errands"
+      ],
+      "rank_2": [
+        "energetic & communicative",
+        "makes care fun and engaging",
+        "not clinical",
+        "provide transportation"
+      ],
+      "rank_3": [
+        "3 years of post-stroke care experience"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture must have requirements in this case - non clinical helper, transportation assistance",
+      "Agent 2 suggests helpers based on qualifications rather than helpers that match the personality traits that the family is looking for"
+    ]
+  },
+  {
+    "family_id": "F011",
+    "difficulty": "no_match",
+    "expected_agent1_confidence": {
+      "min": 0.8,
+      "max": 1
+    },
+    "eval_notes": "The system must note 2 key requirements here - overnight support and sundowning management (agitation at night). The father has advanced dementia, he wanders, becomes agitated at night and needs around the clock support. Helper must provide 8pm - 8am  overnight live-in care,their budget is $25-$30/hour ",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H015",
+        "name": "Susan Baker",
+        "reason_for_rank": "Reliable and hard working, some experience working with elderly people. Flexible schedule"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H009",
+        "name": "Michael Torres",
+        "reason_for_rank": "Mornings preferred, but schedule is flexible. Has experience in dementia care."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H018",
+        "name": "Kevin Brown",
+        "reason_for_rank": "Flexible, no experience but patient and wants to help a family who needs support."
+      }
+    ],
+    "ideal_system_response": "Thank you for looking for care on our platform. We understand your requirements, and while we have helpers with experience managing sundowning and overall dementia care, currently none of those helpers have overnight availability. We are recommending helpers whose schedule is flexible and who may be open to working in the overnight hours; even though, they do not have direct dementia care experience.",
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Experience working with elderly people, flexible schedule"
+      ],
+      "rank_2": [
+        "Dementia Care Experience: Schedule is flexible."
+      ],
+      "rank_3": [
+        "Flexible, wants to help a family who needs support."
+      ]
+    },
+    "failure_flags": [
+      "Agent does not specify that the family needs two things: Somebody to help them with overnight care, someone to manage the nighttime agitation.  The first is definitely a deal breaker; the second is not.",
+      "Agent 2's recommendations are based on dementia care and not schedule",
+      "Agent 3 fails to address schedule gap on our platform in a way that convinces the family of our recommendations."
+    ]
+  },
+  {
+    "family_id": "F012",
+    "difficulty": "no_match",
+    "expected_agent1_confidence": {
+      "min": 0.8,
+      "max": 0.9
+    },
+    "eval_notes": "Mandarin requirement is esseantial, lack of which is a deal breaker.The grandmother needs companionship, meal assistance, light housekeeping and company for short walks, weekends 10am to 4 pm,",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "only mandarin speaking helper but not available on weekends."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H011",
+        "name": "Catherine Lee",
+        "reason_for_rank": "Speaks Cantonese but not Mandarin, is passionate about providing dignified and compassionate care but is not available on weekends"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H006",
+        "name": "Samuel Park",
+        "reason_for_rank": "Available on Saturdays, limited care experience"
+      }
+    ],
+    "ideal_system_response": "While we have highly qualified helpers on the platform, there is only one helper who actually speaks Mandarin, but her availability is limited to weekdays. I have recommended her to you along with another helper who speaks Cantonese. If she may work, I also recommended another helper who is available on Saturdays in case you want to consider someone who does not speak Mandarin but is available on one of the days of the weekend.",
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Mandarin speaking."
+      ],
+      "rank_2": [
+        "Cantonese speaking"
+      ],
+      "rank_3": [
+        "Available on Saturdays"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to prioritize Mandarin as a deal-breaker requirement.",
+      "Agent 2 returns no matching helpers.",
+      "Agent 3 does not recommend helpers that match some aspects and instead accepts that we not have a clear match."
+    ]
+  },
+  {
+    "family_id": "F013",
+    "difficulty": "no_match",
+    "expected_agent1_confidence": {
+      "min": 0.8,
+      "max": 1
+    },
+    "eval_notes": "Brother is diagnosed with multiple sclerosis, he is 34 and needs someone of same age to provide companionship who understands MS. Those are 2 of his critical requirements. He has had bad experiences of elderly helpers who were not comfortale with younger people with serious disability. The schedule requirement is weekdays 8am to 2pm, budget is $28-$33/hour. He needs support with mobility, dressing up, fall risk, meal prep",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H006",
+        "name": "Samuel Park",
+        "reason_for_rank": "He is 29 years old,he is young and in a similar range as the brother. He has 5 years of experience working with adults with special needs and developmental disabilities. Schedule is a match too."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H011",
+        "name": "Catherine Lee",
+        "reason_for_rank": "39 years old, Can provide personal care and help with other chores, believess in providing compassionate care"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H009",
+        "name": "Michael Torres",
+        "reason_for_rank": "Age is 35 years old, Can help with personal care, medication reminders, meal prep, and other chores. Schedule is flexible."
+      }
+    ],
+    "ideal_system_response": "Unfortunately we do not have any helpers that have experience working with clients having multiple sclerosis. However we do have helpers that are closer to your brother in age and are compassionate care providers. Happy to recommend three such helpers to you",
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "5 years of experience working with adults with disabilities"
+      ],
+      "rank_2": [
+        "39 years old",
+        "Provides personal care"
+      ],
+      "rank_3": [
+        "35 years old",
+        "Can help with personal care and medication reminders",
+        "Schedule is flexible"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 does not highlight that age and disability experience are primary criteria.",
+      "Agent 2 does not recommend any helpers or recommends older helpers.",
+      "Agent 3 fails to address the primary needs cap on our platform and fails to specify how the recommended helpers have some aspects of the job."
+    ],
+    "acceptable_rank_1": [
+      "H006",
+      "H003"
+    ]
+  },
+  {
+    "family_id": "F014",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.9,
+      "max": 1
+    },
+    "eval_notes": "This case is a clear matching case where the requirements are neatly listed. The father had a stroke 3 months ago. He needs support with mobility, meal prep and medication reminders on weekdays between 8am to 1pm. The family is on a strict budget 28$/hour and they need a reliable helper who is experienced with stroke recovery",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "3 years post-stroke care experience listed. Availability fully covers the family's needs. Can help with mobility assistance and medication reminders. However, slightly over the strict budget of the family but may be open to negotiation."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H011",
+        "name": "Catherine Lee",
+        "reason_for_rank": "Availability covers the family's requirements. Can help with personal care and medication."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H009",
+        "name": "Michael Torres",
+        "reason_for_rank": "7 years of overall experience with experience in post-surgical care"
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "3 years post stroke care",
+        "available for the family's schedule"
+      ],
+      "rank_2": [
+        "Available for the schedule",
+        "Fits within the budget"
+      ],
+      "rank_3": [
+        "7 years of overall experience"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to capture the must-have requirement of $28/hour budget for helper.",
+      "Agent 2 recommends helpers that neither fit the schedule nor have post-surgical care/ post-stroke care experience.",
+      "Agent 3 fails to mirror the family's language to explain the recommendations."
+    ]
+  },
+  {
+    "family_id": "F015",
+    "difficulty": "hard",
+    "expected_agent1_confidence": {
+      "min": 0.7,
+      "max": 0.8
+    },
+    "eval_notes": "This is a hard matching case because the budget is tight and is very low $13-15 an hour. Schedule is vague but the family needs morning support a few mornings in a week. The helper should be able to help with meals, light housekeeping and companionship.The mother also has early memory loss",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H015",
+        "name": "Susan Baker",
+        "reason_for_rank": "Has worked with elderly people before. Has flexible schedule, reliable and hard working"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H017",
+        "name": "Maria Garcia",
+        "reason_for_rank": "Has experience caring for elderly people, can help with light cleaning and cooking. Has specified schedule Mon to Fri, is available morning or afternoon."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H019",
+        "name": "Ashley Johnson",
+        "reason_for_rank": "Has no experience but fits within budget and matches schedule. Loves meeting new people and enjoys keeping busy, quick learner, energetic and friendly."
+      }
+    ],
+    "ideal_system_response": "We have recommended three Helpers to you that match your schedule and are closer to your budget range. Two of them have experience working with the elderly; however, due to the strict budget constraint, we are not directly able to find helpers that have direct experience working with seniors having memory loss.",
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Has elderly care experience",
+        "reliable and hard working"
+      ],
+      "rank_2": [
+        "Experience working with elders",
+        "Can help with cooking and cleaning"
+      ],
+      "rank_3": [
+        "reliable schedule"
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 missed capturing the key constraint of budget.",
+      "Agent 2 suggests helpers beyond the family budget and prioritizes qualifications more than the budget.",
+      "Agent 3 is not able highlight the positives of the helpers shared"
+    ]
+  },
+  {
+    "family_id": "F016",
+    "difficulty": "clear",
+    "expected_agent1_confidence": {
+      "min": 0.9,
+      "max": 1
+    },
+    "eval_notes": "The system must understand that for this family, having a female helper is a deal breaker requirement. The schedule is weekday morning, Mon to Fri 8 am to 12pm to support with companionship, light housekeeping and meal prep. The mother does not have any medical conditions, only needs a helper for safety and company. Mother is private and values routine, budget is $24-$30/hour",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H007",
+        "name": "Donna Mitchell",
+        "reason_for_rank": "She's 15 years of experience in companion care, is available during the slots that the family needs her, is a woman, and respects privacy and independence of the client."
+      },
+      {
+        "rank": 2,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": "She has 22 years of experience working for elderly people.She describes herself as calm and private. She can help with housekeeping, meal prep, and companionship. Her availability matches the family's required schedule."
+      },
+      {
+        "rank": 3,
+        "helper_id": "H010",
+        "name": "Amara Osei",
+        "reason_for_rank": "She has nine years of experience in home-based elderly care. She is warm, patient, and proactive, and she has listed safety monitoring as one of her skills. Also matches the family's schedule requirement."
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "Private person",
+        "provides safety monitoring"
+      ],
+      "rank_2": [
+        "Calm and private"
+      ],
+      "rank_3": [
+        "Warm and patient",
+        "safety monitoring."
+      ]
+    },
+    "failure_flags": [
+      "Agent 1 fails to emphasize the importance of companionship and safety for the family and of having a helper who respects the routine and private nature of the mother.",
+      "Agent 2 recommends male helpers or fails to recognize a male helper from the name.",
+      "Agent 3 does not explain the recommendations in a language that mirrors family's requirements."
+    ]
+  },
+  {
+    "family_id": "F017",
+    "difficulty": "hard",
+    "expected_agent1_confidence": {
+      "min": 0.8,
+      "max": 0.9
+    },
+    "eval_notes": "This is a hard case where the family has clearly specified a must-have requirement, which is that the helper should be a South Asian person. This is to make sure that the grandmother, who is also from the same cultural background, is comfortable with the helper. She has mild memory issues, needs weekday morning support with companionship, light housekeeping, medication reminders, meal prep and companionship. Budget is $25-$30/hour",
+    "expected_top_3": [
+      {
+        "rank": 1,
+        "helper_id": "H014",
+        "name": "Diana Patel",
+        "reason_for_rank": "Only South Asian helper, has cared for her mother for 9 years, deep lived understanding of Dementia"
+      },
+      {
+        "rank": 2,
+        "helper_id": "H004",
+        "name": "Rosa Mendez",
+        "reason_for_rank": "She has 22 years of experience working for elderly people.She describes herself as calm and private. She can help with housekeeping, meal prep, and companionship"
+      },
+      {
+        "rank": 3,
+        "helper_id": "H001",
+        "name": "Margaret Chen",
+        "reason_for_rank": "CDP certified, 8 yrs dementia/memory focus, routine-aware"
+      }
+    ],
+    "ideal_explanation_must_include": {
+      "rank_1": [
+        "South Asian background",
+        "Hindi/Gujarati speaker"
+      ],
+      "rank_2": [
+        "22 years of experience",
+        "memory care specialist"
+      ],
+      "rank_3": [
+        "Eight years memory focus"
+      ]
+    },
+    "ethical_handling_criteria": "We understand and respect your preferences. We have one helper from the same cultural background that is included in the recommendations. However, we also want to share the best matches who may not be from the same cultural background but are ranked highly for their exceptional caregiving and extensive experience.",
+    "failure_flags": [
+      "Agent 1 misses the deal-breaker criteria of South Asian background.",
+      "Agent 2 recommends only one helper or does not recommend any helpers.",
+      "Agent 3 does not address the cultural preference while recommending helpers."
+    ]
+  }
+]

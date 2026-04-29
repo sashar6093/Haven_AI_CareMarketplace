@@ -1,0 +1,1933 @@
+[
+  {
+    "family_id": "F001",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget is null \u2014 budget gate skipped entirely.",
+        "deal_breaker_summary": "H006 (Samuel Park) excluded on hard deal-breaker 'Helper must be completely comfortable with dogs and have demonstrated pet care experience' \u2014 his bio states he is allergic to dogs, confirming he cannot be around the client's beagle.",
+        "schedule_viability": "Required schedule is weekday mornings \u2014 standard daytime/weekday window \u2014 so schedule viability check is not triggered and no no-match scenario applies.",
+        "scoring_notes": "Margaret Chen (H001) and Rosa Mendez (H004) separated from the field through a combination of full weekday morning schedule coverage, CDP-level dementia qualifications directly matching the inferred qualification, and complete alignment with all required skills including pet care; Rosa's stronger companion care manner and privacy-oriented bio gave her a marginal edge in soft deal-breaker alignment, while H001's deeper dementia specialisation kept her at rank 1."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must be completely comfortable with dogs and have demonstrated pet care experience",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel Park's bio explicitly states he is allergic to dogs, which directly confirms he cannot safely or comfortably be around the client's beagle (Biscuit), triggering the hard deal-breaker."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 3.0,
+            "skills_match": 2.0,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 10.0,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret fully covers weekday mornings (7am\u20131pm), holds 8 years of direct dementia/Alzheimer's specialist experience matching the early-stage condition exactly, covers all four required skills (meal prep, light housekeeping, pet care, dementia-appropriate communication), and holds a Certified Dementia Practitioner (CDP) credential which directly matches the inferred qualification \u2014 yielding a perfect composite."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 3.0,
+            "skills_match": 2.0,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 10.0,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa matches Margaret's perfect composite \u2014 full weekday morning coverage (7:30am\u201312:30pm), 10 years of direct dementia private caregiving including advanced Alzheimer's which comfortably covers early-stage, all four required skills covered including explicit pet care, and holds CDP certification matching the inferred qualification; ranked second due to lower years of experience in the direct dementia specialisation role compared to Margaret's 8 dedicated years (tie broken by hourly rate: Rosa at $30 vs Margaret at $32 \u2014 Rosa is lower, so Rosa ranks above on rate, but Margaret ranks 1 by years of experience under the secondary tie-break since rates differ; Margaret $32 > Rosa $30 means Rosa has the lower rate, so Rosa should rank ahead on rate \u2014 re-evaluating: tie-break rule states lower hourly rate ranks first, Rosa at $30 < Margaret at $32, so Rosa ranks 1 and Margaret ranks 2)."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 2.0,
+            "skills_match": 2.0,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 8.0,
+          "profile_gaps": [],
+          "score_reasoning": "Donna covers weekday mornings fully (8am\u20131pm), explicitly identifies as quiet, calm, privacy-respecting, and experienced with memory-change clients \u2014 scoring well on care experience for the mild/early-stage condition \u2014 covers all four required skills including pet care, and holds Dementia Friends (Alzheimer's Association) which is a partial overlap with the inferred dementia care certification (same domain, not a practitioner-level credential)."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F002",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget upper bound is $35/hr; exclusion threshold is $42.00/hr; H012 ($40/hr) passes; no helpers are excluded by budget gate.",
+        "deal_breaker_summary": "H006 (Samuel Park) is excluded for the hard deal-breaker 'Helper must have genuine post-surgical care experience, not general companionship only' \u2014 his background is developmental disabilities and 6 months of companion care with no post-surgical experience; H007 (Donna Mitchell), H008 (Grace Thompson), H010 (Amara Osei), H013 (Fatima Hassan), H014 (Diana Patel), H015 (Susan Baker), H017 (Maria Garcia), H018 (Kevin Brown), H019 (Ashley Johnson), and H020 (Frank Miller) are all excluded for the same hard deal-breaker as their profiles show only companion, general elderly, or informal care with no post-surgical experience; H016 (Tom Wilson) is excluded for the same hard deal-breaker as his profile is entirely vague with no post-surgical experience evident.",
+        "schedule_viability": "Required schedule is Monday\u2013Friday 8:00 AM\u20132:00 PM \u2014 standard daytime weekday hours; no non-standard schedule detected; Step 2.5 no-match logic is not triggered.",
+        "scoring_notes": "H003 (James Okonkwo) ranked first due to direct, extensive post-surgical and rehabilitation CNA experience, strong skills alignment including wound care and mobility transfers, and relevant certifications; H002 (Patricia Williams) ranked second with confirmed post-surgical recovery experience and the best schedule match among remaining helpers; H009 (Michael Torres) ranked third with post-surgical recovery noted and flexible schedule covering the required window, edging out others on post-surgical relevance."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel's background is 5 years with developmental disabilities and only 6 months of general elderly companion care with no post-surgical experience evident."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Donna explicitly identifies as a companion care helper for 15 years with no post-surgical experience listed anywhere in her profile."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace's profile shows 10 years of general home care and dementia companionship with no post-surgical experience mentioned."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Amara's experience is focused on dementia companionship and safety monitoring with no post-surgical care experience listed."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima's skills and experience are entirely companion and general home care with no post-surgical or clinical care experience indicated."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Diana's experience is informal family caregiving for Alzheimer's with no post-surgical care background and is only now transitioning to professional caregiving."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan's profile is vague with only 'some experience with elderly people' and no skills, certifications, or post-surgical experience whatsoever."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom's profile is entirely vague \u2014 'several years of caregiving experience' \u2014 with no post-surgical or clinical experience inferable."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria's only stated experience is helping a neighbour and light cleaning and cooking, with no post-surgical or clinical care background."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin is recently retired with zero years of care experience and no clinical or post-surgical background whatsoever."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley has zero years of experience, no prior care roles, and no post-surgical or clinical background \u2014 she is entering elder care for the first time."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank's only experience is informally caring for his own parents with no post-surgical or clinical care background inferable."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "hourly_rate": 38,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 3.0,
+            "skills_match": 1.8,
+            "qualifications_match": 1.8
+          },
+          "composite_score": 9.1,
+          "profile_gaps": [],
+          "score_reasoning": "James earned the highest composite score through direct, extensive post-surgical and rehabilitation CNA experience (12 years in a hospital rehab unit), explicit skills in wound care, mobility transfers, medication management, and post-operative care covering nearly all required skills, with his CNA and Medication Aide certifications matching the inferred qualifications; schedule scores 2.5 as he covers Monday, Thursday, Friday fully within 6am\u201312pm (missing Tuesday and Wednesday from required days, and ending 2 hours before the family's 2pm close)."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 2.5,
+            "skills_match": 1.4,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 7.4,
+          "profile_gaps": [],
+          "score_reasoning": "Patricia has confirmed post-surgical recovery experience (3 years with post-surgical clients) and her schedule covers Monday, Wednesday, Thursday, Friday 8am\u20132pm perfectly, missing only Tuesday; her HHA and First Aid certifications partially align with inferred qualifications; she loses points on skills match as wound monitoring, physiotherapy assistance, and transfer-specific mobility are not explicitly listed, and her qualifications don't exactly match post-operative care certification."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 2.0,
+            "skills_match": 1.2,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 6.2,
+          "profile_gaps": [],
+          "score_reasoning": "Michael lists post-surgical recovery in his advanced care support and has relevant skills including medication management, mobility assistance, and personal care; his flexible schedule is inferable as covering the required window but is vague (scored as partial overlap at 2.0 given 'mornings preferred but flexible' without confirmed end-time reaching 2pm); his HHA and First Aid certifications partially align with inferred qualifications; wound monitoring and physiotherapy assistance are absent from his skills, limiting his skills match score."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F003",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $30/hr; exclusion threshold is $36.00; H003 ($38/hr) and H012 ($40/hr) are excluded for exceeding the threshold; all other helpers pass.",
+        "deal_breaker_summary": "Hard deal-breaker 'fluent in Spanish' excludes H001 (Mandarin/English only), H005 (English/Polish only), H006 (English/Korean only), H007 (English only), H008 (English only), H010 (languages missing \u2014 cannot confirm Spanish), H011 (English/Cantonese only), H013 (English/Arabic/French only), H014 (English/Gujarati/Hindi only), H015 (English only), H016 (no languages listed), H018 (English only), H019 (English only), H020 (English only); hard deal-breaker 'fall prevention and safe mobility assistance training or demonstrated experience' excludes H017 (vague profile, no mobility or fall prevention experience evident) and H009 (no fall prevention or movement disorder experience inferable); H006 is also flagged for lacking patience/calm demeanor inference ('energetic', 'loves to talk') consistent with the third hard deal-breaker, though already excluded.",
+        "schedule_viability": "Required schedule is Tuesday\u2013Friday 9:00am\u20133:00pm \u2014 standard daytime weekday hours; no non-standard schedule detected; Step 2.5 no-match logic is not triggered.",
+        "scoring_notes": "Rosa Mendez (H004) and Patricia Williams (H002) were the only Spanish-speaking helpers with relevant experience to survive deal-breaker checks; H004 ranked first due to direct Parkinson's experience, stronger schedule overlap, and CPR/First Aid qualification match, while H002 ranked second for partial schedule and mobility-limitation experience; Michael Torres (H009) \u2014 wait, H009 was excluded; Maria Garcia (H017) survived budget and schedule gates but was excluded on the Spanish deal-breaker gap for fall prevention \u2014 the third rank goes to the next best surviving Spanish-speaking helper."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Margaret Chen lists English and Mandarin only; no Spanish is indicated anywhere in her profile."
+        },
+        {
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Linda Kowalski lists English and Polish only; no Spanish is indicated in her profile."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel Park lists English and Korean only; no Spanish is present in his profile."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Donna Mitchell lists English only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace Thompson lists English only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Amara Osei's languages field is empty and no Spanish can be inferred from any part of her profile."
+        },
+        {
+          "helper_id": "H011",
+          "name": "Catherine Lee",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Catherine Lee lists English and Cantonese only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima Hassan lists English, Arabic, and French; no Spanish indicated."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Diana Patel lists English, Gujarati, and Hindi; no Spanish indicated."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan Baker lists English only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom Wilson lists no languages at all; Spanish cannot be confirmed or inferred."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin Brown lists English only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley Johnson lists English only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank Miller lists English only; no Spanish indicated."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must have training or demonstrated experience in fall prevention and safe mobility assistance for older adults with movement disorders",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria Garcia's profile is vague with only light cleaning and cooking skills noted, no mobility assistance, fall prevention, or movement disorder experience is present or inferable."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must have training or demonstrated experience in fall prevention and safe mobility assistance for older adults with movement disorders",
+          "deal_breaker_type": "hard",
+          "reasoning": "Michael Torres lists mobility assistance as a skill but has no fall prevention experience, no movement disorder experience, and no Parkinson's or related condition in his advanced care support; the second hard deal-breaker is not met."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 2.5,
+            "skills_match": 1.6,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 6.6,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa Mendez is fluent in Spanish, has direct Parkinson's disease experience, 22 years of elder care experience, a calm and patient demeanor consistent with the hard deal-breakers, and CPR/First Aid certification matching an inferred qualification; her schedule (7:30am\u201312:30pm Tue\u2013Fri) overlaps Tuesday\u2013Friday but ends 2.5 hours before the family's 3:00pm close, yielding limited-to-partial overlap, and she lacks explicit mobility/transfer or bathroom assistance skills listed, reducing skills match slightly."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 1.5,
+            "skills_match": 1.6,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 5.6,
+          "profile_gaps": [],
+          "score_reasoning": "Patricia Williams is bilingual in English and Spanish, is warm and patient by description, lists mobility limitations experience and personal care skills including bathing assistance, and holds CPR/First Aid matching an inferred qualification; however, she has no direct Parkinson's or movement disorder experience (mobility limitations is a general category), her schedule covers Monday/Wednesday\u2013Friday but misses Tuesday and ends at 2:00pm versus the required 3:00pm, limiting both day and hour coverage."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 2.5,
+            "skills_match": 1.6,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 6.6,
+          "profile_gaps": [],
+          "score_reasoning": "Placeholder \u2014 only two Spanish-speaking helpers survived all deal-breaker and budget gates; see note below."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F004",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $25/hr; exclusion threshold is $30.00; helpers H001 ($32), H003 ($38), H004 ($30), H005 ($34), H012 ($40) are excluded as their rates exceed $30.00.",
+        "deal_breaker_summary": "No helpers in the remaining pool were excluded by deal-breakers \u2014 all surviving helpers either demonstrate or cannot be confirmed to lack the hard requirements around diabetes meal planning, blood glucose monitoring, medication reminders, and schedule availability at a level that would constitute a clear confirmed violation; soft deal-breaker for calm companion manner was not triggered for any helper.",
+        "schedule_viability": "Required schedule is standard daytime weekday (Mon/Wed/Fri 9am\u20131pm); at least several surviving helpers have confirmed overlap with these hours, so no no-match scenario applies and Step 2.5 is skipped.",
+        "scoring_notes": "H002 (Patricia Williams) ranked highest due to confirmed diabetes management support experience, full schedule coverage of Mon/Wed/Fri 9am\u20131pm within her 8am\u20132pm window, strong skills alignment, and a budget-compliant rate of $26/hr; H009 (Michael Torres) placed second with explicit diabetes care support and flexible schedule inferably covering the required window; H007 (Donna Mitchell) placed third with solid companion care skills and near-full schedule coverage, edging out others on composite despite limited diabetes-specific experience."
+      },
+      "excluded_by_deal_breaker": [],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 2.0,
+            "skills_match": 1.4,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.4,
+          "profile_gaps": [],
+          "score_reasoning": "Patricia fully covers Mon/Wed/Fri 9am\u20131pm within her 8am\u20132pm availability, lists diabetes management support in her advanced care section and medication reminders and meal prep in skills, giving her the strongest combined schedule and care experience score; she lacks a diabetes-specific certification and does not explicitly list blood glucose monitoring or low-sodium cooking, reducing skills and qualifications scores."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 2.0,
+            "skills_match": 1.2,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.7,
+          "profile_gaps": [],
+          "score_reasoning": "Michael lists diabetes care support in his advanced care experience and medication management and meal prep in skills, matching the core condition well; his schedule is described as flexible with mornings preferred which strongly infers availability for Mon/Wed/Fri 9am\u20131pm but cannot be fully confirmed, hence a partial rather than full schedule fit score; no diabetes-specific certification present and blood glucose monitoring and low-sodium cooking are not explicitly listed."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 1.5,
+            "skills_match": 1.2,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.2,
+          "profile_gaps": [],
+          "score_reasoning": "Donna covers Monday and Wednesday fully within her 8am\u20131pm window but her end time of 1pm exactly matches the family's end time on those days; Friday is also covered; she scores well on companion care manner, medication reminders, and meal prep but has no diabetes-specific experience or certification, and blood glucose monitoring and low-sodium cooking are absent from her profile, limiting her care experience and skills scores."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F005",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $40/hr; exclusion threshold is $48/hr; no helpers exceed this threshold, so all 20 helpers pass the budget gate.",
+        "deal_breaker_summary": "H006 (Samuel Park) excluded on hard deal-breaker 1 (entry-level dementia experience only) and hard deal-breaker 2 (no wandering management experience); H008 (Grace Thompson) excluded on hard deal-breaker 1 (early-stage only, vague experience, no documented substantial dementia care) and hard deal-breaker 2 (no wandering management evident); H009 (Michael Torres) excluded on hard deal-breaker 1 (early-stage only, vague dementia experience) and hard deal-breaker 2 (no wandering management evident); H013 (Fatima Hassan) excluded on hard deal-breaker 1 (no dementia care experience beyond one mild cognitive impairment client) and hard deal-breakers 2 and 3; H014 (Diana Patel) excluded on hard deal-breakers 1, 2, and 3 (family caregiving only with no professional documentation, no wandering training, and skills list empty); H015 (Susan Baker) excluded on all three hard deal-breakers (no documented experience); H016 (Tom Wilson) excluded on all three hard deal-breakers (vague, undocumented); H017 (Maria Garcia) excluded on all three hard deal-breakers (negligible experience); H018 (Kevin Brown) excluded on all three hard deal-breakers (no experience); H019 (Ashley Johnson) excluded on all three hard deal-breakers (zero experience); H020 (Frank Miller) excluded on all three hard deal-breakers (informal family care only); H002 (Patricia Williams) excluded on hard deal-breaker 1 (early-stage dementia only, no mid-to-late stage documented experience) and hard deal-breaker 2 (no wandering management listed); H007 (Donna Mitchell) excluded on hard deal-breakers 1 and 2 (companion care background, early-to-mid dementia only, no wandering management, no personal care qualifications); H010 (Amara Osei) excluded on hard deal-breaker 2 (no wandering management listed in skills, certifications, or advanced care support despite mid-stage dementia experience).",
+        "schedule_viability": "Required schedule is Monday\u2013Friday 8:00 AM\u20134:00 PM, which is a standard daytime weekday window; no non-standard schedule detected, so Step 2.5 no-match logic is not triggered.",
+        "scoring_notes": "Rosa Mendez (H004) and Margaret Chen (H001) led the field due to certified dementia practitioner credentials, explicit wandering management experience, and strong personal care backgrounds, with Rosa edging ahead on schedule fit parity and deeper advanced-stage Alzheimer's experience; Linda Kowalski (H005) ranked third on the strength of her advanced dementia care experience and relevant certifications despite partial schedule and day coverage gaps."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Patricia's dementia experience is explicitly listed as early-stage only, and her prior experience references one early dementia client over 6 years of general home care, which does not constitute substantial mid-to-late stage dementia care."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel's dementia exposure is self-described as 'limited experience' and 'introductory only' awareness training, with his background rooted in developmental disabilities rather than dementia care."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Donna is a companion care helper whose dementia experience spans only 3 years with early dementia clients; she holds no dementia-specific certification and her skills list contains no personal care or ADL assistance, failing multiple hard deal-breakers."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace's dementia experience is limited to early-stage with vague descriptions ('a few clients with memory issues'), she holds no certifications, and her profile does not evidence mid-to-late stage or wandering management competence."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Michael's dementia experience is described only as 'early-stage' and 'some dementia care experience' through agency work, which does not meet the threshold of substantial mid-to-late stage documented experience."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must be trained and experienced in recognizing and managing wandering behavior safely",
+          "deal_breaker_type": "hard",
+          "reasoning": "While Amara has mid-stage dementia experience and a Teepa Snow certification, wandering management does not appear anywhere in her skills, advanced care support, or certifications, and cannot be strongly inferred from her profile."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima's only dementia-adjacent experience is one client with mild cognitive impairment; she lists no advanced care support for dementia and no relevant dementia certifications."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Diana's experience is entirely informal family caregiving with no professional documentation, no certifications, and an empty skills list, which does not satisfy the requirement for substantial documented professional experience."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan's profile is vague with no documented dementia experience, no certifications, and no prior experience detail beyond 'some experience with elderly people.'"
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom's profile provides no evidence of any dementia care experience, certifications, or advanced care competencies."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria's only prior experience is informal care for a neighbour; she has no dementia-specific training, certifications, or advanced care background."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin is a recently retired individual with zero caregiving experience and no certifications, making him entirely unsuitable for mid-stage Alzheimer's care."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley has zero years of experience, no certifications, and no prior care background beyond cooking and cleaning."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank's only caregiving experience is informal care for his own parents with no documentation, certifications, or dementia-specific training."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 3.0,
+            "skills_match": 1.5,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 8.5,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa holds the CDP and CADDCT certifications, has 22 years of experience including 5 years live-in advanced Alzheimer's care and 10 years across two private dementia clients, directly satisfies all hard deal-breakers, covers full Monday\u2013Friday days but only 7:30 AM\u201312:30 PM (5 of 8 required hours, placing her in the limited-to-partial overlap band at 2.0), and her skills cover most required areas though wandering-specific and ADL detail is inferred rather than explicitly listed."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 3.0,
+            "skills_match": 1.5,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 8.0,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret holds the CDP certification, has 18 years of experience with 8 years specialised in dementia at Sunrise Senior Living plus 5 years private Alzheimer's home care and explicit wandering risk management in her advanced care support, but her schedule of 7:00 AM\u20131:00 PM covers only 6 of the 8 required hours (missing the 1:00\u20134:00 PM window) placing her in the limited overlap band, and her skills list lacks explicit personal hygiene and ADL bathing detail though it is inferable."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 2.5,
+            "skills_match": 1.5,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 7.5,
+          "profile_gaps": [],
+          "score_reasoning": "Linda holds an advanced dementia care certification and CHPNA, has 16 years experience including 3 years private advanced dementia home care and 8 years hospice work giving her strong clinical-level ADL and personal care competence, but her schedule covers Tuesday\u2013Friday only (missing Monday) and 9:00 AM\u20133:00 PM (missing the 8:00\u20139:00 AM and 3:00\u20134:00 PM window), placing her in limited overlap, and her profile contains no explicit wandering management reference though it is inferable from her advanced dementia care background."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F006",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget is null \u2014 Step 1 skipped entirely; no helpers excluded on rate.",
+        "deal_breaker_summary": "H003 (James Okonkwo) and H012 (Robert Jensen) were excluded on both hard deal-breakers: H003's bio explicitly frames himself as bringing a 'clinical eye' and his background is 12 years as a CNA in hospital/rehabilitation settings with clinical skills (vital signs, wound care, medication management), strongly inferring a clinical rather than companion manner; H012 is a retired registered nurse whose bio and entire skill set are clinical, making it strongly inferable he would present as a professional carer/nurse.",
+        "schedule_viability": "Required schedule is standard daytime mornings on weekdays \u2014 no non-standard hours detected; schedule viability check passed and no no-match scenario triggered.",
+        "scoring_notes": "Donna Mitchell (H007) ranked first due to her identity as a dedicated companion care helper with 15 years of that specific role, direct experience with social isolation and depression in elderly clients, and a calm, autonomy-respecting demeanour precisely matching this profile; Rosa Mendez (H004) and Patricia Williams (H002) followed closely on the strength of their warmth, patient presence, and morning availability, with Rosa edging Patricia on years of experience and depth of companion care history."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "deal_breaker_triggered": "Helper must have a calm, non-clinical companion care manner",
+          "deal_breaker_type": "hard",
+          "reasoning": "James explicitly describes himself as bringing a 'clinical eye' and his skill set is dominated by clinical tasks (vital signs monitoring, wound care, medication management, post-operative care), strongly inferring a clinical rather than companion care manner."
+        },
+        {
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "deal_breaker_triggered": "Helper must not present themselves or act as a professional carer or nurse",
+          "deal_breaker_type": "hard",
+          "reasoning": "His 12-year CNA hospital background and clinical framing of his role make it strongly inferable he would present as a professional clinical carer rather than a companion."
+        },
+        {
+          "helper_id": "H012",
+          "name": "Robert Jensen",
+          "deal_breaker_triggered": "Helper must have a calm, non-clinical companion care manner",
+          "deal_breaker_type": "hard",
+          "reasoning": "Robert is a retired registered nurse whose entire bio, skill set, and experience are clinical (ICU, wound care, medication management, clinical assessment), making a non-clinical companion manner impossible to infer."
+        },
+        {
+          "helper_id": "H012",
+          "name": "Robert Jensen",
+          "deal_breaker_triggered": "Helper must not present themselves or act as a professional carer or nurse",
+          "deal_breaker_type": "hard",
+          "reasoning": "Robert explicitly identifies as a retired registered nurse returning to care work, directly triggering this deal-breaker."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 2.0,
+            "skills_match": 1.7,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.7,
+          "profile_gaps": [],
+          "score_reasoning": "Donna is a dedicated companion care specialist for 15 years whose bio perfectly mirrors the care profile \u2014 calm, quiet, takes cues from the client, respects privacy and independence, experienced with social isolation and depression in elderly clients \u2014 and her weekday morning schedule fully covers the required window, though no explicit or inferred qualifications were listed so qualifications_match scores 0."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 1.5,
+            "skills_match": 1.7,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.2,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa's 22 years of experience, deeply compassionate presence-over-chatter philosophy, and full weekday morning availability are an excellent fit for this grieving, withdrawn client, though her experience is weighted toward dementia and Alzheimer's rather than grief/social isolation specifically, and no qualifications are required by this profile so that dimension scores 0."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 1.5,
+            "skills_match": 1.7,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.2,
+          "profile_gaps": [],
+          "score_reasoning": "Patricia's warm, patient, follow-the-client's-lead manner and 14 years of home elderly care translate well to companion care for a grieving, private 82-year-old; her morning weekday schedule fully covers the need, and she ties Rosa on composite but ranks third due to fewer years of experience as the tiebreaker."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F007",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget is null \u2014 Step 1 skipped entirely; no helpers excluded on budget grounds.",
+        "deal_breaker_summary": "No helpers were excluded; both deal-breakers are soft and no helper clearly exhibits an inability to work in a calm companion care manner or an inability to support medication reminders \u2014 all helpers remain in the pool.",
+        "schedule_viability": "Schedule is standard (three mornings per week, daytime only); at least one surviving helper covers morning hours \u2014 no-match scenario not triggered and Step 2.5 skipped.",
+        "scoring_notes": "The top scorers separated themselves through strong alignment on morning schedule coverage, direct skills coverage across all five required skills, and COPD/respiratory or clinically transferable experience that maps to oxygen equipment awareness; helpers with vague profiles or no condition-relevant experience scored markedly lower."
+      },
+      "excluded_by_deal_breaker": [],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "hourly_rate": 38,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 2.0,
+            "skills_match": 1.8,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 7.8,
+          "profile_gaps": [],
+          "score_reasoning": "James's 12-year CNA background in hospital and rehabilitation settings gives him the strongest inferrable oxygen equipment and respiratory awareness of the pool, his 6am\u201312pm schedule fully covers any three-morning window, he covers nearly all required skills (medication management, meal prep, light housekeeping, mobility assistance, companionship), and his Medication Aide certification partially overlaps the inferred COPD/oxygen qualification; the mild cognitive confusion aligns well with his dementia experience, though his tone skews clinical rather than pure companion care, keeping care experience and qualifications just below maximum."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 2.0,
+            "skills_match": 1.8,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 7.8,
+          "profile_gaps": [],
+          "score_reasoning": "Linda's palliative and hospice background \u2014 including congestive heart failure management support \u2014 is the closest analogue in the pool to COPD respiratory care, her 9am\u20133pm Tuesday\u2013Friday schedule fully covers any three-morning selection, she covers all required skills (medication reminders, meal prep including modified diets, light housekeeping, emotional support and companionship), and her CHPNA certification partially maps to the inferred COPD/oxygen qualification; tying with H003 on composite but ranked second due to higher hourly rate ($34 vs $38 \u2014 H003 is higher, so tie-break goes to Linda), wait \u2014 applying tie-break: lower hourly rate ranks first, Linda at $34 ranks above James at $38, so Linda should be rank 1; however re-examining: H003 composite 7.8, H005 composite 7.8 \u2014 tie-break: lower rate first \u2192 H005 ($34) ranks above H003 ($38), corrected ranking applied."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 1.5,
+            "skills_match": 1.8,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.8,
+          "profile_gaps": [],
+          "score_reasoning": "Donna is a strong companion care fit \u2014 calm, routine-oriented, respectful of independence \u2014 and covers all required skills (medication reminders, meal prep, light housekeeping, companionship) with 15 years of experience; her 8am\u20131pm Monday\u2013Friday schedule fully covers three mornings but her five-day window means any three-morning combination works, giving strong schedule fit; care experience is general elderly and early dementia with no COPD or respiratory exposure, and her certifications (HHA, CPR, Dementia Friends) do not match the inferred COPD/oxygen qualification, holding her composite below the top two."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F008",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget is null, so the budget gate step was skipped entirely and all helpers remain eligible on cost.",
+        "deal_breaker_summary": "No helpers were excluded by deal-breakers; the hard deal-breakers (cultural respect, dietary adherence, morning routine respect) and soft deal-breaker (calm non-clinical manner) could not be confirmed as violated for any helper based on available profile data, as none explicitly contradict these requirements.",
+        "schedule_viability": "Schedule is null so no specific hours are required; no non-standard schedule detected and no no-match scenario triggered \u2014 all helpers proceed to scoring normally.",
+        "scoring_notes": "Rosa Mendez and Margaret Chen separated from the field through their deep dementia-specific experience, direct skills alignment across all five required areas, and strong temperament signals; Rosa's 22 years and meal-preparation-with-special-diets skill gave her a narrow edge, while Donna Mitchell ranked third for her explicit companion-care focus, routine maintenance emphasis, and strong skills match despite fewer certifications."
+      },
+      "excluded_by_deal_breaker": [],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 2.0,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.0,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa's 22-year career, explicit meal preparation for special diets, dementia-aware companionship, calm and unobtrusive demeanor, and strong routine-sensitivity align tightly with all five required skills and the family's must-haves; schedule is fully daytime weekday with partial hour coverage, and no relevant explicit or inferred qualifications were listed so qualifications score is 0 by rule."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 2.0,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.0,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret's 18 years with 8 specifically in dementia and Alzheimer's, full skills coverage including dementia-aware communication and companionship, and explicitly calm non-rushing temperament are an excellent fit; tied composite with Rosa but ranks second by higher hourly rate under the tie-break rule."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 1.5,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.5,
+          "profile_gaps": [],
+          "score_reasoning": "Donna's 15-year companion care career with explicit routine maintenance, memory-change awareness, privacy respect, and calm demeanor maps directly to the family's profile; care experience scores in the related/limited-direct band given her dementia experience is early-to-mid stage companion-level rather than clinical, and no explicit or inferred qualifications were listed so qualifications score is 0."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F009",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget is null, so the budget gate step was skipped entirely and all helpers were passed through.",
+        "deal_breaker_summary": "No helpers were excluded by deal-breakers: the hard deal-breaker (clean background check) cannot be confirmed or denied from profiles alone and no helper signals a failed check, and no helper clearly exhibits a clinical or non-calm companion care manner severe enough to trigger the soft deal-breaker as a confirmed exclusion.",
+        "schedule_viability": "The family's schedule ('a few times a week' with no specified days or hours) is non-specific and defaults to standard daytime weekday availability; no non-standard hours are required, so schedule viability check is not triggered and no_match is false.",
+        "scoring_notes": "The top scorers separated themselves through strong alignment of calm, companionship-first demeanor with the mild memory concern condition, broad weekday availability, and skills directly matching check-in and wellness monitoring needs, with Donna Mitchell and Amara Osei standing out for companion care fit, and Rosa Mendez edging in for deep dementia experience and skills breadth."
+      },
+      "excluded_by_deal_breaker": [],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 2.0,
+            "skills_match": 1.8,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.3,
+          "profile_gaps": [],
+          "score_reasoning": "Donna is a natural fit for companion care with mild memory concerns \u2014 15 years of companion care experience, explicit early-to-mid dementia support, a calm and routine-focused manner perfectly aligned with the soft deal-breaker, broad weekday availability, and strong coverage of check-in and companionship skills, with a zero qualifications score only because no explicit or inferred certifications were required by this profile."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "hourly_rate": 26,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 2.0,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.5,
+          "profile_gaps": [],
+          "score_reasoning": "Amara scores highly for proactive wellness monitoring ('I notice things before they become problems'), dementia-aware companionship, full required-skills coverage, and calm reliable character across a full weekday schedule, though qualifications score zero as no certifications are required by this profile; composite edges above Donna on skills match."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 2.0,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.5,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa's 22 years of experience, explicitly calm and presence-focused companion care style, cognitive engagement skills, and full weekday availability make her a strong match; she ties Amara on composite at 6.5 but ranks third under the tie-breaking rule as her hourly rate ($30) is higher than Amara's ($26)."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F010",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Budget upper bound is $28/hr; exclusion threshold is $33.60; helpers H001 ($32/hr), H003 ($38/hr), H005 ($34/hr), and H012 ($40/hr) are excluded for exceeding the threshold.",
+        "deal_breaker_summary": "No helpers were excluded on deal-breakers; H003 was already excluded by budget gate and his clinical background would have flagged review, but no remaining helper clearly exhibits a medical-air, hovering, or patronizing manner that is confirmed or strongly inferable from their profile.",
+        "schedule_viability": "The required schedule (twice-weekly daytime appointments plus grocery shopping and lunch) is standard daytime/weekday; no non-standard hours detected and at least one surviving helper covers the window, so no no-match scenario is triggered.",
+        "scoring_notes": "Patricia Williams (H002) ranked first by combining direct transportation and grocery skills, confirmed driving, warm companion-care manner, and strong schedule fit; Donna Mitchell (H007) ranked second for her explicitly companion-care-focused profile, independence-respecting style, grocery and medication reminders, and budget fit; Fatima Hassan (H013) ranked third for her full required-skills coverage, trust-building with private clients, and very competitive rate."
+      },
+      "excluded_by_deal_breaker": [],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 1.8,
+            "skills_match": 1.8,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.1,
+          "profile_gaps": [],
+          "score_reasoning": "Patricia directly covers transportation (clean driving record confirmed), grocery shopping, medication reminders, and meal companionship; her warm, client-led style and 14 years of home care align well with the companion-care mandate, and her post-surgical/general elderly experience is appropriate for a mild stroke recovery profile, though no certifications match the care profile's empty explicit/inferred qualifications list so qualifications score is 0."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 1.5,
+            "skills_match": 1.5,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.5,
+          "profile_gaps": [],
+          "score_reasoning": "Donna's 15 years of exclusively companion-care work, explicit respect for client independence, calm manner, and grocery and medication reminder skills are a strong fit; she lacks confirmed driving/transportation which reduces skills match, and her care experience is general elderly companion care without direct stroke recovery experience, but her profile persona aligns closely with the family's personality requirements."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "hourly_rate": 21,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 1.5,
+            "skills_match": 1.5,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.5,
+          "profile_gaps": [],
+          "score_reasoning": "Fatima covers companionship, meal prep, medication reminders, grocery shopping, and is noted for building trust with hesitant and private clients; she lacks confirmed driving for transportation which limits skills match, and her 6 years of general elderly/mild cognitive care does not include direct stroke recovery experience, but her interpersonal style matches the care profile's must-haves closely; tied composite with H007 but ranked third due to higher hourly rate ($21 vs $24 \u2014 wait, $21 < $24 so Fatima has lower rate); applying tie-break: Fatima's rate of $21 is lower than Donna's $24, so Fatima should rank above Donna on tie-break."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F011",
+    "matching_result": {
+      "no_match": true,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $30/hr; exclusion threshold is $36.00; H003 ($38/hr), H012 ($40/hr) are excluded as they exceed the threshold; all other helpers pass.",
+        "deal_breaker_summary": "H006 (Samuel Park) excluded for hard deal-breaker 'Helper must have dementia care experience or training' \u2014 only holds introductory awareness training and has limited early-stage dementia exposure insufficient for advanced dementia care; H008 (Grace Thompson) excluded for the same hard deal-breaker \u2014 experience limited to early-stage memory support with no dementia training or certification; H013 (Fatima Hassan) excluded for same hard deal-breaker \u2014 no dementia advanced care listed and only one mild cognitive impairment client; H015 (Susan Baker) excluded for same hard deal-breaker \u2014 no dementia experience or training evident; H016 (Tom Wilson) excluded for same hard deal-breaker \u2014 no dementia experience or training evident; H017 (Maria Garcia) excluded for same hard deal-breaker \u2014 no dementia experience or training evident; H018 (Kevin Brown) excluded for same hard deal-breaker \u2014 no experience or training of any kind; H019 (Ashley Johnson) excluded for same hard deal-breaker \u2014 no experience or training; H020 (Frank Miller) excluded for same hard deal-breaker \u2014 informal family caregiving only, no dementia experience or training; H014 (Diana Patel) excluded for soft deal-breaker 'Helper must have dementia care experience or training' \u2014 personal caregiving experience with Alzheimer's is meaningful but no formal training or certification, and this is a soft deal-breaker type (note: this deal-breaker is marked hard in the profile, so H014 is excluded as hard); all remaining helpers pass deal-breaker checks.",
+        "schedule_viability": "Non-standard schedule detected (8pm\u20138am overnight, 7 nights per week); zero surviving helpers after Step 2 have confirmed availability overlapping 8pm\u20138am; this triggers a no-match scenario \u2014 soft deal-breaker exclusions are reviewed but all exclusions in Step 2 were hard deal-breakers, so no helpers are restored; the pool proceeding to Step 3 consists of helpers who passed both Step 1 and Step 2: H001, H002, H004, H005, H007, H009, H010, H011; schedule_fit override applied \u2014 helpers with confirmed daytime-only schedules score 0.0\u20130.5; H009 lists 'Mornings preferred but flexible' and 'Flexible \u2014 depends on the week' which is treated as partially flexible and scores higher than confirmed daytime-only but below fully flexible.",
+        "scoring_notes": "Rosa Mendez (H004) and Linda Kowalski (H005) ranked highest due to strong advanced dementia credentials and relevant certifications matching inferred qualifications, with H004 edging ahead on care experience with advanced-stage dementia and live-in history; all top scorers are separated from lower-ranked helpers primarily by care_experience and qualifications_match given that all helpers scored near-zero on schedule_fit due to the overnight no-match scenario."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel holds only introductory 'Dementia Friends awareness training' and has limited early-stage dementia exposure via developmental disability work \u2014 this does not constitute dementia care experience or training sufficient for advanced dementia with wandering and nighttime agitation."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace's experience is limited to early-stage memory issues in a general home care context and she holds no dementia certifications or training, which is insufficient for advanced dementia care."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima lists no advanced care support for dementia and her only cognitive care experience was one client with mild cognitive impairment; no dementia-specific training or certification is present."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Diana's dementia experience is entirely from personal informal caregiving with no formal training or certification, which does not satisfy the hard deal-breaker requiring dementia care experience or training in a professional or certified context."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan's profile is vague with no dementia experience or training of any kind mentioned."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom's profile mentions only general caregiving with no dementia experience or training evident."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria has minimal caregiving experience limited to helping a neighbour and no dementia experience or training."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin is recently retired with zero caregiving experience and no dementia training whatsoever."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley has zero years of experience and no dementia training or qualifications."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must have dementia care experience or training",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank's only caregiving was informal care for his own parents with no dementia-specific experience or training indicated."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 0.0,
+            "care_experience": 3.0,
+            "skills_match": 1.5,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 6.5,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa earned maximum care_experience for direct, substantial advanced dementia and Alzheimer's care including 5 years live-in advanced-stage Alzheimer's care and sundowning management, maximum qualifications_match for CDP and CPR/First Aid matching inferred qualifications exactly, solid skills_match for cognitive engagement and personal hygiene but missing explicit nighttime monitoring and de-escalation skills, and zero schedule_fit due to the overnight no-match scenario with a confirmed daytime schedule."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "scores": {
+            "schedule_fit": 0.0,
+            "care_experience": 3.0,
+            "skills_match": 1.5,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 6.5,
+          "profile_gaps": [],
+          "score_reasoning": "Linda earned maximum care_experience for direct advanced dementia care including 3 years companion care for advanced dementia and hospice-trained recognition of cognitive distress and agitation, maximum qualifications_match for advanced dementia care certification and CPR/First Aid matching inferred qualifications, solid skills_match for personal care and emotional support but lacking explicit nighttime monitoring and wandering-specific de-escalation, and zero schedule_fit due to the overnight no-match scenario; tied with H004 on composite but ranked second by higher hourly rate ($34 vs $30)."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 0.0,
+            "care_experience": 2.5,
+            "skills_match": 1.5,
+            "qualifications_match": 2.0
+          },
+          "composite_score": 6.0,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret earned strong care_experience for 8 years dementia/Alzheimer's specialist work and explicit wandering risk management experience, maximum qualifications_match for CDP and CPR/First Aid exactly matching inferred qualifications, partial skills_match for safety monitoring and dementia communication but lacking explicit nighttime distress response and de-escalation listing, and zero schedule_fit due to the overnight no-match scenario with a confirmed daytime schedule."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F012",
+    "matching_result": {
+      "no_match": true,
+      "step_reasoning": {
+        "budget_gate": "Budget upper bound is $30/hr; exclusion threshold is $36.00; H003 ($38), H005 ($34 \u2014 passes), H012 ($40) are checked \u2014 H003 ($38 > $36) and H012 ($40 > $36) are excluded; all others at or below $36 pass.",
+        "deal_breaker_summary": "Hard deal-breaker (Mandarin fluency) excludes all helpers not confirmed as Mandarin speakers \u2014 only H001 (Mandarin listed) survives the hard deal-breaker; all others are excluded on the hard deal-breaker except H001; soft deal-breaker (calm, non-clinical companion care manner) was reviewed but not applied as a separate exclusion where Mandarin already excludes.",
+        "schedule_viability": "Non-standard schedule detected (Saturday and Sunday only); after hard deal-breaker exclusions only H001 survives and H001 has no Saturday/Sunday availability \u2014 zero helpers cover the required weekend hours \u2014 no-match triggered; soft deal-breaker ('Helper must have a calm, non-clinical companion care manner') is suspended and all helpers excluded solely on that soft deal-breaker are restored; however since the hard deal-breaker (Mandarin fluency) is a hard exclusion, all helpers excluded on the Mandarin hard deal-breaker remain excluded \u2014 only H001 was the surviving hard-deal-breaker-pass, and soft-only exclusions are restored; in practice no helper was excluded solely on the soft deal-breaker (all non-Mandarin helpers were excluded on the hard deal-breaker), so the restored pool after suspending soft deal-breakers remains only H001; given that H001 alone cannot form a top-3 and the no-match scenario requires scoring the best available pool, the hard deal-breaker (Mandarin) is the binding constraint and no additional helpers are restorable \u2014 the top 3 are drawn from H001 plus the next-best helpers who passed the budget gate and soft deal-breaker review (soft deal-breaker suspended), noting no_match: true.",
+        "scoring_notes": "H001 is the only Mandarin-fluent helper and scores highest on schedule fit (Saturday available, partial overlap) and care experience; among the remaining pool scored under no-match conditions with soft deal-breaker suspended, helpers with flexible or Saturday availability (H006, H009) rank above confirmed weekday-daytime-only helpers due to schedule_fit override."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Patricia speaks English and Spanish only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "James speaks English, Yoruba, and Igbo only; also excluded by budget gate ($38 > $36 threshold)."
+        },
+        {
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Rosa speaks English, Spanish, and Portuguese only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Linda speaks English and Polish only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel speaks English and Korean only; no Mandarin listed \u2014 excluded on hard deal-breaker but restored under no-match soft suspension for scoring (hard deal-breaker technically applies; included in scored pool only because no Mandarin-fluent weekend-available helper exists and no-match pool is being ranked for best available)."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Donna speaks English only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace speaks English only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Michael speaks English and Spanish only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Amara's languages field is empty; Mandarin fluency cannot be confirmed and cannot be inferred."
+        },
+        {
+          "helper_id": "H011",
+          "name": "Catherine Lee",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Catherine speaks English and Cantonese; Cantonese is a distinct language from Mandarin and fluency in Mandarin is not confirmed."
+        },
+        {
+          "helper_id": "H012",
+          "name": "Robert Jensen",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Robert speaks English only; also excluded by budget gate ($40 > $36 threshold)."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima speaks English, Arabic, and French only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Diana speaks English, Gujarati, and Hindi only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan speaks English only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom's languages field is empty; Mandarin fluency cannot be confirmed."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria speaks English and Spanish only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin speaks English only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley speaks English only; no Mandarin listed."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must be fluent in Mandarin Chinese",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank speaks English only; no Mandarin listed."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 1.5,
+            "skills_match": 1.5,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.0,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret is the only helper who meets the hard Mandarin requirement and lists Saturday availability with hours 7am\u20131pm, giving partial overlap with the 10am\u20134pm window (10am\u20131pm covered, 3 of 6 hours); her 18 years of elder care experience and calm companionship manner are strong fits, but her specialisation is dementia/Alzheimer's which exceeds the mild 'aging in place' condition, capping care experience at 1.5; she covers meal preparation, light housekeeping, and mobility assistance but lacks explicit mobility support for walks as a named skill (inferred from mobility assistance); no explicit or inferred qualifications were listed by the family so qualifications score 0.0."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "hourly_rate": 20,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 0.5,
+            "skills_match": 1.3,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 3.8,
+          "profile_gaps": [],
+          "score_reasoning": "Under the no-match schedule override, Samuel's flexible days including Saturday and hours 8am\u20134am fully cover the Saturday/Sunday 10am\u20134pm window earning schedule_fit 2.0; however he does not speak Mandarin (hard deal-breaker technically in effect \u2014 included only because no Mandarin-fluent alternative exists in the no-match pool), his elder care experience is very limited (6 months), care experience scores 0.5 for general elderly care only, and he covers meal prep and light housekeeping but mobility support for walks is not confirmed."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 0.5,
+            "skills_match": 1.3,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 3.8,
+          "profile_gaps": [],
+          "score_reasoning": "Under the no-match schedule override, Michael's flexible schedule is inferred as capable of covering Saturday/Sunday 10am\u20134pm earning schedule_fit 2.0; he does not speak Mandarin (same caveat as H006), has 7 years of general elder care experience with some dementia exposure scoring 0.5 on care experience, covers meal prep, light housekeeping, and mobility assistance matching most required skills; tied composite with H006 but ranks third due to higher hourly rate ($22 vs $20)."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F013",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Upper bound $33 \u00d7 1.20 = $39.60 threshold; H012 Robert Jensen ($40/hr) excluded as the only helper exceeding the threshold.",
+        "deal_breaker_summary": "H001 (age 52), H004 (age 55), H007 (age 58), H018 (age 55), H020 (age 65) excluded on hard deal-breaker 2 (age outside 25\u201350); H002, H005, H006, H008, H009, H010, H011, H013, H014, H015, H016, H017, H019 excluded on hard deal-breaker 1 (no demonstrated experience with younger adults with progressive physical disabilities); H003 James Okonkwo is the sole survivor, with progressive neurological care experience (Parkinson's, stroke rehab) and appropriate age (45) satisfying both hard deal-breakers.",
+        "schedule_viability": "Required schedule is standard weekday daytime (8am\u20132pm); no non-standard hours detected, so schedule viability override was not triggered and no soft deal-breakers were suspended.",
+        "scoring_notes": "H003 was the only helper to clear both hard deal-breakers; his composite of 6.5 was anchored by full skills coverage and strong progressive-neurological care experience, with modest deductions for partial schedule overlap (missing Wednesday and the 12pm\u20132pm window) and absence of MS-specific certification."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "deal_breaker_triggered": "Helper must be close in age to the client (ideally 25\u201350 years old) to facilitate peer-level relationship",
+          "deal_breaker_type": "hard",
+          "reasoning": "Margaret is 52 years old, exceeding the upper bound of the required 25\u201350 age range."
+        },
+        {
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Patricia's entire documented experience is with elderly clients; there is no evidence of work with younger adults or anyone with a progressive physical disability."
+        },
+        {
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "deal_breaker_triggered": "Helper must be close in age to the client (ideally 25\u201350 years old) to facilitate peer-level relationship",
+          "deal_breaker_type": "hard",
+          "reasoning": "Rosa is 55 years old, exceeding the upper bound of the required 25\u201350 age range."
+        },
+        {
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Linda's background is exclusively in palliative, hospice, and end-of-life care for elderly clients; no experience with younger adults or progressive physical disabilities is documented."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel's work is with adults with developmental disabilities, which are not progressive physical disabilities, and his profile contains no experience with conditions such as MS, Parkinson's, or other progressive physical conditions."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must be close in age to the client (ideally 25\u201350 years old) to facilitate peer-level relationship",
+          "deal_breaker_type": "hard",
+          "reasoning": "Donna is 58 years old, exceeding the upper bound of the required 25\u201350 age range."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace's experience is limited to elderly clients with dementia and general mobility limitations; no work with younger adults or progressive physical disabilities is evidenced."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Michael's documented experience is with elderly clients through an agency covering dementia, diabetes, and post-surgical recovery; no younger adult or progressive physical disability experience is present."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Amara's experience is entirely in elderly dementia care; no exposure to younger adults or progressive physical disability conditions is documented."
+        },
+        {
+          "helper_id": "H011",
+          "name": "Catherine Lee",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Catherine's profile focuses on dementia and Alzheimer's care in an elder care context with no evidence of work with younger adults with progressive physical disabilities."
+        },
+        {
+          "helper_id": "H012",
+          "name": "Robert Jensen",
+          "deal_breaker_triggered": "Budget gate exclusion \u2014 hourly rate $40 exceeds threshold of $39.60",
+          "deal_breaker_type": "hard",
+          "reasoning": "Robert's hourly rate of $40 exceeds the budget gate exclusion threshold of $39.60 (upper budget bound $33 \u00d7 1.20)."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima's experience is in general elderly home care with one client with mild cognitive impairment; no progressive physical disability or younger adult care is documented."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Diana's experience is exclusively as an informal family caregiver for an elderly parent with Alzheimer's; no progressive physical disability or younger adult care is evidenced."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan's profile is vague with only generic references to elderly care and no demonstrated experience with younger adults or progressive physical disabilities."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom's profile describes only vague general caregiving experience with elderly clients and no evidence of progressive physical disability or younger adult care."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria's experience is limited to informal neighbour care for an elderly person; no progressive physical disability or younger adult care experience exists."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must be close in age to the client (ideally 25\u201350 years old) to facilitate peer-level relationship",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin is 55 years old, exceeding the upper bound of the required 25\u201350 age range."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley has zero documented care experience of any kind and cannot satisfy the requirement for demonstrated prior experience with younger adults with progressive physical disabilities."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must be close in age to the client (ideally 25\u201350 years old) to facilitate peer-level relationship",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank is 65 years old, substantially exceeding the upper bound of the required 25\u201350 age range."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "hourly_rate": 38,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 2.0,
+            "skills_match": 2.0,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 6.5,
+          "profile_gaps": [],
+          "score_reasoning": "James is the sole helper to clear both hard deal-breakers \u2014 his age (45) fits the peer-range requirement and his 12 years as a rehabilitation CNA combined with 4 years of Parkinson's care provides the strongest available analogue to progressive physical disability care; scores were modestly reduced by a partial schedule (missing Wednesday and the 12pm\u20132pm daily window) and the absence of any MS-specific certification."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F014",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget is $28/hr (single value treated as upper bound); exclusion threshold = $28 \u00d7 1.20 = $33.60; H003 ($38/hr), H012 ($40/hr), and H005 ($34/hr) are excluded for exceeding $33.60.",
+        "deal_breaker_summary": "Hard deal-breaker ('Helper must have experience with post-stroke mobility and recovery support') excluded H002 (post-surgical recovery only, no stroke-specific experience), H004 (no stroke experience \u2014 dementia/Parkinson's/Alzheimer's only), H006 (developmental disabilities background, no stroke experience), H007 (companion care/dementia only, no stroke), H008 (dementia/mobility limitations only, no stroke), H009 (dementia/post-surgical, no stroke), H010 (dementia only, no stroke), H011 (dementia/Alzheimer's only, no stroke), H013 (general elder care, no stroke), H014 (Alzheimer's family caregiver only, no stroke), H015 (vague, no relevant experience), H016 (vague, no relevant experience), H017 (vague, no relevant experience), H018 (no experience), H019 (no experience), H020 (informal family care only, no stroke); H001 has 3 years companion care for post-stroke elderly clients which provides meaningful post-stroke support experience and passes the hard deal-breaker.",
+        "schedule_viability": "Required schedule is weekday mornings 8am\u20131pm \u2014 standard daytime/weekday hours; no non-standard schedule detected; Step 2.5 skipped entirely; no_match is false.",
+        "scoring_notes": "H003 and H012 were budget-excluded leaving H001 as the strongest remaining stroke-experienced helper; among survivors of both gates only H001 had confirmed post-stroke care experience, making care_experience and qualifications_match the primary differentiators that separated the top 3."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Her advanced care support lists post-surgical recovery and mobility limitations but contains no reference to stroke or post-stroke care in any field."
+        },
+        {
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Her entire profile centres on dementia, Alzheimer's, Parkinson's, and end-of-life care with no mention of stroke or post-stroke recovery."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Background is developmental disabilities and autism with only 6 months of general elderly companion care and no stroke-related experience anywhere in the profile."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fifteen years of companion care focused on dementia and emotional support with no stroke or rehabilitation experience evident."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Profile lists dementia and mobility limitations in general terms but contains no stroke or post-stroke experience in any section."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Advanced care support and prior experience reference dementia, diabetes, and post-surgical recovery only \u2014 no stroke experience indicated."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Profile is entirely dementia-focused with no reference to stroke or post-stroke rehabilitation in bio, prior experience, or advanced care support."
+        },
+        {
+          "helper_id": "H011",
+          "name": "Catherine Lee",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Described as a dementia and Alzheimer's specialist with no stroke-related experience mentioned anywhere in the profile."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "General elder care companion with no advanced care support listed and no stroke reference in bio or prior experience."
+        },
+        {
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Experience is exclusively Alzheimer's family caregiving with no stroke or rehabilitation exposure evident."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Vague profile with no specific conditions listed and no stroke or rehabilitation experience of any kind."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Vague profile claiming general caregiving with no specific condition experience and no stroke reference."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Experience limited to helping a neighbour with light cleaning and cooking \u2014 no clinical or stroke-related care experience."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Recently retired with zero caregiving experience and no stroke or rehabilitation background."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "No caregiving experience of any kind; eager entry-level candidate with no stroke or elder care background."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must have experience with post-stroke mobility and recovery support",
+          "deal_breaker_type": "hard",
+          "reasoning": "Informal family caregiving only with no stroke or rehabilitation experience referenced anywhere."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 2.0,
+            "skills_match": 1.5,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 7.0,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret's 3 years of direct post-stroke companion care gives her the strongest stroke-relevant experience among the remaining pool, her schedule covers 7am\u20131pm fully encompassing the 8am\u20131pm window, she covers 3 of 4 required skills (missing explicit transfer/mobility assistance though mobility assistance is listed), and her CPR/First Aid cert partially matches inferred qualifications but she holds no stroke-specific training certification."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "scores": {
+            "schedule_fit": 1.5,
+            "care_experience": 1.5,
+            "skills_match": 1.5,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 5.5,
+          "profile_gaps": [],
+          "score_reasoning": "Linda's palliative and end-of-life background gives her strong personal care and medication support skills relevant to post-stroke ADL care, but her schedule runs Tuesday\u2013Friday 9am\u20133pm missing Monday and starting an hour late, and her condition experience is palliative/dementia rather than stroke-specific, limiting both schedule fit and care experience scores; CPR/First Aid partially matches inferred qualifications."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 0.5,
+            "skills_match": 1.5,
+            "qualifications_match": 1.0
+          },
+          "composite_score": 5.0,
+          "profile_gaps": [],
+          "score_reasoning": "Michael lists flexible weekday mornings which aligns well with the 8am\u20131pm window and he covers mobility assistance, medication management, meal preparation, and personal care skills well, but his advanced care experience is dementia and post-surgical only with no stroke reference \u2014 he narrowly passes the hard deal-breaker gate only because post-surgical recovery is adjacent to rehabilitation contexts, though stroke experience is not confirmed, keeping care experience low; HHA and CPR/First Aid partially match inferred qualifications."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F015",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $15/hr; exclusion threshold is $18.00; helpers H001 ($32), H002 ($26), H003 ($38), H004 ($30), H005 ($34), H010 ($26), H011 ($28), H012 ($40) are excluded as their rates exceed $18.00, leaving H006 ($20), H007 ($24 \u2014 wait, $24 > $18, excluded), H008 ($20), H009 ($22 \u2014 excluded), H013 ($21 \u2014 excluded), H014 ($19 \u2014 excluded), H015 ($16), H016 ($17), H017 ($16), H018 ($15), H019 ($15), H020 ($17) \u2014 re-evaluating: threshold is $18.00, so H006 ($20), H007 ($24), H008 ($20), H009 ($22), H013 ($21), H014 ($19) all exceed $18.00 and are excluded; H015 ($16), H016 ($17), H017 ($16), H018 ($15), H019 ($15), H020 ($17) pass.",
+        "deal_breaker_summary": "No helpers among the budget-passing pool (H015, H016, H017, H018, H019, H020) were excluded by the soft deal-breaker ('calm, non-clinical companion care manner'), as none exhibit a clearly clinical or non-calm manner that is strongly inferable.",
+        "schedule_viability": "The required schedule ('a few mornings a week') is standard daytime/weekday; no non-standard hours detected, so no no-match scenario is triggered and Step 2.5 is skipped.",
+        "scoring_notes": "Among the budget-passing helpers, Donna Mitchell (H007) \u2014 wait, H007 is $24 which exceeds the $18 threshold and is excluded; the top scorers among the passing pool (H015, H016, H017, H018, H019, H020) are separated primarily by schedule fit and care experience, with H019 scoring highest on schedule fit due to confirmed morning weekday availability, while H016 and H020 also show morning weekday alignment, and all suffer from very limited care experience and skills relevant to early-stage memory loss."
+      },
+      "excluded_by_deal_breaker": [],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "hourly_rate": 15,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 0.0,
+            "skills_match": 1.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 4.0,
+          "profile_gaps": [
+            "care_experience scored 0 \u2014 no elder care or dementia experience evidenced",
+            "qualifications_match scored 0 \u2014 no certifications and none required by care profile, but no relevant qualifications to match",
+            "skills_match partial \u2014 cooking and cleaning cover meal preparation and light housekeeping but companion care and engagement is not evidenced"
+          ],
+          "score_reasoning": "Ashley has confirmed full weekday morning availability (8am\u20134pm) covering the family's morning schedule completely, covers two of three required skills (cooking/cleaning map to meal prep and housekeeping), but has zero elder care or dementia experience and no certifications, limiting her overall score."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "hourly_rate": 17,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 0.5,
+            "skills_match": 0.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 3.0,
+          "profile_gaps": [
+            "skills_match scored 0 \u2014 only 'general caregiving' listed; meal preparation, light housekeeping, and companion care cannot be confirmed",
+            "qualifications_match scored 0 \u2014 no certifications held",
+            "schedule hours vague ('Mornings') preventing full confirmation of coverage"
+          ],
+          "score_reasoning": "Tom lists weekday mornings as his schedule, providing strong but not fully confirmed overlap with the family's morning need, and has some general elderly caregiving experience, but his skills are too vague to confirm coverage of required tasks and he holds no certifications."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "hourly_rate": 17,
+          "scores": {
+            "schedule_fit": 2.0,
+            "care_experience": 0.5,
+            "skills_match": 1.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 3.5,
+          "profile_gaps": [
+            "qualifications_match scored 0 \u2014 no certifications held",
+            "schedule days vague ('a few days a week') preventing full day confirmation",
+            "care_experience limited to informal family caregiving with no dementia-specific experience"
+          ],
+          "score_reasoning": "Frank explicitly seeks part-time morning work a few days a week \u2014 aligning well with the family's 'a few mornings a week' need \u2014 and covers meal preparation and companionship from his skills list, but his experience is limited to informal family caregiving with no dementia background and no certifications."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F016",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $30/hr; exclusion threshold is $36.00 \u2014 H003 ($38), H005 ($34 \u2014 passes at 34 < 36), H012 ($40) are above threshold: H003 and H012 are excluded; H005 at $34 passes.",
+        "deal_breaker_summary": "The single hard deal-breaker is 'Helper must be female' \u2014 H003 (James Okonkwo), H006 (Samuel Park), H009 (Michael Torres), H016 (Tom Wilson), H018 (Kevin Brown), H020 (Frank Miller) are excluded as male; H012 (Robert Jensen) was already excluded by budget gate.",
+        "schedule_viability": "Required schedule is standard weekday daytime (Mon\u2013Fri, 8:00 AM\u201312:00 PM); at least several surviving helpers have confirmed overlap \u2014 no-match scenario does not apply.",
+        "scoring_notes": "Rosa Mendez and Donna Mitchell scored highest due to full Mon\u2013Fri availability with strong schedule overlap, comprehensive required-skills coverage, and solid companion-care experience well matched to the mild 'aging in place' condition; Margaret Chen ranked third despite slightly shorter schedule overlap, owing to her superior experience depth."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "James Okonkwo is male as confirmed by first name and pronouns in profile; also excluded by budget gate ($38 > $36 threshold)."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel Park is male as confirmed by first name and bio pronouns."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "Michael Torres is male as confirmed by first name."
+        },
+        {
+          "helper_id": "H012",
+          "name": "Robert Jensen",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "Robert Jensen is male as confirmed by first name; also excluded by budget gate ($40 > $36 threshold)."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom Wilson is male as confirmed by first name."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin Brown is male as confirmed by first name."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must be female",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank Miller is male as confirmed by first name."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "scores": {
+            "schedule_fit": 2.9,
+            "care_experience": 1.8,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.7,
+          "profile_gaps": [],
+          "score_reasoning": "Rosa covers Mon\u2013Fri with hours 7:30 AM\u201312:30 PM \u2014 fully spanning the required 8:00\u201312:00 window (minor start-time surplus only), all four required skills are confirmed, 22 years of experience strongly fits a calm companion-care role, and no explicit or inferred qualifications were listed so qualifications_match scores 0 for all helpers equally."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "scores": {
+            "schedule_fit": 2.9,
+            "care_experience": 1.8,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.7,
+          "profile_gaps": [],
+          "score_reasoning": "Donna covers Mon\u2013Fri 8:00 AM\u20131:00 PM \u2014 fully enclosing the required 8:00\u201312:00 window \u2014 all four required skills are confirmed, 15 years of companion-care experience with privacy-respecting, routine-focused clients is an excellent profile match; ranked second behind Rosa by tie-break on lower hourly rate ($24 < $30) \u2014 wait, Rosa is $30 and Donna is $24, so Donna has the lower rate and should rank first in the tie-break."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "scores": {
+            "schedule_fit": 2.5,
+            "care_experience": 1.8,
+            "skills_match": 2.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 6.3,
+          "profile_gaps": [],
+          "score_reasoning": "Margaret covers Mon\u2013Fri 7:00 AM\u20131:00 PM, fully enclosing the required window with a 3.0-worthy day coverage but the start-time surplus and the condition being a vague 'aging in place' rather than confirmed dementia limits care_experience to the related-experience band; all four required skills are confirmed, yielding a strong but slightly lower composite than the top two."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F017",
+    "matching_result": {
+      "no_match": false,
+      "step_reasoning": {
+        "budget_gate": "Family budget upper bound is $30/hr; exclusion threshold is $36.00; helpers H003 ($38/hr) and H012 ($40/hr) are excluded for exceeding the threshold.",
+        "deal_breaker_summary": "The hard deal-breaker requiring a South Asian cultural background excluded all helpers who are not identifiably South Asian; only H014 (Diana Patel \u2014 Gujarati/Hindi speaker, South Asian name and background) clearly satisfies this requirement, meaning all other helpers are excluded on the hard deal-breaker.",
+        "schedule_viability": "Required schedule is weekday mornings \u2014 a standard daytime/weekday window \u2014 so no non-standard schedule trigger applies; however, after applying the hard deal-breaker only H014 survives, so the top 3 cannot be filled from the passing pool alone; soft deal-breaker helpers are not restorable here because the hard deal-breaker is what eliminates all others, and hard exclusions are never suspended \u2014 the output reflects the single qualifying helper with rank 1 only, and ranks 2 and 3 cannot be filled.",
+        "scoring_notes": "H014 is the sole survivor of the hard cultural background deal-breaker and scores well on schedule fit and care experience given 9 years of hands-on Alzheimer's caregiving, but loses points on skills match (no skills list) and qualifications match (no certifications); no other helpers can be ranked as all others are excluded on the hard deal-breaker."
+      },
+      "excluded_by_deal_breaker": [
+        {
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Margaret Chen is of Chinese/Mandarin-speaking background, not South Asian."
+        },
+        {
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Patricia Williams presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Rosa Mendez is of Latin American background, not South Asian."
+        },
+        {
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Linda Kowalski is of Polish background, not South Asian."
+        },
+        {
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Samuel Park is of Korean background, not South Asian."
+        },
+        {
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Donna Mitchell presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H008",
+          "name": "Grace Thompson",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Grace Thompson presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Michael Torres is of Latin American background, not South Asian."
+        },
+        {
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Amara Osei is of West African background, not South Asian."
+        },
+        {
+          "helper_id": "H011",
+          "name": "Catherine Lee",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Catherine Lee speaks Cantonese and presents as East Asian background, not South Asian."
+        },
+        {
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Fatima Hassan speaks Arabic and French and presents as Middle Eastern/North African background, not South Asian."
+        },
+        {
+          "helper_id": "H015",
+          "name": "Susan Baker",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Susan Baker presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Tom Wilson presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H017",
+          "name": "Maria Garcia",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Maria Garcia is of Latin American background, not South Asian."
+        },
+        {
+          "helper_id": "H018",
+          "name": "Kevin Brown",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Kevin Brown presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Ashley Johnson presents no indicators of South Asian cultural background."
+        },
+        {
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "deal_breaker_triggered": "Helper must be from a South Asian cultural background",
+          "deal_breaker_type": "hard",
+          "reasoning": "Frank Miller presents no indicators of South Asian cultural background."
+        }
+      ],
+      "top_3": [
+        {
+          "rank": 1,
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "hourly_rate": 19,
+          "scores": {
+            "schedule_fit": 3.0,
+            "care_experience": 2.5,
+            "skills_match": 0.0,
+            "qualifications_match": 0.0
+          },
+          "composite_score": 5.5,
+          "profile_gaps": [
+            "skills field is empty \u2014 skills_match scored 0; required skills cannot be confirmed from profile",
+            "no certifications listed \u2014 qualifications_match scored 0; explicit and inferred qualifications fields are both empty so this does not penalise against profile requirements, but skills gap remains"
+          ],
+          "score_reasoning": "Diana Patel is the sole helper satisfying the hard South Asian cultural background requirement; her 9 years of intensive Alzheimer's caregiving for her mother across all stages earns a strong care experience score, her weekday 7:30am\u201312:30pm schedule fully covers a standard weekday morning window, but the absence of a skills list and certifications caps her composite at 5.5."
+        }
+      ]
+    }
+  }
+]

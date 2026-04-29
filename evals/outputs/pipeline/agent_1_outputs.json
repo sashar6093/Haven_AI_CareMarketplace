@@ -1,0 +1,763 @@
+[
+  {
+    "family_id": "F001",
+    "care_profile": {
+      "condition": "Early-stage dementia",
+      "care_type": "Companion care with light housekeeping and meal support",
+      "schedule": "Weekday mornings \u2014 specific hours not stated",
+      "budget": null,
+      "household": "78-year-old mother, small dog (beagle named Biscuit)",
+      "must_haves": [
+        "Calm, patient demeanor",
+        "Respectful of privacy and personal space",
+        "Comfortable with dogs/pets",
+        "Non-smoker",
+        "Mature in age or demeanor"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be a non-smoker",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be completely comfortable with dogs and have demonstrated pet care experience",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be mature in age or demeanor",
+          "type": "soft"
+        },
+        {
+          "text": "Helper must have a calm, non-clinical, low-key companion care manner",
+          "type": "soft"
+        },
+        {
+          "text": "Helper must respect the client's need for privacy and personal space and avoid being overly chatty or intrusive",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "Meal preparation/breakfast assistance",
+        "Light housekeeping/tidying",
+        "Pet care (dog care and interaction)",
+        "Dementia-appropriate communication"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "Dementia care training or certification"
+      ],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "Weekday mornings is specified but exact hours are not stated",
+          "question": "What specific hours on weekday mornings do you need care? (e.g., 8:00 AM\u201312:00 PM, 9:00 AM\u20131:00 PM)"
+        },
+        {
+          "field": "budget",
+          "reason": "No hourly rate or budget range was mentioned",
+          "question": "What is your hourly budget range for this care helper?"
+        }
+      ],
+      "confidence": 0.68
+    }
+  },
+  {
+    "family_id": "F002",
+    "care_profile": {
+      "condition": "Post-surgical hip replacement recovery (10 days post-op)",
+      "care_type": "skilled post-surgical care with daily living support",
+      "schedule": "Monday\u2013Friday, 8:00 AM\u20132:00 PM",
+      "budget": "$30\u2013$35/hr",
+      "household": "71-year-old father (primary care recipient); family members work full-time and live in home",
+      "must_haves": [
+        "calm and cooperative demeanor",
+        "patient and reliable",
+        "detail-oriented and observant"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be a non-smoker",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have genuine post-surgical care experience, not general companionship only",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "safe patient mobility and transfer assistance (bed to chair using walker)",
+        "post-surgical wound monitoring and hygiene",
+        "medication administration and timing management",
+        "meal preparation and nutrition",
+        "physiotherapy exercise assistance and support"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "Post-operative care certification or equivalent hands-on training",
+        "First aid and basic wound care knowledge"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F003",
+    "care_profile": {
+      "condition": "Parkinson's disease with tremors, stiffness, and fall risk",
+      "care_type": "Personal care with mobility assistance and light housekeeping",
+      "schedule": "Tuesday through Friday, 9:00 AM to 3:00 PM",
+      "budget": "$25\u2013$30/hr",
+      "household": "Eduardo (74, primary care recipient); family members present in coordination role",
+      "must_haves": [
+        "Patient and unhurried demeanor \u2014 will not rush or show impatience",
+        "Respectful and calm communication style",
+        "Attentiveness to safety and fall prevention"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be fluent in Spanish and able to communicate comfortably with Eduardo in Spanish",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have training or demonstrated experience in fall prevention and safe mobility assistance for older adults with movement disorders",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have a patient, calm demeanor and demonstrate ability to support someone who moves slowly without rushing or expressing frustration",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "Mobility assistance (transfers, walking support, balance support)",
+        "Fall prevention and safe environmental awareness",
+        "Bathroom assistance and personal care support",
+        "Meal preparation",
+        "Light housekeeping"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "Parkinson's disease care experience or training (recommended)",
+        "First aid and CPR certification (recommended for fall risk management)"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F004",
+    "care_profile": {
+      "condition": "Type 2 diabetes (diet-managed) and mild heart disease",
+      "care_type": "companion care with health monitoring and meal support",
+      "schedule": "Monday, Wednesday, Friday, 9am\u20131pm",
+      "budget": "$20\u2013$25/hr",
+      "household": "Wife (69, primary care recipient) and husband",
+      "must_haves": [
+        "reliable and punctual",
+        "calm, patient demeanor",
+        "attentive to detail with medication and dietary needs",
+        "able to build rapport and engage in conversation",
+        "trustworthy with health data and able to respond to urgent situations"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have demonstrated knowledge of Type 2 diabetes meal planning and portion control, or be willing to follow detailed meal prep guidelines provided by the family",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be able to perform blood glucose monitoring and recognize out-of-range readings",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be able to manage medication reminders and timing accurately",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be available and reliable for the specific Monday, Wednesday, Friday 9am\u20131pm schedule",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "diabetes-appropriate meal planning and preparation",
+        "low-sodium, portion-controlled cooking",
+        "medication reminder management",
+        "blood glucose monitoring and basic health data interpretation",
+        "light housekeeping",
+        "companion conversation and emotional engagement",
+        "recognizing signs of low or high blood sugar and knowing when to call for help"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "Diabetes care certification or training (e.g. Certified Diabetes Educator or equivalent)"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.92
+    }
+  },
+  {
+    "family_id": "F005",
+    "care_profile": {
+      "condition": "Mid-stage Alzheimer's disease",
+      "care_type": "Dementia care with personal care assistance (ADL support)",
+      "schedule": "Monday\u2013Friday, 8:00 AM\u20134:00 PM",
+      "budget": "$30\u2013$40/hr",
+      "household": "Harold (81, mid-stage Alzheimer's), mother (77, present but unable to assist with physical tasks)",
+      "must_haves": [
+        "Calm, patient demeanor in the face of confusion and memory loss",
+        "Ability to redirect and de-escalate without frustration",
+        "Proactive safety mindset (wandering risk management)",
+        "Structured, routine-oriented approach to daily activities"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have substantial, documented experience (not entry-level) with mid-to-late stage dementia care",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be trained and experienced in recognizing and managing wandering behavior safely",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have demonstrated competence in personal care assistance (hygiene, toileting, dressing)",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be comfortable working with a cognitively intact co-occupant (mother) who is monitoring care",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "Dementia communication and redirection techniques",
+        "Personal hygiene and ADL assistance (bathing, grooming, toileting)",
+        "Meal preparation and feeding support",
+        "Wandering risk assessment and management (environmental awareness, discreet monitoring)",
+        "Structured activity engagement (cognitive and gentle physical activities)",
+        "Fall prevention and safe mobility support",
+        "Medication reminders (if applicable \u2014 implied by mid-stage diagnosis)",
+        "Emotional de-escalation and calming techniques"
+      ],
+      "explicit_qualifications": [
+        "Dementia care certification or formal training (family explicitly stated 'real, substantial experience' and rejected entry-level care)"
+      ],
+      "inferred_qualifications": [
+        "Dementia care certification (e.g., certified dementia care specialist, or equivalent formal training)",
+        "First aid and CPR certification (implied by wandering risk and mid-stage disease progression)"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F006",
+    "care_profile": {
+      "condition": "Grief and social isolation following spousal loss; at-risk for depression",
+      "care_type": "Companion care",
+      "schedule": "A couple of mornings a week (specific days and hours to be confirmed)",
+      "budget": null,
+      "household": "Mother (82, widowed 8 months ago) lives alone; adult child lives 40 minutes away and visits weekends",
+      "must_haves": [
+        "Warm, genuinely caring demeanor",
+        "Good conversational skills and ability to listen",
+        "Non-pushy approach",
+        "Respectful of her autonomy and independence",
+        "Patient with someone withdrawn and grieving"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must not present themselves or act as a professional carer or nurse",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "Cooking or kitchen assistance (optional, if mother wishes to engage)",
+        "Light companionship activities",
+        "Tea/beverage preparation"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "Family said 'a couple of mornings a week' but did not specify which days or what time each morning",
+          "question": "Which specific days of the week, and what time should the companion arrive and depart each visit?"
+        },
+        {
+          "field": "budget",
+          "reason": "No hourly rate or budget was mentioned",
+          "question": "What is your hourly budget range for a companion care helper?"
+        }
+      ],
+      "confidence": 0.62
+    }
+  },
+  {
+    "family_id": "F007",
+    "care_profile": {
+      "condition": "COPD with oxygen dependency, medication management support, mobility limitations, mild cognitive confusion",
+      "care_type": "companion care with light housekeeping and meal preparation",
+      "schedule": "three mornings per week (specific hours not stated)",
+      "budget": null,
+      "household": "76-year-old mother (independent but with mobility and health limitations)",
+      "must_haves": [
+        "calm, patient demeanor",
+        "respectful of mother's independence",
+        "reliable and consistent",
+        "comfortable working around oxygen equipment"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        },
+        {
+          "text": "Helper must be comfortable supporting medication management and reminders",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "light housekeeping and tidying",
+        "meal preparation (cooking lunch)",
+        "medication reminders and organization",
+        "companion care and conversation",
+        "understanding of mobility limitations and oxygen equipment safety"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "COPD/oxygen equipment awareness or training"
+      ],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "Family specified 'three mornings a week' but did not state specific start/end times or preferred days",
+          "question": "What specific time should the helper arrive and depart on those three mornings? (e.g., 9 AM\u201312 PM)"
+        },
+        {
+          "field": "budget",
+          "reason": "Family explicitly stated they have not thought about budget yet",
+          "question": "What is your hourly budget range for this care? (e.g., $18\u2013$25/hr)"
+        }
+      ],
+      "confidence": 0.68
+    }
+  },
+  {
+    "family_id": "F008",
+    "care_profile": {
+      "condition": "Age-related memory decline with social withdrawal; living independently with support needs",
+      "care_type": "companion care with light housekeeping and meal preparation support",
+      "schedule": null,
+      "budget": null,
+      "household": "80-year-old grandfather (primary client); implied multi-generational or family household seeking care helper",
+      "must_haves": [
+        "Patient and calm demeanor",
+        "Culturally sensitive and respectful of background",
+        "Able to build trust gradually with reserved individuals",
+        "Respectful of routines and personal autonomy",
+        "Reliable and consistent presence"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must understand and respect the client's cultural background",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must strictly adhere to specific dietary requirements without deviation or negotiation",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must respect established morning routines and not rush or interrupt the client",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "Light housekeeping",
+        "Meal preparation (adherence to specific dietary restrictions)",
+        "Medication reminders",
+        "Companion care and social engagement",
+        "Memory support strategies"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "No specific days, hours, or frequency mentioned for when care is needed",
+          "question": "How many hours per week does your grandfather need care? What days and times work best \u2014 is this daily support, a few days a week, mornings only, or a mix?"
+        },
+        {
+          "field": "budget",
+          "reason": "No hourly rate or total budget stated",
+          "question": "What is your hourly budget range for a care helper?"
+        }
+      ],
+      "confidence": 0.68
+    }
+  },
+  {
+    "family_id": "F009",
+    "care_profile": {
+      "condition": "aging in place with mild memory concerns",
+      "care_type": "companion care with check-ins",
+      "schedule": "a few times a week \u2014 specific days and hours not specified",
+      "budget": null,
+      "household": "mother (76) lives alone",
+      "must_haves": [
+        "reliable and trustworthy",
+        "patient and respectful of independence",
+        "good communicator"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have a clean background check",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "check-in visits and wellness monitoring",
+        "light companionship",
+        "ability to notice changes or concerns"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "frequency is stated ('a few times a week') but specific days and hours are not mentioned",
+          "question": "Which days of the week and what times would work best for the check-in visits?"
+        },
+        {
+          "field": "budget",
+          "reason": "no hourly rate or budget range was mentioned",
+          "question": "What is your hourly budget range for this care?"
+        }
+      ],
+      "confidence": 0.68
+    }
+  },
+  {
+    "family_id": "F010",
+    "care_profile": {
+      "condition": "Mild stroke with full recovery; medication management and general wellness monitoring",
+      "care_type": "companion care with instrumental support",
+      "schedule": "Twice weekly for appointments; additional time for lunch, grocery shopping, and companionship \u2014 specific hours not stated",
+      "budget": "$22\u2013$28/hr",
+      "household": "84-year-old mother (lives alone or with family \u2014 not specified)",
+      "must_haves": [
+        "Warm, easy-going personality",
+        "Ability to be good company and engage socially",
+        "Respectful of independence and autonomy",
+        "Calm, non-clinical manner"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner \u2014 no medical air, hovering, or treatment of the client as fragile or sick",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must respect and support client's fierce independence without being patronizing or over-solicitous",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "Transportation (driving client to appointments)",
+        "Grocery shopping assistance",
+        "Medication reminders and basic medication management oversight",
+        "Meal companionship/light meal prep"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "While the family mentions 'twice a week for appointments' and 'lunch and grocery shopping', the total weekly hours and specific time windows are not stated",
+          "question": "How many hours per week does your mother need care overall? What are the typical start and end times for appointments, and how much additional time should the helper plan for grocery shopping and lunch together?"
+        }
+      ],
+      "confidence": 0.82
+    }
+  },
+  {
+    "family_id": "F011",
+    "care_profile": {
+      "condition": "Advanced dementia with wandering behavior and nighttime agitation",
+      "care_type": "Overnight live-in care with dementia support",
+      "schedule": "8pm to 8am, 7 nights per week (overnight live-in)",
+      "budget": "$25\u2013$30/hr",
+      "household": "Father (79) with advanced dementia; family provides daytime care",
+      "must_haves": [
+        "Calm, patient demeanor under stress",
+        "Ability to respond quickly to nighttime distress",
+        "Non-judgmental approach to wandering and agitation",
+        "Reliability and trustworthiness for overnight presence"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be a non-smoker",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have dementia care experience or training",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be comfortable sleeping on-site and available throughout the night",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "Dementia care and behavioral management",
+        "Nighttime monitoring and response to distress",
+        "Assistance with toileting and personal needs if needed during night",
+        "De-escalation techniques for agitation"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "Dementia care certification or training",
+        "First aid/CPR training"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F012",
+    "care_profile": {
+      "condition": "aging in place \u2014 no diagnosed medical conditions",
+      "care_type": "companion care with light support",
+      "schedule": "Saturday and Sunday, 10am\u20134pm (6 hours per day)",
+      "budget": "$25\u2013$30/hr",
+      "household": "grandmother, 77, lives alone",
+      "must_haves": [
+        "patient and calm demeanor",
+        "able to engage in meaningful conversation and companionship",
+        "respectful of cultural background"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be fluent in Mandarin Chinese",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "meal preparation and assistance",
+        "light housekeeping",
+        "mobility support for short walks"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F013",
+    "care_profile": {
+      "condition": "Multiple sclerosis (MS), progressed stage",
+      "care_type": "Personal care with mobility assistance and companion support",
+      "schedule": "Weekdays 8am\u20132pm (6 hours/day)",
+      "budget": "$28\u2013$33/hr",
+      "household": "34-year-old brother living alone in an apartment",
+      "must_haves": [
+        "Comfortable providing physical assistance to a younger adult with disability without condescension",
+        "Patient and respectful of his independence and mental acuity",
+        "Able to have genuine conversation and treat him as a peer, not as elderly or fragile"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have demonstrated comfort and positive prior experience working with younger adults with progressive physical disabilities",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must be close in age to the client (ideally 25\u201350 years old) to facilitate peer-level relationship",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must understand MS progression and its physical effects on the body",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "Assistance with dressing and personal grooming",
+        "Meal preparation",
+        "Mobility assistance and fall prevention awareness",
+        "Household support (light tidying, laundry as needed)",
+        "Ability to respond safely if client falls"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "Multiple sclerosis care certification or training",
+        "First aid and CPR certification (implied by fall risk and live-in support role)"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F014",
+    "care_profile": {
+      "condition": "Stroke recovery (3 months post-stroke)",
+      "care_type": "Personal care with instrumental support",
+      "schedule": "Weekday mornings, 8am\u20131pm (5 hours/day)",
+      "budget": "$28/hr",
+      "household": "77-year-old father",
+      "must_haves": [
+        "Reliability and consistency",
+        "Experience with stroke recovery care",
+        "Patience and respect for client autonomy"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be a non-smoker",
+          "type": "soft"
+        },
+        {
+          "text": "Helper must have experience with post-stroke mobility and recovery support",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "Mobility assistance and transfers",
+        "Medication management and reminders",
+        "Meal preparation",
+        "Activities of daily living support"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [
+        "First aid/CPR certification",
+        "Training in stroke recovery care or post-acute rehabilitation"
+      ],
+      "clarification_needed": [],
+      "confidence": 0.92
+    }
+  },
+  {
+    "family_id": "F015",
+    "care_profile": {
+      "condition": "early-stage memory loss",
+      "care_type": "companion care with light housekeeping and meal preparation support",
+      "schedule": "a few mornings a week \u2014 specific days and hours needed",
+      "budget": "$13-$15/hr",
+      "household": "74-year-old mother (and family member(s) coordinating care)",
+      "must_haves": [
+        "patient and compassionate",
+        "reliable and trustworthy",
+        "calm demeanor"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "meal preparation",
+        "light housekeeping",
+        "companion care and engagement"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "Only frequency is stated ('a few mornings a week') \u2014 specific days and hours are not provided, making it difficult to match with helper availability",
+          "question": "Which days of the week and what time range (e.g. 8am\u201312pm) would you need the helper on each morning?"
+        }
+      ],
+      "confidence": 0.72
+    }
+  },
+  {
+    "family_id": "F016",
+    "care_profile": {
+      "condition": "aging in place with companionship and daily living support",
+      "care_type": "companion care with light housekeeping and meal preparation",
+      "schedule": "Monday\u2013Friday, 8:00 AM\u201312:00 PM (20 hours/week)",
+      "budget": "$24\u2013$30/hr",
+      "household": "80-year-old mother",
+      "must_haves": [
+        "reliable and punctual",
+        "respectful of routine and privacy",
+        "calm and low-key manner",
+        "trustworthy presence in the home"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be female",
+          "type": "hard"
+        }
+      ],
+      "required_skills": [
+        "light housekeeping",
+        "meal preparation",
+        "companionship and conversation",
+        "basic safety awareness"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [],
+      "confidence": 0.95
+    }
+  },
+  {
+    "family_id": "F017",
+    "care_profile": {
+      "condition": "Mild cognitive impairment with aging in place",
+      "care_type": "Companion care with light housekeeping and ADL support",
+      "schedule": "Weekday mornings \u2014 specific hours not specified",
+      "budget": "$25\u2013$30/hr",
+      "household": "83-year-old grandmother (lives with family, implied)",
+      "must_haves": [
+        "Reliable and consistent",
+        "Patient and compassionate",
+        "Good communicator",
+        "Trustworthy with medication reminders"
+      ],
+      "deal_breakers": [
+        {
+          "text": "Helper must be from a South Asian cultural background",
+          "type": "hard"
+        },
+        {
+          "text": "Helper must have a calm, non-clinical companion care manner",
+          "type": "soft"
+        }
+      ],
+      "required_skills": [
+        "Meal preparation",
+        "Light housekeeping",
+        "Medication reminders",
+        "Companionship and conversation",
+        "Dementia-friendly communication"
+      ],
+      "explicit_qualifications": [],
+      "inferred_qualifications": [],
+      "clarification_needed": [
+        {
+          "field": "schedule",
+          "reason": "Weekday mornings specified but exact start and end times are not stated",
+          "question": "What are the specific hours needed each morning (e.g., 8am\u201312pm)? Are all weekdays required, or specific days only?"
+        }
+      ],
+      "confidence": 0.82
+    }
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "total_families": 17,
+  "rank1_matches": 11,
+  "rank1_accuracy": 0.6471,
+  "results": [
+    {
+      "family_id": "F001",
+      "expected_rank_1": "H001",
+      "acceptable_rank_1": [
+        "H001",
+        "H004"
+      ],
+      "actual_rank_1": "H001",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F002",
+      "expected_rank_1": "H002",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H003",
+      "rank1_match": false
+    },
+    {
+      "family_id": "F003",
+      "expected_rank_1": "H004",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H004",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F004",
+      "expected_rank_1": "H009",
+      "acceptable_rank_1": [
+        "H002",
+        "H009"
+      ],
+      "actual_rank_1": "H002",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F005",
+      "expected_rank_1": "H001",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H004",
+      "rank1_match": false
+    },
+    {
+      "family_id": "F006",
+      "expected_rank_1": "H007",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H007",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F007",
+      "expected_rank_1": "H004",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H003",
+      "rank1_match": false
+    },
+    {
+      "family_id": "F008",
+      "expected_rank_1": "H004",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H004",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F009",
+      "expected_rank_1": "H007",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H007",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F010",
+      "expected_rank_1": "H002",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H002",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F011",
+      "expected_rank_1": "H015",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H004",
+      "rank1_match": false
+    },
+    {
+      "family_id": "F012",
+      "expected_rank_1": "H001",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H001",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F013",
+      "expected_rank_1": "H006",
+      "acceptable_rank_1": [
+        "H006",
+        "H003"
+      ],
+      "actual_rank_1": "H003",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F014",
+      "expected_rank_1": "H001",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H001",
+      "rank1_match": true
+    },
+    {
+      "family_id": "F015",
+      "expected_rank_1": "H015",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H019",
+      "rank1_match": false
+    },
+    {
+      "family_id": "F016",
+      "expected_rank_1": "H007",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H004",
+      "rank1_match": false
+    },
+    {
+      "family_id": "F017",
+      "expected_rank_1": "H014",
+      "acceptable_rank_1": [],
+      "actual_rank_1": "H014",
+      "rank1_match": true
+    }
+  ]
+}

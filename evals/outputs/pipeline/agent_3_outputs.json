@@ -1,0 +1,443 @@
+[
+  {
+    "family_id": "F001",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret has spent 18 years in elder care, with the last 8 focused specifically on dementia \u2014 and she holds a Certified Dementia Practitioner credential, so she genuinely understands what early-stage dementia looks like day to day, not just in theory. She describes herself as calm by nature, someone who never rushes the people she cares for, and she has a track record of working with families where privacy and personal space were a real priority. She is a non-smoker and a dog owner herself, so Biscuit will be in good hands. Her weekday availability from 7:00 AM to 1:00 PM lines up well with the mornings you need covered."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa has 22 years of experience caring for elderly people in their homes, including a decade as a primary caregiver for two separate dementia clients \u2014 this is someone who has seen what this kind of care really asks of a person and has chosen to keep showing up. She is calm and, as she puts it, does not believe in chatting all day \u2014 she believes in being present, which sounds very much in line with what matters to your family. She is a non-smoker, has cared for clients with dogs and cats, and holds both a Certified Dementia Practitioner and a Dementia Care Trainer certification. Her weekday mornings availability runs 7:30 AM to 12:30 PM."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna brings 15 years of companion care experience and has spent 3 of those years working specifically with clients in early dementia \u2014 she understands that consistency and routine are not just helpful but essential for someone navigating memory changes. She describes herself as quiet and calm, someone who takes her cues from the person she is with and always respects a client's need for privacy and independence. She is a non-smoker and a dog owner, so she will be genuinely comfortable with Biscuit rather than just tolerant of him. She is available weekday mornings from 8:00 AM to 1:00 PM."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F002",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "hourly_rate": 38,
+          "explanation": "James brings exactly the kind of skilled, clinical background your father's recovery calls for \u2014 he spent 12 years as a Certified Nursing Assistant in a hospital rehabilitation unit before moving into private home care, and he holds certifications in both wound care support and medication management. He describes himself as someone with 'a clinical eye and a warm heart,' which speaks directly to what you're looking for: someone who is calm and steady, but also genuinely observant and detail-oriented enough to know when something needs attention. His skills cover every area you've outlined \u2014 safe mobility and transfers, post-surgical wound monitoring, medication timing, meal preparation, and physiotherapy exercise support. He is a non-smoker, and his availability on Monday, Tuesday, Thursday, and Friday aligns closely with your schedule, though you'll want to confirm Wednesday coverage with him directly."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "explanation": "Patricia has 14 years of experience caring for elderly individuals at home, including three years specifically supporting post-surgical recovery clients \u2014 so this isn't new territory for her. She is HHA-certified, CPR and First Aid trained, and her skills include medication reminders, bathing and personal hygiene assistance, and mobility support, which map well to the day-to-day care your father will need during recovery. Families who have worked with her describe her as warm and patient, and she emphasizes punctuality \u2014 both qualities that matter deeply when your father is depending on someone to show up and be present. Her schedule is a strong match: she's available Monday, Wednesday, Thursday, and Friday from 8:00 AM to 2:00 PM, and she is a non-smoker."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "explanation": "Michael is a certified Home Health Aide with 7 years of experience, and his profile does list post-surgical recovery among his areas of advanced care support, along with mobility assistance and medication management. That said, we want to be straightforward with you: his prior experience is described in general terms through agency work, and his schedule is listed as flexible week-to-week rather than confirmed \u2014 which is worth clarifying directly before moving forward, given how important consistency is during your father's recovery. He is a non-smoker and comes in at a lower hourly rate, which may be a factor, but we'd encourage you to ask him specific questions about his hands-on post-surgical experience to make sure it matches what your father needs right now."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F003",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa brings 22 years of in-home elder care experience and has worked directly with Parkinson's disease as part of her advanced care background \u2014 which matters enormously when supporting someone navigating tremors, stiffness, and fall risk like Eduardo. She describes her approach as being fully present rather than filling the room, which speaks directly to the unhurried, calm demeanor your family identified as essential. She is fluent in Spanish, CPR and First Aid certified, and holds a Home Health Aide certification, so the safety and communication pieces your family needs are genuinely covered. Entrusting someone with Eduardo's daily care is not a small thing, and Rosa is someone who has spent over two decades treating that trust as the core of her work."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "explanation": "Patricia has 14 years of experience in in-home elder care and is bilingual in English and Spanish, so she can communicate with Eduardo comfortably and naturally in his preferred language. She describes herself as warm and patient, and specifically notes that she follows the lead of the person she is caring for \u2014 the kind of unhurried attentiveness your family described as non-negotiable. She is CPR and First Aid certified, holds her Home Health Aide certification, and has hands-on experience supporting clients with mobility limitations, which is directly relevant to Eduardo's fall risk and need for safe movement support. Her schedule availability across four of your required days and her calm, relationship-centered approach make her a thoughtful option for your family to consider."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F004",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "explanation": "Patricia has 14 years of in-home care experience and specifically lists diabetes management support among her advanced care skills \u2014 which matters a great deal when someone's diet and daily health monitoring can't be left to guesswork. She's CPR and First Aid certified, experienced with medication reminders, and her bio consistently emphasizes punctuality and warmth, two things your family rightly identified as non-negotiable. Her availability on Monday, Wednesday, and Friday mornings lines up directly with your schedule, and her prior work with elderly couples means she understands the full household dynamic, not just the person receiving care. Trusting someone with your wife's health is a significant step, and Patricia's combination of clinical awareness and genuine relationship-building makes her a strong fit for what you're looking for."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "explanation": "Michael is a certified Home Health Aide with 7 years of experience and diabetes care support listed among his advanced care competencies, so he comes with a working understanding of the monitoring and meal considerations that come with managing Type 2 diabetes day to day. He's also skilled in medication management \u2014 not just reminders, but the broader attentiveness that comes with it \u2014 which aligns with how carefully your family has thought about timing and accuracy. One thing worth clarifying before moving forward: his schedule is listed as flexible week-to-week, so it would be important to confirm upfront that he can commit consistently to your Monday, Wednesday, Friday, 9am\u20131pm slots, since reliability is central to what you need. If that schedule question is resolved, Michael brings real relevant experience at a rate that fits comfortably within your budget."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna brings 15 years of companion care experience and describes herself as calm, routine-oriented, and attentive to the individual pace of the person she's with \u2014 qualities that match closely with your wish for someone patient and easy to be around. She handles meal preparation, medication reminders, and light housekeeping, and her schedule is fully open Monday through Friday mornings, making her reliably available for your three-day window. One honest note: her advanced care background leans toward dementia and anxiety support rather than diabetes-specific care, so it would be worth a direct conversation to confirm her comfort with blood glucose monitoring and diabetes-appropriate meal prep before moving forward. Her warmth and consistency are genuine strengths, and with that one area confirmed, she could be a steady, trusted presence in your home."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F005",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa brings 22 years of dedicated elder care experience, including five years as a live-in caregiver for a client with advanced Alzheimer's and a decade as primary caregiver for two separate dementia clients \u2014 this is exactly the kind of real, substantial experience you asked for. She holds both the Certified Dementia Practitioner (CDP) and Certified Alzheimer's Disease and Dementia Care Trainer credentials, and her listed skills include cognitive engagement activities, personal hygiene assistance, and sundowning management, which speaks directly to the structured, routine-oriented approach Harold needs. Rosa describes herself as calm, present, and deeply private by nature \u2014 someone who shows up to care, not to fill the silence \u2014 which may also put Harold's mother at ease as she watches over things at home. Entrusting someone with Harold's daily life is not a small thing, and Rosa's track record suggests she understands the weight of that trust."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret has spent 18 years in elder care, with the last 8 focused specifically on dementia and Alzheimer's \u2014 including time as a dementia care specialist at Sunrise Senior Living, private home care for two separate Alzheimer's families, and two years supporting care coordination at a memory care unit. Wandering risk management is listed explicitly in her advanced care profile, and her Certified Dementia Practitioner (CDP) credential, along with Alzheimer's Association training, confirms the kind of formal preparation your family specifically asked for. She describes herself as calm by nature and someone who never rushes the people she cares for \u2014 a quality that matters enormously when confusion and memory loss are part of every day. She also notes experience working with families where the care recipient valued privacy, which suggests she would be thoughtful about how she navigates Harold's home alongside his mother."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "explanation": "Linda's 16 years of experience are rooted in palliative and hospice care \u2014 including eight years at VITAS Hospice and three years as a private companion caregiver for someone with advanced dementia at home \u2014 which has given her a particularly deep instinct for recognizing changes in cognition and emotional distress before they escalate. She holds an advanced-level dementia care certification alongside her Certified Hospice and Palliative Nursing Assistant credential, and her skills include personal care and hygiene, medication reminders, and modified-texture meal preparation. One practical note: Linda's current availability runs Tuesday through Friday, 9:00 AM to 3:00 PM, which does not fully cover the Monday\u2013Friday, 8:00 AM\u20134:00 PM schedule you need, so that's worth a direct conversation if you'd like to explore whether her availability has any flexibility. That scheduling question aside, her clinical attentiveness and calm, dignity-first approach make her a caregiver worth considering seriously."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F006",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna stood out to us because of the way she describes her own approach: she is quiet, calm, and takes her cues from the person she is with \u2014 which feels exactly right for someone who may not be ready to open up, and who deserves to have her independence fully respected. She has 15 years of companion care experience and has specifically worked with clients navigating social isolation and depression in later life, so she understands that presence and patience matter far more than being chatty or filling silences. She is available weekday mornings, which lines up well with what you are looking for, and she is clearly someone who values consistency \u2014 something that can be genuinely grounding for a person who has recently experienced a profound loss."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa brings 22 years of experience caring for elderly people in their homes, and the way she talks about her work \u2014 as a calling, not a job \u2014 comes through clearly in her profile. What struck us most for your mother's situation is how Rosa describes her way of being with people: she is calm, private herself, and believes in being present rather than filling time with chatter, which speaks directly to the non-pushy, respectful approach you described as essential. She has experience supporting clients through social isolation and is available weekday mornings, and while her background runs deeper into clinical care than your mother currently needs, her companion manner is grounded and unhurried \u2014 never clinical in how she shows up."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "explanation": "Patricia has 14 years of experience in home care and describes herself as someone who follows the lead of the person she is with \u2014 whether they are having a quiet day or a more engaged one \u2014 which is exactly the kind of sensitivity your mother may need right now. She comes across as warm and genuinely relationship-oriented, and her background includes caring for clients who were withdrawn or adjusting to significant life changes. She is available Monday, Wednesday, Thursday, and Friday mornings, giving you good flexibility as you work out which days feel right, and she can help with meals and light kitchen tasks if and when your mother feels ready to engage."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F007",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "hourly_rate": 38,
+          "explanation": "James brings 18 years of hands-on experience \u2014 including 12 years as a Certified Nursing Assistant in hospital and rehabilitation settings \u2014 so he genuinely understands what it means to care for someone with complex health needs like your mother's COPD and oxygen dependency. He is Medication Aide certified, which means medication reminders and organization are well within his comfort zone, and his background in mobility assistance means he knows how to support her without overstepping her independence. His own words describe him as 'a calm, steady presence,' which is exactly the demeanor you said matters most. His morning availability (6 AM\u201312 PM, Monday, Tuesday, Thursday, Friday, and Saturday) also lines up well with the three mornings a week you have in mind."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "explanation": "Linda's entire career has been shaped by one guiding value \u2014 deep respect for the dignity and comfort of the person in her care \u2014 which speaks directly to your wish for someone who honors your mother's independence. With 16 years of experience including hospice and private palliative care, she is trained to notice changes in cognition and respond with calm, not alarm, which is reassuring given your mother's mild confusion. She handles medication reminders, meal preparation, and light housekeeping, and her schedule (Tuesday through Friday, 9 AM\u20133 PM) can accommodate a three-morning-a-week arrangement. Trusting someone with a parent who depends on oxygen and has real health vulnerabilities is not a small thing, and Linda's background reflects someone who has earned that kind of trust before."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna has spent 15 years doing exactly the kind of work your mother needs \u2014 companion care that feels natural, not clinical \u2014 and she describes herself as someone who takes her cues from the person she is with, which is a meaningful quality when independence matters as much as it does to your mother. She has built long-term relationships with six families over her career and has specific experience supporting clients with memory changes, so the mild confusion your mother experiences is something Donna is genuinely familiar with, not something that would catch her off guard. She covers meal preparation, light housekeeping, and medication reminders, and her weekday morning hours (8 AM\u20131 PM) fit comfortably within the schedule you are looking for. For a family weighing options carefully, Donna also offers a more accessible hourly rate while bringing a depth of real-world companion care experience."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F008",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa has spent 22 years caring for elderly people in their homes, and she describes her approach in a way that feels right for your grandfather: she believes in being present, not in filling silence. She holds a Certified Dementia Practitioner credential and has worked directly with dementia clients across multiple long-term placements \u2014 including 10 years as a primary caregiver for two separate dementia clients and 5 years of live-in Alzheimer's care \u2014 so she understands memory decline not as a clinical category but as something she has walked alongside, day by day. She is experienced with special dietary preparation and medication reminders, and she speaks English, Spanish, and Portuguese, which may matter depending on your grandfather's background and the language that feels most like home to him. Trusting someone with a person you love is not a small thing, and Rosa's record suggests she takes that trust seriously."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret has 18 years in elder care, with the last 8 years focused specifically on dementia and Alzheimer's \u2014 and she speaks both English and Mandarin, which could be meaningful if your grandfather's cultural background includes Chinese heritage or if he is more comfortable in Mandarin. She describes herself as someone who never rushes the people she cares for and has worked with clients who are very private, which lines up closely with what you've described about your grandfather needing someone who can build trust gradually and respect his pace. Her skills include meal preparation, light housekeeping, medication reminders, and dementia-aware communication, and she holds a Certified Dementia Practitioner credential alongside her Home Health Aide certification. She brings both the clinical knowledge and the quiet, consistent presence that your grandfather's situation calls for."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna has worked as a companion care helper for 15 years, spending that time across six long-term client families \u2014 which speaks to the kind of steady, committed presence that matters enormously when someone is navigating memory changes and social withdrawal. She specifically names routine as something she understands and protects, and she has three years of direct experience supporting clients in the early stages of dementia, as well as a focus on social isolation \u2014 which feels relevant given what you've shared about your grandfather. Her skills cover the practical needs too: meal preparation, light housekeeping, and medication reminders. If consistent, calm, unhurried companionship is at the heart of what your grandfather needs right now, Donna's background is built around exactly that."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F009",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna has spent 15 years doing exactly this kind of companion care, and she describes her approach in a way that directly mirrors what you're looking for: quiet, calm, and always respectful of independence. She has 3 years of specific experience supporting clients with early memory changes, and she's certified through the Alzheimer's Association's Dementia Friends program \u2014 so she understands what it means to notice small shifts and respond thoughtfully. She talks about the importance of consistency and routine, which matters enormously when someone is aging in place with mild memory concerns. For a family trusting someone with their mother's daily wellbeing, her steadiness and long track record with just six close, long-term families speaks for itself."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H010",
+          "name": "Amara Osei",
+          "hourly_rate": 26,
+          "explanation": "Amara has nine years of home-based elderly care, and the quality families consistently point to is that she notices things before they become problems \u2014 which is exactly the kind of attentiveness that matters when you're keeping an eye on a parent living alone. She has served as a primary caregiver for two dementia clients over four combined years, and holds a Dementia Care certification through the Teepa Snow methodology, a well-regarded approach built around calm, dignified support. Her bio reflects the warm, non-clinical manner your mother deserves \u2014 someone who is reliably present without being overbearing. One thing worth noting: her language profile is incomplete, so it may be worth confirming she's a strong fit for any communication preferences your mother has."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa brings 22 years of in-home elderly care, and she describes her work not as a job but as a calling \u2014 a distinction that tends to show up in how someone actually shows up for the people they care for. She has spent a decade as a primary caregiver for two separate dementia clients privately, and holds both a Certified Dementia Practitioner credential and a trainer-level Alzheimer's certification, making her one of the most experienced and credentialed helpers we can offer for a family navigating memory concerns. She speaks to the importance of being present rather than chatty, which aligns with respecting your mother's independence and sense of self. At $30 an hour she sits at the higher end, but her depth of experience is genuinely exceptional."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F010",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H002",
+          "name": "Patricia Williams",
+          "hourly_rate": 26,
+          "explanation": "Patricia stood out to us because of how naturally she fits what you described \u2014 someone warm and easy-going who follows the lead of the person she's with, not the other way around. With 14 years of in-home experience, she's fully comfortable with driving, medication reminders, grocery runs, and being genuinely good company, which is exactly the kind of practical-but-personal support your mother needs. She describes herself as patient and relationship-oriented, and her background reflects that \u2014 including six years with a single elderly couple in their home. Trusting someone with your mother's daily life is not a small thing, and Patricia's steady, unhurried approach seems well-suited to someone who values her independence."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna has spent 15 years as a companion care helper \u2014 not clinical care, companion care \u2014 and she's explicit that she takes her cues from the person she's with, which speaks directly to what matters most to your family. She has a long track record with clients who value their privacy and independence, and she describes herself as quiet and calm rather than hands-on or hovering. She handles medication reminders and grocery shopping as a natural part of her routine, and her consistency across six long-term client families suggests she's someone who shows up and builds real trust over time."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H013",
+          "name": "Fatima Hassan",
+          "hourly_rate": 21,
+          "explanation": "Fatima brings six years of private home care experience and describes a particular strength in building trust with clients who are initially hesitant or private \u2014 which may resonate if your mother takes time to warm up to someone new. She covers the day-to-day support your mother needs: companionship, medication reminders, grocery shopping, and meal preparation. Her profile is not as fully detailed as the others, so there would be more to learn in a conversation with her, but her gentle, patient manner and her genuine comfort in a companion care role make her a thoughtful option worth considering."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F011",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa brings 22 years of elder care experience, including five years of live-in care for a client with advanced-stage Alzheimer's \u2014 which means she understands firsthand what overnight dementia care actually looks like, including the wandering and nighttime agitation your father experiences. She holds both a Certified Dementia Practitioner credential and a specialized Alzheimer's Disease and Dementia Care Trainer certification, and her background includes specific experience with sundowning management. In her own words, she believes in being present \u2014 not just available \u2014 and describes herself as calm and private by nature, which speaks directly to the steady, non-reactive presence your family is looking for at night. She is a non-smoker and her rate falls within your budget."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "explanation": "Linda's 16 years of experience spans hospice settings and private homes, and she has spent three of those years providing companion care for an advanced dementia client at home \u2014 so nighttime distress and behavioral changes are not unfamiliar territory for her. Her training specifically includes recognizing and responding to changes in cognition and emotional distress, which is exactly the kind of attentiveness your father needs during those harder nights. She holds an advanced-level dementia care certification alongside her Certified Hospice and Palliative Nursing Assistant credential, and she is a non-smoker. Her hourly rate is slightly above your stated range, so that is worth a direct conversation, but her depth of experience with advanced dementia makes her genuinely worth considering."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret has spent the last eight of her 18 years in elder care focused specifically on dementia and Alzheimer's, including two years working inside a memory care unit \u2014 an environment where wandering risk and nighttime supervision are part of the daily reality. She lists wandering risk management as a named area of support, and her dementia-aware communication approach reflects the non-judgmental, patient presence your family described as essential. She is a Certified Dementia Practitioner, CPR and First Aid certified, and a non-smoker. Her current schedule is daytime-only, so you would want to confirm her availability for overnight shifts before moving forward."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F012",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret stands out as a natural fit for your grandmother \u2014 she speaks Mandarin fluently, which means your grandmother can have real, comfortable conversations in her own language rather than navigating English all day. With 18 years in elder care, she describes herself as calm by nature and someone who never rushes the people she cares for, which is exactly the kind of unhurried companionship your grandmother deserves on weekends. Her skills cover everything you've asked for: meal preparation, light housekeeping, and mobility support for short walks. Her hourly rate is just above your stated range, so that's worth a direct conversation \u2014 but given how closely she matches what matters most to your family, she's worth reaching out to first."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H006",
+          "name": "Samuel Park",
+          "hourly_rate": 20,
+          "explanation": "Samuel is enthusiastic, warm, and genuinely enjoys connecting with the people he cares for \u2014 his background in engagement and activity planning means he brings ideas for making time together meaningful rather than just filling hours. He has the practical skills your grandmother needs, including meal preparation and light housekeeping, and he's available Saturdays within your requested hours. One important note: Samuel does not speak Mandarin, which is a hard requirement for your family, so we'd encourage you to confirm whether that's workable before moving forward \u2014 perhaps if there's another family member present on some visits, or if your grandmother is comfortable in English for shorter stretches."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "explanation": "Michael is a certified Home Health Aide with 7 years of experience supporting elderly clients at home, and his skills include meal preparation, light housekeeping, and mobility assistance \u2014 a solid practical match for what your grandmother needs day to day. That said, there are two things worth knowing before you reach out: his profile notes a flexible and somewhat undefined weekend schedule, so you'd want to confirm he can reliably commit to Saturdays and Sundays, and he does not speak Mandarin, which is a core need for your family. If scheduling and language can be resolved in conversation, he may still be worth considering."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F013",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H003",
+          "name": "James Okonkwo",
+          "hourly_rate": 38,
+          "explanation": "We want to be upfront: James's rate sits just above your stated budget, and his available hours (6am\u201312pm) don't perfectly align with your 8am\u20132pm window, so we'd encourage an early conversation about whether there's flexibility on either side. That said, James brings 18 years of hands-on experience \u2014 including 12 years as a certified CNA in a hospital rehabilitation unit \u2014 and his background in mobility assistance, transfers, and fall response maps directly onto what your brother needs day to day. He describes himself as 'a calm, steady presence,' and his prior work with progressive neurological conditions like Parkinson's and stroke recovery means he understands how a body can change over time, even if MS isn't listed explicitly in his specializations. What stood out most in his profile is that he leads with both clinical competence and genuine warmth \u2014 which matters enormously when you're trusting someone to show up for your brother not as a patient, but as a 34-year-old with his own life and full mental acuity."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F014",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret has 18 years of elder care experience, including 3 years of companion care specifically for post-stroke elderly clients \u2014 which maps directly to where your father is in his recovery right now. She lists mobility assistance, medication reminders, and meal preparation among her skills, and her schedule (7am\u20131pm, Monday through Friday) lines up exactly with what your family needs. Her approach \u2014 never rushing, respecting personal boundaries, meeting people where they are on harder days \u2014 reflects the kind of patience and respect for autonomy that you said matters most. She is also a non-smoker and holds both CPR/First Aid and Home Health Aide certifications."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H005",
+          "name": "Linda Kowalski",
+          "hourly_rate": 34,
+          "explanation": "Linda brings 16 years of care experience rooted in a deep respect for dignity and comfort \u2014 values that translate meaningfully into stroke recovery support, where your father's sense of autonomy is so important. She is skilled in personal care, medication reminders, and meal preparation (including modified texture diets, which can be relevant post-stroke), and she is trained to recognize changes in cognition and physical comfort. One thing worth knowing is that her current availability runs Tuesday through Friday, starting at 9am, so Monday mornings and the 8\u20139am window would need to be confirmed with her directly. She is a non-smoker and is CPR/First Aid and Home Health Aide certified."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H009",
+          "name": "Michael Torres",
+          "hourly_rate": 22,
+          "explanation": "Michael is a certified Home Health Aide with 7 years of experience and the core practical skills your father needs \u2014 mobility assistance, medication management, meal preparation, and personal care. He is a non-smoker and is CPR/First Aid certified. That said, there are two things we'd encourage you to explore before moving forward: his profile notes post-surgical recovery experience but does not specifically mention stroke recovery care, which is a priority for your family, and his schedule is listed as flexible rather than confirmed, so you'd want to nail down consistency before committing. He may be worth a conversation, particularly given his rate, but we'd recommend getting clarity on both points first."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F015",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H019",
+          "name": "Ashley Johnson",
+          "hourly_rate": 15,
+          "explanation": "Ashley is available weekday mornings from 8am to 4pm, which lines up well with the schedule you're looking for, and she comes in right at your budget. She lists cooking and cleaning among her skills, so the light housekeeping and meal preparation side of things would be a natural fit. She describes herself as friendly and eager to connect with new people, which speaks to the companion care piece \u2014 being present with your mom in a warm, unhurried way. That said, her profile is still fairly new, so we'd encourage you to use your conversation with her to get a feel for her pace and approach, especially given your mom's early-stage memory loss."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H016",
+          "name": "Tom Wilson",
+          "hourly_rate": 17,
+          "explanation": "Tom has several years of caregiving experience and is specifically looking for morning shifts on weekdays, so his availability matches what you need. He describes himself as good with elderly clients, which is a reasonable starting point, though his profile doesn't go into detail about the kind of care he's provided. His rate is slightly above your stated budget, so that's worth discussing upfront. If you connect with him, it would be worth asking directly about his experience with companion-style care and how he tends to engage with clients day to day."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H020",
+          "name": "Frank Miller",
+          "hourly_rate": 17,
+          "explanation": "Frank brings something a little different \u2014 he cared for his own parents as they aged, and that personal experience seems to have shaped how he sees his role. He describes himself as mature and calm, and specifically says he understands what elderly people go through, which feels meaningful for a family navigating early-stage memory loss. He lists cooking and companionship as his skills, and he's looking for part-time morning work a few days a week, which mirrors your schedule well. His rate is a touch above your budget, and his profile is light on specifics, so it's worth having a candid conversation about both fit and flexibility."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F016",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H004",
+          "name": "Rosa Mendez",
+          "hourly_rate": 30,
+          "explanation": "Rosa has spent 22 years caring for elderly people in their homes, and she describes this work as a calling \u2014 not a job \u2014 which comes through in how she approaches it. She is calm and private by nature, and she specifically says she believes in being present rather than chatting all day, which sounds very much in line with what your mother needs. She covers everything on your list \u2014 meal preparation, light housekeeping, and genuine companionship \u2014 and her Monday\u2013Friday availability fits your schedule exactly. Trusting someone with your mother's home and daily life is not a small thing, and Rosa's 22 years of consistent, long-term client relationships speak to the kind of steady, trustworthy presence you're looking for."
+        },
+        {
+          "rank": 2,
+          "helper_id": "H007",
+          "name": "Donna Mitchell",
+          "hourly_rate": 24,
+          "explanation": "Donna has been doing companion care for 15 years across six long-term client families \u2014 the kind of track record that tells you people trust her and keep her close. She describes herself as quiet and calm, someone who takes her cues from the person she's with and who deeply respects privacy and independence, which aligns closely with what matters most to your family. Her schedule runs Monday through Friday, 8:00 AM to 1:00 PM, covering your full window with room to spare, and she handles meal preparation, light housekeeping, and companionship with ease. At $24/hour, she also sits at the lower end of your budget, which gives your family flexibility without compromising on the calm, consistent presence your mother deserves."
+        },
+        {
+          "rank": 3,
+          "helper_id": "H001",
+          "name": "Margaret Chen",
+          "hourly_rate": 32,
+          "explanation": "Margaret brings 18 years of elder care experience and describes herself as calm by nature, a good listener who never rushes the people she cares for \u2014 exactly the low-key manner your family highlighted as essential. She has worked with clients who were very private and says she always respects personal boundaries, so your mother's comfort and routine would be in thoughtful hands. She covers all the skills you need \u2014 meal preparation, light housekeeping, companionship, and safety awareness \u2014 and is available Monday through Friday well within your morning hours. Do note that her rate of $32/hour sits just above your stated budget range, so that's worth a conversation before reaching out."
+        }
+      ]
+    }
+  },
+  {
+    "family_id": "F017",
+    "recommendations": {
+      "recommendations": [
+        {
+          "rank": 1,
+          "helper_id": "H014",
+          "name": "Diana Patel",
+          "hourly_rate": 19,
+          "explanation": "Diana's connection to this kind of care runs deep \u2014 she spent nine years as the primary caregiver for her own mother through all stages of Alzheimer's, which means she understands dementia not just as a condition to manage, but as something she has lived alongside with patience and love. She describes herself as calm and deeply committed, and her background reflects exactly the non-clinical, companion-focused manner your family is looking for. She speaks Gujarati and Hindi alongside English, which may feel like a meaningful comfort for your grandmother day to day. Her weekday morning availability \u2014 7:30am to 12:30pm, Monday through Friday \u2014 aligns well with what you've described, though we'd recommend confirming the exact hours and days you need before you connect."
+        }
+      ]
+    }
+  }
+]
