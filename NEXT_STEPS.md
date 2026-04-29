@@ -12,7 +12,7 @@
 - [x] **4. Prompt iteration** — Agent 1 v7 + Agent 2 v9. Final score: 11/17 (65%) rank-1 accuracy. Closed April 28, 2026.
 - [x] **5. PRD** — Written as `PRD_HAVEN.md` in the haven root. v2.0 — full production vision + prototype results. April 28, 2026.
 - [x] **6. README** — Written as `README.md` in haven root. April 28, 2026.
-- [ ] **7. Upload to GitHub** — Push the full project. Paste the repo URL into resume. Start applying.
+- [x] **7. Upload to GitHub** — https://github.com/sashar6093/Haven_AI_CareMarketplace. April 28, 2026. Start applying.
 
 ---
 
