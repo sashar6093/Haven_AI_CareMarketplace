@@ -128,6 +128,12 @@ The one grounding failure (F016/H004): Agent 3 fabricated a social proof stateme
 
 The v8 regression is documented in the prompt log. The schedule weight increase (2.0 → 3.0) caused helpers with marginally better schedule coverage to outrank helpers with stronger care experience. v9 reverted the weight and fixed the root causes instead.
 
+### If I Were Scaling This
+
+Relevance scored lowest of the four judge dimensions (4.59/5) — the gap between specificity and relevance reveals that Agent 3 was consistently citing correct facts from the helper's profile but not always connecting them back to the specific language and concerns the family had used. A helper's "9 years of dementia care experience" is specific; *"9 years supporting families navigating exactly the kind of memory changes you described"* is relevant. That distinction is where the next iteration lives.
+
+Two paths to close it at scale: expand the golden set to 50+ families and fine-tune on high-relevance explanation pairs; or add a lightweight verification pass — a secondary agent that checks each explanation against the family's original care description before it is served, flagging any explanation that doesn't mirror at least two of the family's own stated concerns.
+
 ---
 
 ## Key Design Decisions
