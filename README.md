@@ -274,4 +274,4 @@ That is what production-grade AI product management looks like.
 
 ---
 
-*Built by [Samveda Sharma](https://linkedin.com/in/samvedasharma) · April 2026*
+*Built by [Samveda Sharma](https://www.linkedin.com/in/samveda-sharma-23121544/) · April 2026*
